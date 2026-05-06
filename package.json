@@ -1,0 +1,15 @@
+{
+  "name": "sport-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Liga de Primera 2026 — fixture PWA",
+  "scripts": {
+    "scrape": "node scraper.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

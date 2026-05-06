@@ -1,0 +1,75 @@
+{
+  "temporada": 2026,
+  "torneo": "Liga de Primera Mercado Libre",
+  "actualizado": "2026-05-05",
+  "fechas": [
+    {
+      "numero": 13,
+      "nombre": "Fecha 13",
+      "estado": "proxima",
+      "partidos": [
+        {"id":"f13-01","fecha":"2026-05-15","hora":"20:00","local":"Palestino","visita":"D. La Serena","estadio":"Santa Laura, Santiago","resultado":null,"prob":[40,27,33]},
+        {"id":"f13-02","fecha":"2026-05-15","hora":"20:00","local":"Coquimbo Unido","visita":"Audax Italiano","estadio":"Sánchez Rumoroso, Coquimbo","resultado":null,"prob":[48,27,25]},
+        {"id":"f13-03","fecha":"2026-05-16","hora":"17:30","local":"O'Higgins","visita":"U. Concepción","estadio":"El Teniente, Rancagua","resultado":null,"prob":[55,24,21]},
+        {"id":"f13-04","fecha":"2026-05-16","hora":"20:00","local":"D. Limache","visita":"U. Católica","estadio":"Lucio Fariña, Quillota","resultado":null,"prob":[38,27,35]},
+        {"id":"f13-05","fecha":"2026-05-17","hora":"12:30","local":"Huachipato","visita":"Unión La Calera","estadio":"Estadio Huachipato, Talcahuano","resultado":null,"prob":[60,23,17]},
+        {"id":"f13-06","fecha":"2026-05-17","hora":"15:00","local":"Cobresal","visita":"Everton","estadio":"El Cobre, El Salvador","resultado":null,"prob":[33,29,38]},
+        {"id":"f13-07","fecha":"2026-05-17","hora":"17:30","local":"Ñublense","visita":"Colo Colo","estadio":"Nelson Oyarzún, Chillán","resultado":null,"prob":[28,26,46]},
+        {"id":"f13-08","fecha":"2026-05-17","hora":"20:00","local":"U. de Chile","visita":"Magallanes","estadio":"Santa Laura, Santiago","resultado":null,"prob":[62,22,16]},
+        {"id":"f13-09","fecha":"2026-05-18","hora":"18:00","local":"Rangers","visita":"Unión Española","estadio":"El Morro, Talca","resultado":null,"prob":[35,30,35]}
+      ]
+    },
+    {
+      "numero": 14,
+      "nombre": "Fecha 14",
+      "estado": "proxima",
+      "partidos": [
+        {"id":"f14-01","fecha":"2026-05-22","hora":"20:00","local":"Audax Italiano","visita":"Palestino","estadio":"Bicentenario La Florida, Santiago","resultado":null,"prob":[42,29,29]},
+        {"id":"f14-02","fecha":"2026-05-22","hora":"20:00","local":"D. La Serena","visita":"Coquimbo Unido","estadio":"La Portada, La Serena","resultado":null,"prob":[38,28,34]},
+        {"id":"f14-03","fecha":"2026-05-23","hora":"17:30","local":"U. Concepción","visita":"Huachipato","estadio":"Ester Roa, Concepción","resultado":null,"prob":[36,29,35]},
+        {"id":"f14-04","fecha":"2026-05-23","hora":"20:00","local":"U. Católica","visita":"O'Higgins","estadio":"San Carlos de Apoquindo, Santiago","resultado":null,"prob":[52,26,22]},
+        {"id":"f14-05","fecha":"2026-05-24","hora":"12:30","local":"Unión La Calera","visita":"Cobresal","estadio":"Nicolás Chahuán, Calera","resultado":null,"prob":[55,26,19]},
+        {"id":"f14-06","fecha":"2026-05-24","hora":"15:00","local":"Everton","visita":"Ñublense","estadio":"Sausalito, Viña del Mar","resultado":null,"prob":[44,28,28]},
+        {"id":"f14-07","fecha":"2026-05-24","hora":"17:30","local":"Colo Colo","visita":"Rangers","estadio":"Monumental, Santiago","resultado":null,"prob":[70,18,12]},
+        {"id":"f14-08","fecha":"2026-05-24","hora":"20:00","local":"Magallanes","visita":"U. de Chile","estadio":"Municipal La Pintana, Santiago","resultado":null,"prob":[22,24,54]},
+        {"id":"f14-09","fecha":"2026-05-25","hora":"18:00","local":"Unión Española","visita":"D. Limache","estadio":"Santa Laura, Santiago","resultado":null,"prob":[65,21,14]}
+      ]
+    },
+    {
+      "numero": 15,
+      "nombre": "Fecha 15",
+      "estado": "proxima",
+      "partidos": [
+        {"id":"f15-01","fecha":"2026-05-29","hora":"20:00","local":"Palestino","visita":"U. Concepción","estadio":"Santa Laura, Santiago","resultado":null,"prob":[50,27,23]},
+        {"id":"f15-02","fecha":"2026-05-29","hora":"20:00","local":"D. Limache","visita":"Everton","estadio":"Lucio Fariña, Quillota","resultado":null,"prob":[42,29,29]},
+        {"id":"f15-03","fecha":"2026-05-30","hora":"17:30","local":"Huachipato","visita":"Audax Italiano","estadio":"Estadio Huachipato, Talcahuano","resultado":null,"prob":[58,24,18]},
+        {"id":"f15-04","fecha":"2026-05-30","hora":"20:00","local":"O'Higgins","visita":"Unión La Calera","estadio":"El Teniente, Rancagua","resultado":null,"prob":[52,26,22]},
+        {"id":"f15-05","fecha":"2026-05-31","hora":"12:30","local":"Cobresal","visita":"Magallanes","estadio":"El Cobre, El Salvador","resultado":null,"prob":[45,28,27]},
+        {"id":"f15-06","fecha":"2026-05-31","hora":"15:00","local":"Ñublense","visita":"D. La Serena","estadio":"Nelson Oyarzún, Chillán","resultado":null,"prob":[55,26,19]},
+        {"id":"f15-07","fecha":"2026-05-31","hora":"17:30","local":"U. de Chile","visita":"Coquimbo Unido","estadio":"Santa Laura, Santiago","resultado":null,"prob":[65,20,15]},
+        {"id":"f15-08","fecha":"2026-05-31","hora":"20:00","local":"Rangers","visita":"Colo Colo","estadio":"El Morro, Talca","resultado":null,"prob":[18,22,60]},
+        {"id":"f15-09","fecha":"2026-06-01","hora":"18:00","local":"U. Católica","visita":"Unión Española","estadio":"San Carlos de Apoquindo, Santiago","resultado":null,"prob":[54,25,21]}
+      ]
+    }
+  ],
+  "tabla": [
+    {"pos":1,"equipo":"Colo Colo","pts":31,"pj":14,"pg":9,"pe":4,"pp":1,"gf":28,"gc":12,"dif":16},
+    {"pos":2,"equipo":"U. de Chile","pts":27,"pj":14,"pg":8,"pe":3,"pp":3,"gf":24,"gc":14,"dif":10},
+    {"pos":3,"equipo":"U. Católica","pts":24,"pj":14,"pg":7,"pe":3,"pp":4,"gf":20,"gc":15,"dif":5},
+    {"pos":4,"equipo":"Huachipato","pts":23,"pj":14,"pg":7,"pe":2,"pp":5,"gf":19,"gc":16,"dif":3},
+    {"pos":5,"equipo":"O'Higgins","pts":22,"pj":14,"pg":6,"pe":4,"pp":4,"gf":18,"gc":14,"dif":4},
+    {"pos":6,"equipo":"Audax Italiano","pts":21,"pj":14,"pg":6,"pe":3,"pp":5,"gf":17,"gc":16,"dif":1},
+    {"pos":7,"equipo":"Unión Española","pts":20,"pj":14,"pg":6,"pe":2,"pp":6,"gf":20,"gc":20,"dif":0},
+    {"pos":8,"equipo":"Everton","pts":19,"pj":14,"pg":5,"pe":4,"pp":5,"gf":15,"gc":17,"dif":-2},
+    {"pos":9,"equipo":"Palestino","pts":18,"pj":14,"pg":5,"pe":3,"pp":6,"gf":16,"gc":18,"dif":-2},
+    {"pos":10,"equipo":"Ñublense","pts":17,"pj":14,"pg":5,"pe":2,"pp":7,"gf":14,"gc":19,"dif":-5},
+    {"pos":11,"equipo":"Magallanes","pts":16,"pj":14,"pg":4,"pe":4,"pp":6,"gf":14,"gc":18,"dif":-4},
+    {"pos":12,"equipo":"Coquimbo Unido","pts":15,"pj":14,"pg":4,"pe":3,"pp":7,"gf":16,"gc":22,"dif":-6},
+    {"pos":13,"equipo":"Unión La Calera","pts":14,"pj":14,"pg":4,"pe":2,"pp":8,"gf":13,"gc":20,"dif":-7},
+    {"pos":14,"equipo":"Rangers","pts":13,"pj":14,"pg":3,"pe":4,"pp":7,"gf":12,"gc":22,"dif":-10},
+    {"pos":15,"equipo":"Cobresal","pts":12,"pj":14,"pg":3,"pe":3,"pp":8,"gf":11,"gc":21,"dif":-10},
+    {"pos":16,"equipo":"D. Limache","pts":11,"pj":14,"pg":3,"pe":2,"pp":9,"gf":10,"gc":24,"dif":-14},
+    {"pos":17,"equipo":"D. La Serena","pts":10,"pj":14,"pg":2,"pe":4,"pp":8,"gf":12,"gc":23,"dif":-11},
+    {"pos":18,"equipo":"U. Concepción","pts":8,"pj":14,"pg":2,"pe":2,"pp":10,"gf":10,"gc":27,"dif":-17}
+  ]
+}

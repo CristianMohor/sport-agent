@@ -1,0 +1,48 @@
+name: Actualizar Fixture
+
+on:
+  # Lunes 09:00 hora Chile (CLT = UTC-4)
+  schedule:
+    - cron: '0 13 * * 1'
+
+  # Ejecución manual desde GitHub → Actions → "Run workflow"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # necesario para hacer commit/push
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Ejecutar scraper
+        # VERCEL_DEPLOY_HOOK se configura en GitHub → Settings → Secrets → Actions
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: node scraper.js
+
+      - name: Commit y push si hubo cambios
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/fixture.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios en fixture.json — nada que commitear"
+          else
+            git commit -m "chore: actualiza fixture $(date -u +%Y-%m-%d)"
+            git push
+            echo "✅ fixture.json pusheado"
+          fi

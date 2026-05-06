@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#E63946">
+  <meta name="description" content="Sigue la Liga de Primera Mercado Libre 2026 — fixture, tabla de posiciones y más.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="LP 2026">
+  <title>Liga de Primera 2026</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div id="app">
+
+  <header>
+    <div class="header-top">
+      <div class="header-title">⚽ Liga de <span>Primera</span> 2026</div>
+      <span class="badge-live">CL</span>
+    </div>
+    <div class="last-update" id="last-update">Cargando…</div>
+  </header>
+
+  <div id="ptr-indicator" class="ptr-indicator">↓ Desliza para actualizar</div>
+
+  <main id="main">
+
+    <!-- FIXTURE TAB -->
+    <div id="tab-fixture" class="tab-content">
+      <div class="date-tabs-row">
+        <div class="date-tabs" id="date-tabs"></div>
+      </div>
+      <div class="fixture-content" id="fixture-content"></div>
+    </div>
+
+    <!-- TABLA TAB -->
+    <div id="tab-tabla" class="tab-content">
+      <div class="tabla-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>POS</th>
+              <th class="col-equipo">EQUIPO</th>
+              <th>PTS</th>
+              <th>PJ</th>
+              <th>PG</th>
+              <th>PE</th>
+              <th>PP</th>
+              <th>GF</th>
+              <th>GC</th>
+              <th>DIF</th>
+            </tr>
+          </thead>
+          <tbody id="tabla-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- CONFIG TAB -->
+    <div id="tab-config" class="tab-content">
+      <div class="config-section">
+        <div class="config-title">Preferencias</div>
+        <div class="config-row">
+          <span>Equipo favorito</span>
+          <select id="fav-select"></select>
+        </div>
+        <div class="config-row">
+          <span>Notificaciones</span>
+          <button class="toggle" id="notif-toggle" aria-label="Activar notificaciones"></button>
+        </div>
+      </div>
+
+      <div class="config-section">
+        <div class="config-title">Información</div>
+        <div class="config-row" style="cursor:default">
+          <span>Temporada</span>
+          <span style="color:var(--text-dim)">2026</span>
+        </div>
+        <div class="config-row" style="cursor:default">
+          <span>Torneo</span>
+          <span style="color:var(--text-dim);font-size:13px">Liga de Primera ML</span>
+        </div>
+      </div>
+
+      <div class="credits">
+        <strong>Liga de Primera 2026</strong><br>
+        Probabilidades estimadas · Datos no oficiales<br>
+        Horarios en hora chilena (UTC−4)<br><br>
+        Desarrollado con ❤️ para fanáticos del fútbol chileno
+      </div>
+    </div>
+
+  </main>
+
+  <nav>
+    <button class="nav-item active" data-tab="fixture">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/>
+        <line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+      </svg>
+      Fixture
+    </button>
+    <button class="nav-item" data-tab="tabla">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <path d="M18 20V10M12 20V4M6 20v-6"/>
+      </svg>
+      Tabla
+    </button>
+    <button class="nav-item" data-tab="config">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <circle cx="12" cy="12" r="3"/>
+        <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/>
+      </svg>
+      Config
+    </button>
+  </nav>
+
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script src="/app.js"></script>
+</body>
+</html>
