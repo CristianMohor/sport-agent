@@ -1,15 +1,15 @@
 name: Actualizar Fixture
 
 on:
-  # Lunes 09:00 hora Chile (CLT = UTC-4)
+  # Todos los días a las 08:00 hora Chile (CLT = UTC-4 → 12:00 UTC)
   schedule:
-    - cron: '0 13 * * 1'
+    - cron: '0 12 * * *'
 
   # Ejecución manual desde GitHub → Actions → "Run workflow"
   workflow_dispatch:
 
 permissions:
-  contents: write   # necesario para hacer commit/push
+  contents: write
 
 jobs:
   update:
@@ -30,7 +30,6 @@ jobs:
 
       - name: Ejecutar scraper
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         run: node scraper.js
 
