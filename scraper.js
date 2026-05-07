@@ -4,13 +4,8 @@
 /**
  * scraper.js — actualiza data/fixture.json via TheSportsDB (gratuita, sin key)
  *
- * Estrategia:
- *   • Itera jornadas 1-30 con /eventsround.php?id=4627&r=N&s=2026
- *   • Merge cross-fecha: busca cada partido por (local, visita) en TODAS las
- *     fechas existentes → tolera el offset de numeración entre TheSportsDB y
- *     la numeración propia del fixture.json
- *   • Preserva probabilidades calculadas manualmente
- *   • Actualiza resultado sólo cuando intHomeScore no es null
+ * Itera todas las competiciones activas 2026 (Liga de Primera, Copa de la Liga,
+ * Primera B, Copa Chile), descarga jornadas y hace merge preservando probs y tabla.
  *
  * Uso local:  node scraper.js
  */
@@ -18,37 +13,44 @@
 const fs  = require('fs');
 const path = require('path');
 
-const FIXTURE_PATH  = path.join(__dirname, 'data', 'fixture.json');
-const LEAGUE_ID     = 4627;   // Chile Primera Division (Liga de Primera)
-const SEASON        = 2026;
-const TOTAL_ROUNDS  = 30;
-const BATCH_SIZE    = 5;      // peticiones en paralelo por lote
-const CHILE_OFFSET  = -4;     // UTC-4 invierno (abr–sep)
+const FIXTURE_PATH = path.join(__dirname, 'data', 'fixture.json');
+const SEASON       = 2026;
+const REQ_DELAY    = 2000;  // ms entre peticiones (evita rate limit en free tier)
+const CHILE_OFFSET = -4;   // UTC-4 invierno (abr–sep)
 
-// ── Fetch de una jornada ────────────────────────────────────────────────────
+const COMPETITIONS = [
+  { id: 'liga-primera', nombre: 'Liga de Primera ML', sportsdb_id: 4627, rounds: 30 },
+  { id: 'copa-liga',    nombre: 'Copa de la Liga',    sportsdb_id: 5858, rounds: 5  },
+  { id: 'primera-b',   nombre: 'Primera B',           sportsdb_id: 4899, rounds: 30 },
+  { id: 'copa-chile',  nombre: 'Copa Chile',          sportsdb_id: 5378, rounds: 10 },
+];
 
-async function fetchRound(round) {
+// ── Fetch ───────────────────────────────────────────────────────────────────
+
+async function fetchRound(leagueId, round, retries = 3) {
   const url = `https://www.thesportsdb.com/api/v1/json/3/eventsround.php` +
-              `?id=${LEAGUE_ID}&r=${round}&s=${SEASON}`;
-  const res = await fetch(url, { headers: { 'User-Agent': 'sport-agent-bot/1.0' } });
-  if (!res.ok) throw new Error(`HTTP ${res.status} en jornada ${round}`);
-  const data = await res.json();
-  return data.events ?? [];
+              `?id=${leagueId}&r=${round}&s=${SEASON}`;
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    const res = await fetch(url, { headers: { 'User-Agent': 'sport-agent-bot/1.0' } });
+    if (res.status === 429) {
+      const wait = attempt * 10_000;
+      console.log(`   ⏳ Rate limit jornada ${round} — esperando ${wait/1000}s…`);
+      await sleep(wait);
+      continue;
+    }
+    if (!res.ok) throw new Error(`HTTP ${res.status} en jornada ${round}`);
+    const data = await res.json();
+    return data.events ?? [];
+  }
+  throw new Error(`Rate limit persistente en jornada ${round}`);
 }
 
-async function fetchAllRounds() {
+async function fetchAllRounds(leagueId, totalRounds) {
   const all = [];
-  for (let start = 1; start <= TOTAL_ROUNDS; start += BATCH_SIZE) {
-    const rounds = Array.from(
-      { length: Math.min(BATCH_SIZE, TOTAL_ROUNDS - start + 1) },
-      (_, i) => start + i
-    );
-    const results = await Promise.all(rounds.map(fetchRound));
-    results.forEach((evs, i) => {
-      if (evs.length) all.push({ round: rounds[i], events: evs });
-    });
-    // Pausa mínima entre lotes para no saturar la API
-    if (start + BATCH_SIZE <= TOTAL_ROUNDS) await sleep(300);
+  for (let r = 1; r <= totalRounds; r++) {
+    const evs = await fetchRound(leagueId, r);
+    if (evs.length) all.push({ round: r, events: evs });
+    if (r < totalRounds) await sleep(REQ_DELAY);
   }
   return all;
 }
@@ -89,18 +91,13 @@ function parseEvent(ev, roundNum) {
   };
 }
 
-// ── Merge ────────────────────────────────────────────────────────────────────
-// TheSportsDB es la fuente de verdad para equipos, fechas, horarios y resultados.
-// El merge solo preserva el campo "prob" de un partido existente cuando
-// (local, visita) coincide DENTRO DE LA MISMA JORNADA (mismo round).
-// Esto evita que resultados de jornadas pasadas contaminen fechas incorrectas.
+// ── Merge competición ────────────────────────────────────────────────────────
+// Reconstruye fechas desde TheSportsDB.
+// Preserva el campo "prob" (round:local:visita) y la "tabla" intactos.
 
-function mergeFixture(existing, roundsData) {
-  const today = new Date().toISOString().slice(0, 10);
-
-  // Índice de probs existentes: "round:local:visita" → prob
+function mergeComp(existingComp, roundsData) {
   const probIndex = {};
-  for (const ef of existing.fechas) {
+  for (const ef of (existingComp.fechas ?? [])) {
     for (const ep of ef.partidos) {
       if (ep.prob !== null && ep.prob !== undefined) {
         probIndex[`${ef.numero}:${ep.local}:${ep.visita}`] = ep.prob;
@@ -108,7 +105,6 @@ function mergeFixture(existing, roundsData) {
     }
   }
 
-  // Reconstruye fechas completamente desde TheSportsDB
   const fechas = roundsData.map(({ round, events }) => {
     const partidos = events
       .map(ev => parseEvent(ev, round))
@@ -135,9 +131,9 @@ function mergeFixture(existing, roundsData) {
   fechas.sort((a, b) => a.numero - b.numero);
 
   return {
-    ...existing,   // preserva tabla, torneo, temporada, etc.
-    actualizado: today,
+    ...existingComp,
     fechas,
+    // tabla se preserva sin modificar (actualización manual)
   };
 }
 
@@ -150,7 +146,7 @@ const EQUIPO_MAP = [
   [/dep\.?\s*la\s+serena|la\s+serena\b/i,    'D. La Serena'],
   [/dep\.?\s*limache|limache\b/i,            'D. Limache'],
   [/universidad\s+de\s+concepc/i,            'U. Concepción'],
-  [/^dep(ortes)?\s+concepc/i,               'D. Concepción'],  // distinto de U. Concepción
+  [/^dep(ortes)?\s+concepc/i,               'D. Concepción'],
   [/uni[oó]n\s+espa[nñ]ola/i,               'Unión Española'],
   [/uni[oó]n\s+la\s+calera/i,               'Unión La Calera'],
   [/coquimbo/i,                              'Coquimbo Unido'],
@@ -187,23 +183,55 @@ async function triggerVercelDeploy() {
 // ── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
-  console.log(`🔎 TheSportsDB — Liga de Primera Chile (id=${LEAGUE_ID}, s=${SEASON})`);
-  console.log(`   Descargando ${TOTAL_ROUNDS} jornadas en lotes de ${BATCH_SIZE}…`);
+  const today    = new Date().toISOString().slice(0, 10);
+  const existing = JSON.parse(fs.readFileSync(FIXTURE_PATH, 'utf8'));
 
-  const roundsData = await fetchAllRounds();
-  const totalEvs   = roundsData.reduce((n, r) => n + r.events.length, 0);
-  console.log(`✅ ${roundsData.length} jornadas con datos / ${totalEvs} partidos`);
+  const updatedComps = [];
 
-  if (!roundsData.length) {
-    console.error('❌ Sin datos — verifica LEAGUE_ID y SEASON');
-    process.exit(1);
+  for (const comp of COMPETITIONS) {
+    console.log(`\n🔎 ${comp.nombre} (id=${comp.sportsdb_id}) — hasta ${comp.rounds} jornadas`);
+
+    const existingComp = existing.competiciones.find(c => c.id === comp.id) ?? {
+      id:         comp.id,
+      nombre:     comp.nombre,
+      sportsdb_id: comp.sportsdb_id,
+      rounds:     comp.rounds,
+      fechas:     [],
+      tabla:      null,
+    };
+
+    let roundsData;
+    try {
+      roundsData = await fetchAllRounds(comp.sportsdb_id, comp.rounds);
+    } catch (err) {
+      console.log(`   ⚠ Error: ${err.message} — se conserva existente`);
+      updatedComps.push(existingComp);
+      if (comp !== COMPETITIONS[COMPETITIONS.length - 1]) await sleep(3000);
+      continue;
+    }
+
+    const totalEvs = roundsData.reduce((n, r) => n + r.events.length, 0);
+    console.log(`   ✅ ${roundsData.length} jornadas con datos / ${totalEvs} partidos`);
+
+    if (roundsData.length) {
+      updatedComps.push(mergeComp(existingComp, roundsData));
+    } else {
+      console.log(`   ⚠ Sin datos — se conserva existente`);
+      updatedComps.push(existingComp);
+    }
+
+    // Pausa entre competiciones para no saturar la API
+    if (comp !== COMPETITIONS[COMPETITIONS.length - 1]) await sleep(3000);
   }
 
-  const existing = JSON.parse(fs.readFileSync(FIXTURE_PATH, 'utf8'));
-  const merged   = mergeFixture(existing, roundsData);
+  const merged = {
+    ...existing,
+    actualizado: today,
+    competiciones: updatedComps,
+  };
 
   fs.writeFileSync(FIXTURE_PATH, JSON.stringify(merged, null, 2) + '\n', 'utf8');
-  console.log('💾 data/fixture.json actualizado');
+  console.log('\n💾 data/fixture.json actualizado');
 
   await triggerVercelDeploy();
 }

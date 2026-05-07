@@ -1,7 +1,7 @@
 {
-  "name": "Liga de Primera 2026",
-  "short_name": "LP 2026",
-  "description": "Campeonato de fútbol chileno Liga de Primera Mercado Libre 2026",
+  "name": "Fútbol Chile 2026",
+  "short_name": "Fútbol CL",
+  "description": "Fútbol chileno 2026 — Liga de Primera, Primera B, Copa Chile y más.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a0a",

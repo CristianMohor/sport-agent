@@ -82,6 +82,42 @@ header {
   margin-top: 4px;
 }
 
+/* Competition selector */
+.comp-tabs {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.comp-tabs::-webkit-scrollbar { display: none; }
+
+.comp-tab {
+  flex-shrink: 0;
+  background: transparent;
+  border: 0.5px solid var(--border);
+  color: var(--text-dim);
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.comp-tab.active {
+  background: var(--blue);
+  color: #fff;
+  border-color: var(--blue);
+}
+
+.comp-tab:active {
+  transform: scale(0.95);
+}
+
 /* Main content */
 main {
   flex: 1;
@@ -375,6 +411,21 @@ td.col-dif {
 }
 
 .pos-top3 { color: var(--accent) !important; }
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--text-dim);
+  font-size: 14px;
+  line-height: 2;
+}
+
+.empty-state .empty-icon {
+  font-size: 32px;
+  display: block;
+  margin-bottom: 8px;
+}
 
 /* Config */
 .config-section {

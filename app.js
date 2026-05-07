@@ -3,6 +3,7 @@
 const state = {
   data: null,
   tab: 'fixture',
+  comp: 'liga-primera',
   fecha: 0,
   favorito: localStorage.getItem('favorito') || '',
   notifs: localStorage.getItem('notifs') === 'true',
@@ -24,7 +25,8 @@ async function loadData(forceRefresh = false) {
 }
 
 // --- DOM refs ---
-const mainEl     = document.getElementById('main');
+const mainEl      = document.getElementById('main');
+const compTabsEl  = document.getElementById('comp-tabs');
 const tabContents = {};
 ['fixture','tabla','config'].forEach(id => {
   tabContents[id] = document.getElementById(`tab-${id}`);
@@ -34,7 +36,7 @@ const lastUpEl   = document.getElementById('last-update');
 const toastEl    = document.getElementById('toast');
 
 // --- Helpers ---
-const DAY_NAMES = ['Dom','Lun','Mar','Mié','Jue','Vie','Sáb'];
+const DAY_NAMES   = ['Dom','Lun','Mar','Mié','Jue','Vie','Sáb'];
 const MONTH_NAMES = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
 
 function formatDate(isoDate) {
@@ -47,6 +49,16 @@ function showToast(msg) {
   toastEl.textContent = msg;
   toastEl.classList.add('show');
   setTimeout(() => toastEl.classList.remove('show'), 2500);
+}
+
+function getCurrentComp() {
+  return state.data?.competiciones?.find(c => c.id === state.comp) ?? null;
+}
+
+function setDefaultFecha(comp) {
+  if (!comp?.fechas?.length) { state.fecha = 0; return; }
+  const activa = comp.fechas.find(f => f.estado === 'proxima' || f.estado === 'en-curso');
+  state.fecha = activa ? activa.numero : comp.fechas[0].numero;
 }
 
 // --- Tab switch ---
@@ -62,18 +74,55 @@ navItems.forEach(el => {
   el.addEventListener('click', () => switchTab(el.dataset.tab));
 });
 
+// --- Competition tabs ---
+function renderCompTabs() {
+  if (!state.data?.competiciones) return;
+  compTabsEl.innerHTML = '';
+  state.data.competiciones.forEach(c => {
+    const btn = document.createElement('button');
+    btn.className = 'comp-tab' + (c.id === state.comp ? ' active' : '');
+    btn.textContent = c.nombre;
+    btn.addEventListener('click', () => switchComp(c.id));
+    compTabsEl.appendChild(btn);
+  });
+}
+
+function switchComp(compId) {
+  state.comp = compId;
+  setDefaultFecha(getCurrentComp());
+  renderCompTabs();
+  renderFixture();
+  renderTabla();
+}
+
 // --- Render fixture ---
 function renderFixture() {
-  const fechaData = state.data.fechas.find(f => f.numero === state.fecha);
-  if (!fechaData) return;
+  const comp = getCurrentComp();
 
   const dateTabsRow = tabContents.fixture.querySelector('.date-tabs-row');
-  const content = document.getElementById('fixture-content');
+  const content     = document.getElementById('fixture-content');
+
+  if (!comp?.fechas?.length) {
+    const dateTabs = tabContents.fixture.querySelector('.date-tabs');
+    dateTabs.innerHTML = '';
+    content.innerHTML  = `
+      <div class="empty-state">
+        <span class="empty-icon">📅</span>
+        Sin partidos disponibles para este torneo.<br>Los datos se actualizan automáticamente.
+      </div>`;
+    // Hide export btn if present
+    const exportBtn = dateTabsRow.querySelector('.export-btn');
+    if (exportBtn) exportBtn.style.display = 'none';
+    return;
+  }
+
+  const fechaData = comp.fechas.find(f => f.numero === state.fecha);
+  if (!fechaData) return;
 
   // Date tabs
   const dateTabs = tabContents.fixture.querySelector('.date-tabs');
   dateTabs.innerHTML = '';
-  state.data.fechas.forEach(f => {
+  comp.fechas.forEach(f => {
     const btn = document.createElement('button');
     btn.className = 'date-tab' + (f.numero === state.fecha ? ' active' : '');
     btn.textContent = f.nombre;
@@ -92,6 +141,7 @@ function renderFixture() {
     exportBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 17l4 4 4-4m-4-5v9M20 12V7a2 2 0 00-2-2H6a2 2 0 00-2 2v5"/></svg>ICS`;
     dateTabsRow.appendChild(exportBtn);
   }
+  exportBtn.style.display = '';
   exportBtn.onclick = () => exportICS(fechaData);
 
   // Group by day
@@ -167,9 +217,22 @@ function renderFixture() {
 
 // --- Render tabla ---
 function renderTabla() {
+  const comp  = getCurrentComp();
   const tbody = document.getElementById('tabla-body');
   tbody.innerHTML = '';
-  state.data.tabla.forEach(row => {
+
+  if (!comp?.tabla?.length) {
+    tbody.innerHTML = `
+      <tr><td colspan="10">
+        <div class="empty-state" style="padding:32px 16px">
+          <span class="empty-icon">📊</span>
+          Sin tabla disponible para este torneo.
+        </div>
+      </td></tr>`;
+    return;
+  }
+
+  comp.tabla.forEach(row => {
     const isFav = state.favorito && row.equipo === state.favorito;
     const tr = document.createElement('tr');
     tr.className = isFav ? 'fav-row' : '';
@@ -195,12 +258,14 @@ function renderConfig() {
   const select = document.getElementById('fav-select');
   if (!select) return;
 
-  // Build team list from fixture
+  // Build team list from all competitions
   const teams = new Set();
-  state.data.tabla.forEach(r => teams.add(r.equipo));
-  state.data.fechas.forEach(f =>
-    f.partidos.forEach(p => { teams.add(p.local); teams.add(p.visita); })
-  );
+  state.data.competiciones.forEach(c => {
+    c.tabla?.forEach(r => teams.add(r.equipo));
+    c.fechas.forEach(f =>
+      f.partidos.forEach(p => { teams.add(p.local); teams.add(p.visita); })
+    );
+  });
 
   select.innerHTML = '<option value="">— Ninguno —</option>';
   [...teams].sort().forEach(t => {
@@ -249,8 +314,11 @@ function exportICS(fechaData) {
     `${dt.getUTCFullYear()}${pad(dt.getUTCMonth()+1)}${pad(dt.getUTCDate())}` +
     `T${pad(dt.getUTCHours())}${pad(dt.getUTCMinutes())}00Z`;
 
-  const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Liga Primera 2026//CL',
-    'X-WR-CALNAME:' + fechaData.nombre + ' - Liga de Primera 2026',
+  const comp = getCurrentComp();
+  const calName = `${fechaData.nombre} — ${comp?.nombre ?? 'Chile 2026'}`;
+
+  const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Fútbol Chile 2026//CL',
+    'X-WR-CALNAME:' + calName,
     'X-WR-TIMEZONE:America/Santiago', 'CALSCALE:GREGORIAN'];
 
   fechaData.partidos.forEach(p => {
@@ -258,18 +326,16 @@ function exportICS(fechaData) {
     const [h, min]  = p.hora.split(':').map(Number);
 
     // Chile invernal = UTC-4; se suma 4h para convertir a UTC.
-    // Se usan objetos Date para manejar correctamente desbordamientos de
-    // hora y de fin de mes (ej. 31/may 20:00 → 1/jun 00:00 UTC).
     const start = new Date(Date.UTC(y, m - 1, d, h + 4, min));
     const end   = new Date(start.getTime() + 2 * 3600 * 1000);
 
     lines.push('BEGIN:VEVENT',
-      `UID:${p.id}@ligaprimera2026`,
+      `UID:${p.id}@futbolchile2026`,
       `DTSTAMP:${new Date().toISOString().replace(/[-:.]/g,'').slice(0,15)}Z`,
       `DTSTART:${fmtZ(start)}`,
       `DTEND:${fmtZ(end)}`,
-      `SUMMARY:${p.local} vs ${p.visita} — Fecha ${fechaData.numero}`,
-      `DESCRIPTION:${fechaData.nombre} | ${p.estadio}`,
+      `SUMMARY:${p.local} vs ${p.visita} — ${fechaData.nombre}`,
+      `DESCRIPTION:${comp?.nombre ?? ''} | ${fechaData.nombre} | ${p.estadio}`,
       `LOCATION:${p.estadio}`,
       'END:VEVENT');
   });
@@ -280,7 +346,7 @@ function exportICS(fechaData) {
   const url  = URL.createObjectURL(blob);
   const a    = document.createElement('a');
   a.href     = url;
-  a.download = `fecha${fechaData.numero}-liga-primera-2026.ics`;
+  a.download = `${state.comp}-fecha${fechaData.numero}-2026.ics`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -330,6 +396,7 @@ mainEl.addEventListener('touchend', async e => {
 function renderAll() {
   if (!state.data) return;
   lastUpEl.textContent = `Actualizado: ${state.data.actualizado}`;
+  renderCompTabs();
   renderFixture();
   renderTabla();
   renderConfig();
@@ -342,12 +409,9 @@ function renderAll() {
   } catch {
     showToast('Cargando desde caché…');
   }
-  // Selecciona automáticamente la primera fecha próxima o en curso
   if (state.data) {
-    const activa = state.data.fechas.find(
-      f => f.estado === 'proxima' || f.estado === 'en-curso'
-    );
-    if (activa) state.fecha = activa.numero;
+    const comp = getCurrentComp();
+    setDefaultFecha(comp);
   }
   renderAll();
   switchTab('fixture');

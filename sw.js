@@ -1,4 +1,4 @@
-const CACHE_NAME = 'liga-primera-v3';
+const CACHE_NAME = 'liga-primera-v4';
 const ASSETS = [
   '/',
   '/index.html',
