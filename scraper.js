@@ -135,7 +135,7 @@ function mergeFixture(existing, roundsData) {
   fechas.sort((a, b) => a.numero - b.numero);
 
   return {
-    ...existing,
+    ...existing,   // preserva tabla, torneo, temporada, etc.
     actualizado: today,
     fechas,
   };

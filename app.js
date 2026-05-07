@@ -3,7 +3,7 @@
 const state = {
   data: null,
   tab: 'fixture',
-  fecha: 13,
+  fecha: 0,
   favorito: localStorage.getItem('favorito') || '',
   notifs: localStorage.getItem('notifs') === 'true',
 };
