@@ -29,19 +29,10 @@ jobs:
         run: npm ci
 
       - name: Ejecutar scraper
-        # VERCEL_DEPLOY_HOOK se configura en GitHub → Settings → Secrets → Actions
         env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         run: node scraper.js
-
-      - name: Subir HTML descargado (debug)
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-html
-          path: /tmp/livefutbol-debug.html
-          if-no-files-found: ignore
-          retention-days: 3
 
       - name: Commit y push si hubo cambios
         run: |
