@@ -216,23 +216,18 @@ function renderFixture() {
 }
 
 // --- Render tabla ---
-function renderTabla() {
-  const comp  = getCurrentComp();
-  const tbody = document.getElementById('tabla-body');
-  tbody.innerHTML = '';
-
-  if (!comp?.tabla?.length) {
-    tbody.innerHTML = `
-      <tr><td colspan="10">
-        <div class="empty-state" style="padding:32px 16px">
-          <span class="empty-icon">📊</span>
-          Sin tabla disponible para este torneo.
-        </div>
-      </td></tr>`;
-    return;
-  }
-
-  comp.tabla.forEach(row => {
+function buildTablaTable(rows) {
+  const wrap = document.createElement('div');
+  wrap.className = 'tabla-wrap';
+  const table = document.createElement('table');
+  table.innerHTML = `
+    <thead><tr>
+      <th>POS</th><th class="col-equipo">EQUIPO</th><th>PTS</th>
+      <th>PJ</th><th>PG</th><th>PE</th><th>PP</th>
+      <th>GF</th><th>GC</th><th>DIF</th>
+    </tr></thead>`;
+  const tbody = document.createElement('tbody');
+  rows.forEach(row => {
     const isFav = state.favorito && row.equipo === state.favorito;
     const tr = document.createElement('tr');
     tr.className = isFav ? 'fav-row' : '';
@@ -242,15 +237,45 @@ function renderTabla() {
       <td class="col-pos${posClass}">${row.pos}</td>
       <td class="col-equipo">${row.equipo}</td>
       <td class="col-pts">${row.pts}</td>
-      <td>${row.pj}</td>
-      <td>${row.pg}</td>
-      <td>${row.pe}</td>
-      <td>${row.pp}</td>
-      <td>${row.gf}</td>
-      <td>${row.gc}</td>
+      <td>${row.pj}</td><td>${row.pg}</td><td>${row.pe}</td><td>${row.pp}</td>
+      <td>${row.gf}</td><td>${row.gc}</td>
       <td class="col-dif">${difStr}</td>`;
     tbody.appendChild(tr);
   });
+  table.appendChild(tbody);
+  wrap.appendChild(table);
+  return wrap;
+}
+
+function renderTabla() {
+  const comp      = getCurrentComp();
+  const container = document.getElementById('tabla-container');
+  container.innerHTML = '';
+
+  if (comp?.grupos?.length) {
+    comp.grupos.forEach(g => {
+      const group = document.createElement('div');
+      group.className = 'tabla-group';
+      const title = document.createElement('div');
+      title.className = 'tabla-group-title';
+      title.textContent = g.nombre;
+      group.appendChild(title);
+      group.appendChild(buildTablaTable(g.tabla));
+      container.appendChild(group);
+    });
+    return;
+  }
+
+  if (comp?.tabla?.length) {
+    container.appendChild(buildTablaTable(comp.tabla));
+    return;
+  }
+
+  container.innerHTML = `
+    <div class="empty-state">
+      <span class="empty-icon">📊</span>
+      Sin tabla disponible para este torneo.
+    </div>`;
 }
 
 // --- Render config ---

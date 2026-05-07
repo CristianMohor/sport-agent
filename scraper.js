@@ -20,10 +20,18 @@ const CHILE_OFFSET = -4;   // UTC-4 invierno (abr–sep)
 
 const COMPETITIONS = [
   { id: 'liga-primera', nombre: 'Liga de Primera ML', sportsdb_id: 4627, rounds: 30 },
-  { id: 'copa-liga',    nombre: 'Copa de la Liga',    sportsdb_id: 5858, rounds: 5  },
+  { id: 'copa-liga',    nombre: 'Copa de la Liga',    sportsdb_id: 5858, rounds: 6  },
   { id: 'primera-b',   nombre: 'Primera B',           sportsdb_id: 4899, rounds: 30 },
   { id: 'copa-chile',  nombre: 'Copa Chile',          sportsdb_id: 5378, rounds: 10 },
 ];
+
+// Copa de la Liga: 4 grupos de 4 equipos (fase de grupos, ida y vuelta)
+const COPA_LIGA_GROUPS = {
+  'Grupo A': ['U. de Chile', 'D. La Serena', 'Unión La Calera', 'Audax Italiano'],
+  'Grupo B': ['Colo Colo', 'Coquimbo Unido', 'Huachipato', 'D. Concepción'],
+  'Grupo C': ['Ñublense', 'U. Católica', 'U. Concepción', 'Cobresal'],
+  'Grupo D': ["O'Higgins", 'D. Limache', 'Palestino', 'Everton'],
+};
 
 // ── Fetch ───────────────────────────────────────────────────────────────────
 
@@ -91,6 +99,33 @@ function parseEvent(ev, roundNum) {
   };
 }
 
+// ── Cálculo de grupo ────────────────────────────────────────────────────────
+
+function calcGrupo(fechas, teamList) {
+  const teams = {};
+  teamList.forEach(t => { teams[t] = {equipo:t,pts:0,pj:0,pg:0,pe:0,pp:0,gf:0,gc:0}; });
+  fechas.forEach(f => {
+    f.partidos.forEach(p => {
+      if (!p.resultado || !teams[p.local] || !teams[p.visita]) return;
+      const [gl, ga] = p.resultado.map(Number);
+      teams[p.local].pj++;  teams[p.visita].pj++;
+      teams[p.local].gf  += gl; teams[p.local].gc  += ga;
+      teams[p.visita].gf += ga; teams[p.visita].gc += gl;
+      if (gl > ga) {
+        teams[p.local].pg++;  teams[p.local].pts  += 3; teams[p.visita].pp++;
+      } else if (gl === ga) {
+        teams[p.local].pe++;  teams[p.local].pts  += 1;
+        teams[p.visita].pe++; teams[p.visita].pts += 1;
+      } else {
+        teams[p.visita].pg++; teams[p.visita].pts += 3; teams[p.local].pp++;
+      }
+    });
+  });
+  return Object.values(teams)
+    .sort((a, b) => b.pts - a.pts || (b.gf - b.gc) - (a.gf - a.gc) || b.gf - a.gf)
+    .map((t, i) => ({ pos: i + 1, ...t, dif: t.gf - t.gc }));
+}
+
 // ── Merge competición ────────────────────────────────────────────────────────
 // Reconstruye fechas desde TheSportsDB.
 // Preserva el campo "prob" (round:local:visita) y la "tabla" intactos.
@@ -130,11 +165,19 @@ function mergeComp(existingComp, roundsData) {
 
   fechas.sort((a, b) => a.numero - b.numero);
 
-  return {
-    ...existingComp,
-    fechas,
-    // tabla se preserva sin modificar (actualización manual)
-  };
+  const updated = { ...existingComp, fechas };
+
+  // Copa de la Liga: recalcula grupos automáticamente
+  if (existingComp.id === 'copa-liga') {
+    updated.tabla = null;
+    updated.grupos = Object.entries(COPA_LIGA_GROUPS).map(([nombre, equipos]) => ({
+      nombre,
+      tabla: calcGrupo(fechas, equipos),
+    }));
+  }
+  // Para otras competiciones, tabla se preserva sin modificar (actualización manual)
+
+  return updated;
 }
 
 // ── Normalización de equipos ────────────────────────────────────────────────
