@@ -28,7 +28,7 @@ async function loadData(forceRefresh = false) {
 const mainEl      = document.getElementById('main');
 const compTabsEl  = document.getElementById('comp-tabs');
 const tabContents = {};
-['fixture','tabla','config'].forEach(id => {
+['fixture','tabla','calendario','config'].forEach(id => {
   tabContents[id] = document.getElementById(`tab-${id}`);
 });
 const navItems   = document.querySelectorAll('.nav-item');
@@ -50,6 +50,13 @@ function showToast(msg) {
   toastEl.classList.add('show');
   setTimeout(() => toastEl.classList.remove('show'), 2500);
 }
+
+const COMP_META = {
+  'liga-primera': { short: 'L. Primera', color: '#E63946' },
+  'copa-liga':    { short: 'Copa Liga',  color: '#4A9EE8' },
+  'primera-b':    { short: 'Primera B',  color: '#22c55e' },
+  'copa-chile':   { short: 'Copa Chile', color: '#f59e0b' },
+};
 
 function getCurrentComp() {
   return state.data?.competiciones?.find(c => c.id === state.comp) ?? null;
@@ -317,6 +324,74 @@ function renderConfig() {
   }
 }
 
+// --- Render calendario ---
+function renderCalendario() {
+  const container = document.getElementById('calendario-content');
+  if (!state.data) return;
+
+  const matches = [];
+  state.data.competiciones.forEach(comp => {
+    comp.fechas.forEach(f => {
+      f.partidos.forEach(p => {
+        if (!p.resultado && p.fecha) {
+          matches.push({ ...p, compId: comp.id });
+        }
+      });
+    });
+  });
+
+  matches.sort((a, b) => (a.fecha + a.hora).localeCompare(b.fecha + b.hora));
+
+  container.innerHTML = '';
+
+  if (!matches.length) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <span class="empty-icon">📅</span>
+        Sin partidos próximos.
+      </div>`;
+    return;
+  }
+
+  const byDay = {};
+  matches.forEach(m => {
+    if (!byDay[m.fecha]) byDay[m.fecha] = [];
+    byDay[m.fecha].push(m);
+  });
+
+  Object.entries(byDay).forEach(([date, dayMatches]) => {
+    const hdr = document.createElement('div');
+    hdr.className = 'day-header';
+    hdr.textContent = formatDate(date);
+    container.appendChild(hdr);
+
+    dayMatches.forEach((p, i) => {
+      const isFav = state.favorito && (p.local === state.favorito || p.visita === state.favorito);
+      const meta  = COMP_META[p.compId] ?? { short: p.compId, color: '#6b7280' };
+      const card  = document.createElement('div');
+      card.className = 'match-card' + (isFav ? ' favorite' : '');
+      card.style.animationDelay = `${i * 0.03}s`;
+
+      const homeHL = state.favorito && p.local  === state.favorito ? ' highlight' : '';
+      const awayHL = state.favorito && p.visita === state.favorito ? ' highlight' : '';
+
+      card.innerHTML = `
+        <div class="match-time-row">
+          <span class="match-time">${p.hora} hrs</span>
+          <span class="comp-badge" style="--badge-color:${meta.color}">${meta.short}</span>
+        </div>
+        <div class="match-teams">
+          <span class="team home${homeHL}">${p.local}</span>
+          <div class="vs-block">VS</div>
+          <span class="team away${awayHL}">${p.visita}</span>
+        </div>
+        ${p.estadio ? `<div class="cal-venue">${p.estadio}</div>` : ''}`;
+
+      container.appendChild(card);
+    });
+  });
+}
+
 // --- Pull to refresh ---
 let ptrStart = 0;
 let ptrActive = false;
@@ -362,6 +437,7 @@ function renderAll() {
   renderCompTabs();
   renderFixture();
   renderTabla();
+  renderCalendario();
   renderConfig();
 }
 
