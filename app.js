@@ -99,20 +99,16 @@ function switchComp(compId) {
 function renderFixture() {
   const comp = getCurrentComp();
 
-  const dateTabsRow = tabContents.fixture.querySelector('.date-tabs-row');
-  const content     = document.getElementById('fixture-content');
+  const dateTabs = document.getElementById('date-tabs');
+  const content  = document.getElementById('fixture-content');
 
   if (!comp?.fechas?.length) {
-    const dateTabs = tabContents.fixture.querySelector('.date-tabs');
     dateTabs.innerHTML = '';
     content.innerHTML  = `
       <div class="empty-state">
         <span class="empty-icon">📅</span>
         Sin partidos disponibles para este torneo.<br>Los datos se actualizan automáticamente.
       </div>`;
-    // Hide export btn if present
-    const exportBtn = dateTabsRow.querySelector('.export-btn');
-    if (exportBtn) exportBtn.style.display = 'none';
     return;
   }
 
@@ -120,7 +116,6 @@ function renderFixture() {
   if (!fechaData) return;
 
   // Date tabs
-  const dateTabs = tabContents.fixture.querySelector('.date-tabs');
   dateTabs.innerHTML = '';
   comp.fechas.forEach(f => {
     const btn = document.createElement('button');
@@ -133,16 +128,6 @@ function renderFixture() {
     dateTabs.appendChild(btn);
   });
 
-  // Export button
-  let exportBtn = dateTabsRow.querySelector('.export-btn');
-  if (!exportBtn) {
-    exportBtn = document.createElement('button');
-    exportBtn.className = 'export-btn';
-    exportBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 17l4 4 4-4m-4-5v9M20 12V7a2 2 0 00-2-2H6a2 2 0 00-2 2v5"/></svg>ICS`;
-    dateTabsRow.appendChild(exportBtn);
-  }
-  exportBtn.style.display = '';
-  exportBtn.onclick = () => exportICS(fechaData);
 
   // Group by day
   const byDay = {};
@@ -330,53 +315,6 @@ function renderConfig() {
       showToast(state.notifs ? 'Notificaciones activadas' : 'Notificaciones desactivadas');
     };
   }
-}
-
-// --- Export ICS ---
-function exportICS(fechaData) {
-  const pad  = n => String(n).padStart(2, '0');
-  const fmtZ = dt =>
-    `${dt.getUTCFullYear()}${pad(dt.getUTCMonth()+1)}${pad(dt.getUTCDate())}` +
-    `T${pad(dt.getUTCHours())}${pad(dt.getUTCMinutes())}00Z`;
-
-  const comp = getCurrentComp();
-  const calName = `${fechaData.nombre} — ${comp?.nombre ?? 'Chile 2026'}`;
-
-  const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Fútbol Chile 2026//CL',
-    'X-WR-CALNAME:' + calName,
-    'X-WR-TIMEZONE:America/Santiago', 'CALSCALE:GREGORIAN'];
-
-  fechaData.partidos.forEach(p => {
-    const [y, m, d] = p.fecha.split('-').map(Number);
-    const [h, min]  = p.hora.split(':').map(Number);
-
-    // Chile invernal = UTC-4; se suma 4h para convertir a UTC.
-    const start = new Date(Date.UTC(y, m - 1, d, h + 4, min));
-    const end   = new Date(start.getTime() + 2 * 3600 * 1000);
-
-    lines.push('BEGIN:VEVENT',
-      `UID:${p.id}@futbolchile2026`,
-      `DTSTAMP:${new Date().toISOString().replace(/[-:.]/g,'').slice(0,15)}Z`,
-      `DTSTART:${fmtZ(start)}`,
-      `DTEND:${fmtZ(end)}`,
-      `SUMMARY:${p.local} vs ${p.visita} — ${fechaData.nombre}`,
-      `DESCRIPTION:${comp?.nombre ?? ''} | ${fechaData.nombre} | ${p.estadio}`,
-      `LOCATION:${p.estadio}`,
-      'END:VEVENT');
-  });
-
-  lines.push('END:VCALENDAR');
-
-  const blob = new Blob([lines.join('\r\n')], { type: 'text/calendar;charset=utf-8' });
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement('a');
-  a.href     = url;
-  a.download = `${state.comp}-fecha${fechaData.numero}-2026.ics`;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-  showToast('Calendario exportado');
 }
 
 // --- Pull to refresh ---
