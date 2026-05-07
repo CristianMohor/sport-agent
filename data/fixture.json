@@ -3613,7 +3613,200 @@
           ]
         }
       ],
-      "tabla": null
+      "tabla": [
+        {
+          "pos": 1,
+          "equipo": "Ñublense",
+          "pts": 10,
+          "pj": 4,
+          "pg": 3,
+          "pe": 1,
+          "pp": 0,
+          "gf": 6,
+          "gc": 1,
+          "dif": 5
+        },
+        {
+          "pos": 2,
+          "equipo": "O'Higgins",
+          "pts": 8,
+          "pj": 4,
+          "pg": 2,
+          "pe": 2,
+          "pp": 0,
+          "gf": 7,
+          "gc": 4,
+          "dif": 3
+        },
+        {
+          "pos": 3,
+          "equipo": "U. de Chile",
+          "pts": 7,
+          "pj": 4,
+          "pg": 2,
+          "pe": 1,
+          "pp": 1,
+          "gf": 10,
+          "gc": 4,
+          "dif": 6
+        },
+        {
+          "pos": 4,
+          "equipo": "Colo Colo",
+          "pts": 7,
+          "pj": 3,
+          "pg": 2,
+          "pe": 1,
+          "pp": 0,
+          "gf": 5,
+          "gc": 2,
+          "dif": 3
+        },
+        {
+          "pos": 5,
+          "equipo": "U. Católica",
+          "pts": 7,
+          "pj": 4,
+          "pg": 2,
+          "pe": 1,
+          "pp": 1,
+          "gf": 7,
+          "gc": 5,
+          "dif": 2
+        },
+        {
+          "pos": 6,
+          "equipo": "Coquimbo Unido",
+          "pts": 7,
+          "pj": 3,
+          "pg": 2,
+          "pe": 1,
+          "pp": 0,
+          "gf": 4,
+          "gc": 2,
+          "dif": 2
+        },
+        {
+          "pos": 7,
+          "equipo": "Audax Italiano",
+          "pts": 7,
+          "pj": 4,
+          "pg": 2,
+          "pe": 1,
+          "pp": 1,
+          "gf": 6,
+          "gc": 5,
+          "dif": 1
+        },
+        {
+          "pos": 8,
+          "equipo": "Unión La Calera",
+          "pts": 7,
+          "pj": 4,
+          "pg": 2,
+          "pe": 1,
+          "pp": 1,
+          "gf": 4,
+          "gc": 3,
+          "dif": 1
+        },
+        {
+          "pos": 9,
+          "equipo": "D. Limache",
+          "pts": 6,
+          "pj": 4,
+          "pg": 1,
+          "pe": 3,
+          "pp": 0,
+          "gf": 5,
+          "gc": 4,
+          "dif": 1
+        },
+        {
+          "pos": 10,
+          "equipo": "Everton",
+          "pts": 4,
+          "pj": 4,
+          "pg": 1,
+          "pe": 1,
+          "pp": 2,
+          "gf": 6,
+          "gc": 7,
+          "dif": -1
+        },
+        {
+          "pos": 11,
+          "equipo": "Huachipato",
+          "pts": 4,
+          "pj": 4,
+          "pg": 1,
+          "pe": 1,
+          "pp": 2,
+          "gf": 3,
+          "gc": 4,
+          "dif": -1
+        },
+        {
+          "pos": 12,
+          "equipo": "U. Concepción",
+          "pts": 4,
+          "pj": 4,
+          "pg": 1,
+          "pe": 1,
+          "pp": 2,
+          "gf": 5,
+          "gc": 7,
+          "dif": -2
+        },
+        {
+          "pos": 13,
+          "equipo": "Palestino",
+          "pts": 2,
+          "pj": 4,
+          "pg": 0,
+          "pe": 2,
+          "pp": 2,
+          "gf": 5,
+          "gc": 8,
+          "dif": -3
+        },
+        {
+          "pos": 14,
+          "equipo": "D. Concepción",
+          "pts": 1,
+          "pj": 4,
+          "pg": 0,
+          "pe": 1,
+          "pp": 3,
+          "gf": 4,
+          "gc": 8,
+          "dif": -4
+        },
+        {
+          "pos": 15,
+          "equipo": "Cobresal",
+          "pts": 1,
+          "pj": 4,
+          "pg": 0,
+          "pe": 1,
+          "pp": 3,
+          "gf": 3,
+          "gc": 8,
+          "dif": -5
+        },
+        {
+          "pos": 16,
+          "equipo": "D. La Serena",
+          "pts": 1,
+          "pj": 4,
+          "pg": 0,
+          "pe": 1,
+          "pp": 3,
+          "gf": 4,
+          "gc": 12,
+          "dif": -8
+        }
+      ]
     },
     {
       "id": "primera-b",
@@ -6472,7 +6665,200 @@
           ]
         }
       ],
-      "tabla": null
+      "tabla": [
+        {
+          "pos": 1,
+          "equipo": "Cobreloa",
+          "pts": 21,
+          "pj": 10,
+          "pg": 6,
+          "pe": 3,
+          "pp": 1,
+          "gf": 20,
+          "gc": 8,
+          "dif": 12
+        },
+        {
+          "pos": 2,
+          "equipo": "San Marcos de Arica",
+          "pts": 20,
+          "pj": 10,
+          "pg": 5,
+          "pe": 5,
+          "pp": 0,
+          "gf": 14,
+          "gc": 6,
+          "dif": 8
+        },
+        {
+          "pos": 3,
+          "equipo": "Deportes Puerto Montt",
+          "pts": 19,
+          "pj": 10,
+          "pg": 6,
+          "pe": 1,
+          "pp": 3,
+          "gf": 13,
+          "gc": 8,
+          "dif": 5
+        },
+        {
+          "pos": 4,
+          "equipo": "Deportes Antofagasta",
+          "pts": 17,
+          "pj": 10,
+          "pg": 5,
+          "pe": 2,
+          "pp": 3,
+          "gf": 17,
+          "gc": 12,
+          "dif": 5
+        },
+        {
+          "pos": 5,
+          "equipo": "Santiago Wanderers",
+          "pts": 16,
+          "pj": 10,
+          "pg": 4,
+          "pe": 4,
+          "pp": 2,
+          "gf": 17,
+          "gc": 14,
+          "dif": 3
+        },
+        {
+          "pos": 6,
+          "equipo": "Deportes Recoleta",
+          "pts": 16,
+          "pj": 10,
+          "pg": 5,
+          "pe": 1,
+          "pp": 4,
+          "gf": 18,
+          "gc": 18,
+          "dif": 0
+        },
+        {
+          "pos": 7,
+          "equipo": "Magallanes",
+          "pts": 15,
+          "pj": 10,
+          "pg": 4,
+          "pe": 3,
+          "pp": 3,
+          "gf": 16,
+          "gc": 15,
+          "dif": 1
+        },
+        {
+          "pos": 8,
+          "equipo": "Deportes Temuco",
+          "pts": 14,
+          "pj": 10,
+          "pg": 3,
+          "pe": 5,
+          "pp": 2,
+          "gf": 17,
+          "gc": 14,
+          "dif": 3
+        },
+        {
+          "pos": 9,
+          "equipo": "Unión Española",
+          "pts": 14,
+          "pj": 10,
+          "pg": 4,
+          "pe": 2,
+          "pp": 4,
+          "gf": 13,
+          "gc": 11,
+          "dif": 2
+        },
+        {
+          "pos": 10,
+          "equipo": "San Luis de Quillota",
+          "pts": 13,
+          "pj": 10,
+          "pg": 3,
+          "pe": 4,
+          "pp": 3,
+          "gf": 16,
+          "gc": 16,
+          "dif": 0
+        },
+        {
+          "pos": 11,
+          "equipo": "Deportes Copiapó",
+          "pts": 12,
+          "pj": 10,
+          "pg": 3,
+          "pe": 3,
+          "pp": 4,
+          "gf": 13,
+          "gc": 16,
+          "dif": -3
+        },
+        {
+          "pos": 12,
+          "equipo": "Deportes Iquique",
+          "pts": 10,
+          "pj": 10,
+          "pg": 2,
+          "pe": 4,
+          "pp": 4,
+          "gf": 12,
+          "gc": 14,
+          "dif": -2
+        },
+        {
+          "pos": 13,
+          "equipo": "Curicó Unido",
+          "pts": 10,
+          "pj": 10,
+          "pg": 2,
+          "pe": 4,
+          "pp": 4,
+          "gf": 11,
+          "gc": 18,
+          "dif": -7
+        },
+        {
+          "pos": 14,
+          "equipo": "Unión San Felipe",
+          "pts": 9,
+          "pj": 10,
+          "pg": 2,
+          "pe": 3,
+          "pp": 5,
+          "gf": 7,
+          "gc": 17,
+          "dif": -10
+        },
+        {
+          "pos": 15,
+          "equipo": "Deportes Santa Cruz",
+          "pts": 7,
+          "pj": 10,
+          "pg": 1,
+          "pe": 4,
+          "pp": 5,
+          "gf": 14,
+          "gc": 20,
+          "dif": -6
+        },
+        {
+          "pos": 16,
+          "equipo": "Rangers",
+          "pts": 2,
+          "pj": 10,
+          "pg": 0,
+          "pe": 2,
+          "pp": 8,
+          "gf": 9,
+          "gc": 20,
+          "dif": -11
+        }
+      ]
     },
     {
       "id": "copa-chile",
