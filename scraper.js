@@ -312,12 +312,21 @@ async function triggerVercelDeploy() {
 async function main() {
   console.log(`🔎 Obteniendo fixture de ${SOURCE_URL}…`);
   const html    = await fetchPage(SOURCE_URL);
+
+  // Guarda el HTML para depuración (se sube como artifact en GitHub Actions)
+  const debugPath = '/tmp/livefutbol-debug.html';
+  try { fs.writeFileSync(debugPath, html, 'utf8'); } catch {}
+  console.log(`📄 HTML descargado: ${html.length} chars — primeros 500:`);
+  console.log(html.slice(0, 500).replace(/\s+/g, ' '));
+  console.log('…');
+
   const scraped = parseHtml(html);
 
   if (!scraped.length) {
     console.error(
       '❌ No se encontraron partidos en el HTML descargado.\n' +
-      '   Revisa los selectores en parseWithCheerio() dentro de scraper.js.'
+      '   El sitio puede renderizar con JavaScript (SPA).\n' +
+      '   Descarga el artifact "debug-html" del Action para inspeccionar el HTML real.'
     );
     process.exit(1);
   }
