@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-05-08",
+  "actualizado": "2026-05-09",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -5035,7 +5035,7 @@
         {
           "numero": 11,
           "nombre": "Fecha 11",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f11-01",
@@ -5044,7 +5044,10 @@
               "local": "Deportes Iquique",
               "visita": "Rangers",
               "estadio": "Estadio Tierra de Campeones",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -5054,7 +5057,10 @@
               "local": "Deportes Puerto Montt",
               "visita": "Magallanes",
               "estadio": "Estadio Regional de Chinquihue",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "0"
+              ],
               "prob": null
             },
             {
