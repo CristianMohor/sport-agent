@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-05-09",
+  "actualizado": "2026-05-10",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -3528,7 +3528,7 @@
         {
           "numero": 5,
           "nombre": "Fecha 5",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f5-01",
@@ -3537,7 +3537,10 @@
               "local": "D. La Serena",
               "visita": "Audax Italiano",
               "estadio": "Estadio La Portada",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "4"
+              ],
               "prob": null
             },
             {
@@ -3547,7 +3550,10 @@
               "local": "Cobresal",
               "visita": "U. Concepción",
               "estadio": "Estadio El Cobre",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -3557,7 +3563,10 @@
               "local": "Colo Colo",
               "visita": "D. Concepción",
               "estadio": "Estadio Monumental David Arellano",
-              "resultado": null,
+              "resultado": [
+                "3",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -3707,6 +3716,18 @@
           "tabla": [
             {
               "pos": 1,
+              "equipo": "Audax Italiano",
+              "pts": 10,
+              "pj": 5,
+              "pg": 3,
+              "pe": 1,
+              "pp": 1,
+              "gf": 10,
+              "gc": 7,
+              "dif": 3
+            },
+            {
+              "pos": 2,
               "equipo": "U. de Chile",
               "pts": 7,
               "pj": 4,
@@ -3716,18 +3737,6 @@
               "gf": 10,
               "gc": 4,
               "dif": 6
-            },
-            {
-              "pos": 2,
-              "equipo": "Audax Italiano",
-              "pts": 7,
-              "pj": 4,
-              "pg": 2,
-              "pe": 1,
-              "pp": 1,
-              "gf": 6,
-              "gc": 5,
-              "dif": 1
             },
             {
               "pos": 3,
@@ -3745,13 +3754,13 @@
               "pos": 4,
               "equipo": "D. La Serena",
               "pts": 1,
-              "pj": 4,
+              "pj": 5,
               "pg": 0,
               "pe": 1,
-              "pp": 3,
-              "gf": 4,
-              "gc": 12,
-              "dif": -8
+              "pp": 4,
+              "gf": 6,
+              "gc": 16,
+              "dif": -10
             }
           ]
         },
@@ -3761,14 +3770,14 @@
             {
               "pos": 1,
               "equipo": "Colo Colo",
-              "pts": 7,
-              "pj": 3,
-              "pg": 2,
+              "pts": 10,
+              "pj": 4,
+              "pg": 3,
               "pe": 1,
               "pp": 0,
-              "gf": 5,
-              "gc": 2,
-              "dif": 3
+              "gf": 8,
+              "gc": 3,
+              "dif": 5
             },
             {
               "pos": 2,
@@ -3798,13 +3807,13 @@
               "pos": 4,
               "equipo": "D. Concepción",
               "pts": 1,
-              "pj": 4,
+              "pj": 5,
               "pg": 0,
               "pe": 1,
-              "pp": 3,
-              "gf": 4,
-              "gc": 8,
-              "dif": -4
+              "pp": 4,
+              "gf": 5,
+              "gc": 11,
+              "dif": -6
             }
           ]
         },
@@ -3839,25 +3848,25 @@
               "pos": 3,
               "equipo": "U. Concepción",
               "pts": 4,
-              "pj": 4,
+              "pj": 5,
               "pg": 1,
               "pe": 1,
-              "pp": 2,
-              "gf": 5,
-              "gc": 7,
-              "dif": -2
+              "pp": 3,
+              "gf": 6,
+              "gc": 9,
+              "dif": -3
             },
             {
               "pos": 4,
               "equipo": "Cobresal",
-              "pts": 1,
-              "pj": 4,
-              "pg": 0,
+              "pts": 4,
+              "pj": 5,
+              "pg": 1,
               "pe": 1,
               "pp": 3,
-              "gf": 3,
-              "gc": 8,
-              "dif": -5
+              "gf": 5,
+              "gc": 9,
+              "dif": -4
             }
           ]
         },
@@ -5070,7 +5079,10 @@
               "local": "Deportes Recoleta",
               "visita": "Deportes Santa Cruz",
               "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5080,7 +5092,10 @@
               "local": "Deportes Temuco",
               "visita": "Unión Española",
               "estadio": "Estadio Municipal Germán Becker",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -5090,7 +5105,10 @@
               "local": "Santiago Wanderers",
               "visita": "Cobreloa",
               "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
+              "resultado": [
+                "5",
+                "1"
+              ],
               "prob": null
             },
             {
