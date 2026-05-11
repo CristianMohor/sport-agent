@@ -3,7 +3,8 @@ name: Actualizar Fixture
 on:
   # Todos los días a las 08:00 hora Chile (CLT = UTC-4 → 12:00 UTC)
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '*/30 * * * 5,6,0'   # vie/sáb/dom cada 30 min
+    - cron: '0 */6 * * 1,2,3,4'  # lun-jue cada 6 horas
 
   # Ejecución manual desde GitHub → Actions → "Run workflow"
   workflow_dispatch:
