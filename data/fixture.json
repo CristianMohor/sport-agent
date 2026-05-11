@@ -3616,7 +3616,7 @@
               "visita": "Everton",
               "estadio": "Estadio El Teniente",
               "resultado": [
-                "0",
+                "2",
                 "1"
               ],
               "prob": null
@@ -3888,29 +3888,17 @@
             {
               "pos": 1,
               "equipo": "O'Higgins",
-              "pts": 8,
+              "pts": 11,
               "pj": 5,
-              "pg": 2,
+              "pg": 3,
               "pe": 2,
-              "pp": 1,
-              "gf": 7,
+              "pp": 0,
+              "gf": 9,
               "gc": 5,
-              "dif": 2
+              "dif": 4
             },
             {
               "pos": 2,
-              "equipo": "Everton",
-              "pts": 7,
-              "pj": 5,
-              "pg": 2,
-              "pe": 1,
-              "pp": 2,
-              "gf": 7,
-              "gc": 7,
-              "dif": 0
-            },
-            {
-              "pos": 3,
               "equipo": "D. Limache",
               "pts": 6,
               "pj": 4,
@@ -3920,6 +3908,18 @@
               "gf": 5,
               "gc": 4,
               "dif": 1
+            },
+            {
+              "pos": 3,
+              "equipo": "Everton",
+              "pts": 4,
+              "pj": 5,
+              "pg": 1,
+              "pe": 1,
+              "pp": 3,
+              "gf": 7,
+              "gc": 9,
+              "dif": -2
             },
             {
               "pos": 4,
