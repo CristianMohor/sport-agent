@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-05-10",
+  "actualizado": "2026-05-11",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -3576,7 +3576,10 @@
               "local": "Coquimbo Unido",
               "visita": "Huachipato",
               "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "2"
+              ],
               "prob": null
             },
             {
@@ -3586,7 +3589,10 @@
               "local": "Unión La Calera",
               "visita": "U. de Chile",
               "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -3596,7 +3602,10 @@
               "local": "U. Católica",
               "visita": "Ñublense",
               "estadio": "Claro Arena",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -3606,7 +3615,10 @@
               "local": "O'Higgins",
               "visita": "Everton",
               "estadio": "Estadio El Teniente",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -3728,27 +3740,27 @@
             },
             {
               "pos": 2,
-              "equipo": "U. de Chile",
-              "pts": 7,
-              "pj": 4,
-              "pg": 2,
+              "equipo": "Unión La Calera",
+              "pts": 10,
+              "pj": 5,
+              "pg": 3,
               "pe": 1,
               "pp": 1,
-              "gf": 10,
-              "gc": 4,
-              "dif": 6
+              "gf": 5,
+              "gc": 3,
+              "dif": 2
             },
             {
               "pos": 3,
-              "equipo": "Unión La Calera",
+              "equipo": "U. de Chile",
               "pts": 7,
-              "pj": 4,
+              "pj": 5,
               "pg": 2,
               "pe": 1,
-              "pp": 1,
-              "gf": 4,
-              "gc": 3,
-              "dif": 1
+              "pp": 2,
+              "gf": 10,
+              "gc": 5,
+              "dif": 5
             },
             {
               "pos": 4,
@@ -3782,25 +3794,25 @@
             {
               "pos": 2,
               "equipo": "Coquimbo Unido",
-              "pts": 7,
-              "pj": 3,
+              "pts": 8,
+              "pj": 4,
               "pg": 2,
-              "pe": 1,
+              "pe": 2,
               "pp": 0,
-              "gf": 4,
-              "gc": 2,
+              "gf": 6,
+              "gc": 4,
               "dif": 2
             },
             {
               "pos": 3,
               "equipo": "Huachipato",
-              "pts": 4,
-              "pj": 4,
+              "pts": 5,
+              "pj": 5,
               "pg": 1,
-              "pe": 1,
+              "pe": 2,
               "pp": 2,
-              "gf": 3,
-              "gc": 4,
+              "gf": 5,
+              "gc": 6,
               "dif": -1
             },
             {
@@ -3823,25 +3835,25 @@
             {
               "pos": 1,
               "equipo": "Ñublense",
-              "pts": 10,
-              "pj": 4,
+              "pts": 11,
+              "pj": 5,
               "pg": 3,
-              "pe": 1,
+              "pe": 2,
               "pp": 0,
-              "gf": 6,
-              "gc": 1,
+              "gf": 7,
+              "gc": 2,
               "dif": 5
             },
             {
               "pos": 2,
               "equipo": "U. Católica",
-              "pts": 7,
-              "pj": 4,
+              "pts": 8,
+              "pj": 5,
               "pg": 2,
-              "pe": 1,
+              "pe": 2,
               "pp": 1,
-              "gf": 7,
-              "gc": 5,
+              "gf": 8,
+              "gc": 6,
               "dif": 2
             },
             {
@@ -3877,16 +3889,28 @@
               "pos": 1,
               "equipo": "O'Higgins",
               "pts": 8,
-              "pj": 4,
+              "pj": 5,
               "pg": 2,
               "pe": 2,
-              "pp": 0,
+              "pp": 1,
               "gf": 7,
-              "gc": 4,
-              "dif": 3
+              "gc": 5,
+              "dif": 2
             },
             {
               "pos": 2,
+              "equipo": "Everton",
+              "pts": 7,
+              "pj": 5,
+              "pg": 2,
+              "pe": 1,
+              "pp": 2,
+              "gf": 7,
+              "gc": 7,
+              "dif": 0
+            },
+            {
+              "pos": 3,
               "equipo": "D. Limache",
               "pts": 6,
               "pj": 4,
@@ -3896,18 +3920,6 @@
               "gf": 5,
               "gc": 4,
               "dif": 1
-            },
-            {
-              "pos": 3,
-              "equipo": "Everton",
-              "pts": 4,
-              "pj": 4,
-              "pg": 1,
-              "pe": 1,
-              "pp": 2,
-              "gf": 6,
-              "gc": 7,
-              "dif": -1
             },
             {
               "pos": 4,
@@ -5118,7 +5130,10 @@
               "local": "Deportes Antofagasta",
               "visita": "San Luis de Quillota",
               "estadio": "Estadio Regional Calvo y Bascuñán",
-              "resultado": null,
+              "resultado": [
+                "3",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -5128,7 +5143,10 @@
               "local": "Deportes Copiapó",
               "visita": "Unión San Felipe",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "1"
+              ],
               "prob": null
             },
             {
