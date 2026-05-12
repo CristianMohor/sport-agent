@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-05-11",
+  "actualizado": "2026-05-12",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -3528,7 +3528,7 @@
         {
           "numero": 5,
           "nombre": "Fecha 5",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f5-01",
@@ -3628,7 +3628,10 @@
               "local": "Palestino",
               "visita": "D. Limache",
               "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": null,
+              "resultado": [
+                "3",
+                "2"
+              ],
               "prob": null
             }
           ]
@@ -3901,16 +3904,28 @@
               "pos": 2,
               "equipo": "D. Limache",
               "pts": 6,
-              "pj": 4,
+              "pj": 5,
               "pg": 1,
               "pe": 3,
-              "pp": 0,
-              "gf": 5,
-              "gc": 4,
-              "dif": 1
+              "pp": 1,
+              "gf": 7,
+              "gc": 7,
+              "dif": 0
             },
             {
               "pos": 3,
+              "equipo": "Palestino",
+              "pts": 5,
+              "pj": 5,
+              "pg": 1,
+              "pe": 2,
+              "pp": 2,
+              "gf": 8,
+              "gc": 10,
+              "dif": -2
+            },
+            {
+              "pos": 4,
               "equipo": "Everton",
               "pts": 4,
               "pj": 5,
@@ -3920,18 +3935,6 @@
               "gf": 7,
               "gc": 9,
               "dif": -2
-            },
-            {
-              "pos": 4,
-              "equipo": "Palestino",
-              "pts": 2,
-              "pj": 4,
-              "pg": 0,
-              "pe": 2,
-              "pp": 2,
-              "gf": 5,
-              "gc": 8,
-              "dif": -3
             }
           ]
         }
@@ -5056,7 +5059,7 @@
         {
           "numero": 11,
           "nombre": "Fecha 11",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f11-01",
@@ -5156,7 +5159,10 @@
               "local": "Curicó Unido",
               "visita": "San Marcos de Arica",
               "estadio": "Estadio Bicentenario La Granja",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "2"
+              ],
               "prob": null
             }
           ]
