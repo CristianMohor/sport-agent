@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-05-13",
+  "actualizado": "2026-05-14",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -3420,7 +3420,7 @@
         {
           "numero": 4,
           "nombre": "Fecha 4",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f4-01",
@@ -3520,7 +3520,10 @@
               "local": "Coquimbo Unido",
               "visita": "Colo Colo",
               "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             }
           ]
@@ -3784,27 +3787,27 @@
           "tabla": [
             {
               "pos": 1,
-              "equipo": "Colo Colo",
-              "pts": 10,
-              "pj": 4,
+              "equipo": "Coquimbo Unido",
+              "pts": 11,
+              "pj": 5,
               "pg": 3,
-              "pe": 1,
+              "pe": 2,
               "pp": 0,
-              "gf": 8,
-              "gc": 3,
-              "dif": 5
+              "gf": 7,
+              "gc": 4,
+              "dif": 3
             },
             {
               "pos": 2,
-              "equipo": "Coquimbo Unido",
-              "pts": 8,
-              "pj": 4,
-              "pg": 2,
-              "pe": 2,
-              "pp": 0,
-              "gf": 6,
+              "equipo": "Colo Colo",
+              "pts": 10,
+              "pj": 5,
+              "pg": 3,
+              "pe": 1,
+              "pp": 1,
+              "gf": 8,
               "gc": 4,
-              "dif": 2
+              "dif": 4
             },
             {
               "pos": 3,
