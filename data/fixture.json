@@ -5179,7 +5179,7 @@
         {
           "numero": 12,
           "nombre": "Fecha 12",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f12-01",
@@ -5188,7 +5188,10 @@
               "local": "Magallanes",
               "visita": "Deportes Recoleta",
               "estadio": "Estadio Municipal Luis Navarro Avilés",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
