@@ -1267,7 +1267,10 @@
               "local": "O'Higgins",
               "visita": "U. Concepción",
               "estadio": "Estadio El Teniente",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5202,7 +5205,7 @@
               "visita": "Deportes Copiapó",
               "estadio": "Estadio Zorros del Desierto",
               "resultado": [
-                "3",
+                "4",
                 "1"
               ],
               "prob": null
@@ -5216,7 +5219,7 @@
               "estadio": "Estadio Municipal de San Felipe",
               "resultado": [
                 "2",
-                "0"
+                "1"
               ],
               "prob": null
             },
@@ -5227,7 +5230,10 @@
               "local": "Curicó Unido",
               "visita": "Santiago Wanderers",
               "estadio": "Estadio Bicentenario La Granja",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
