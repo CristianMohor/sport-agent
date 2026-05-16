@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-05-15",
+  "actualizado": "2026-05-16",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1232,7 +1232,7 @@
         {
           "numero": 12,
           "nombre": "Fecha 12",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f12-01",
@@ -1241,7 +1241,10 @@
               "local": "Coquimbo Unido",
               "visita": "Audax Italiano",
               "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -1251,7 +1254,10 @@
               "local": "Palestino",
               "visita": "D. La Serena",
               "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": null,
+              "resultado": [
+                "3",
+                "0"
+              ],
               "prob": null
             },
             {
