@@ -1253,7 +1253,7 @@
               "hora": "20:00",
               "local": "Palestino",
               "visita": "D. La Serena",
-              "estadio": "Estadio Municipal de La Cisterna",
+              "estadio": "Estadio Santa Laura",
               "resultado": [
                 "5",
                 "1"
@@ -1405,7 +1405,7 @@
             },
             {
               "id": "f13-08",
-              "fecha": "2026-06-10",
+              "fecha": "2026-06-18",
               "hora": "20:00",
               "local": "U. de Chile",
               "visita": "O'Higgins",
