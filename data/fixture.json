@@ -1293,7 +1293,10 @@
               "local": "Huachipato",
               "visita": "Unión La Calera",
               "estadio": "Estadio CAP",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
