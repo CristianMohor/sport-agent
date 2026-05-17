@@ -1306,7 +1306,10 @@
               "local": "Cobresal",
               "visita": "U. de Chile",
               "estadio": "Estadio El Cobre",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5249,7 +5252,10 @@
               "local": "San Luis de Quillota",
               "visita": "Deportes Puerto Montt",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "1"
+              ],
               "prob": null
             },
             {
