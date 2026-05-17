@@ -1319,7 +1319,10 @@
               "local": "Colo Colo",
               "visita": "Ñublense",
               "estadio": "Estadio Monumental David Arellano",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5253,7 +5256,7 @@
               "visita": "Deportes Puerto Montt",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
               "resultado": [
-                "3",
+                "4",
                 "1"
               ],
               "prob": null
@@ -5265,7 +5268,10 @@
               "local": "San Marcos de Arica",
               "visita": "Deportes Antofagasta",
               "estadio": "Estadio Carlos Dittborn",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
