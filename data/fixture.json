@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-05-17",
+  "actualizado": "2026-05-18",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1232,7 +1232,7 @@
         {
           "numero": 12,
           "nombre": "Fecha 12",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f12-01",
@@ -1332,7 +1332,10 @@
               "local": "D. Concepción",
               "visita": "Everton",
               "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "2"
+              ],
               "prob": null
             }
           ]
