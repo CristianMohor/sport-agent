@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-05-18",
+  "actualizado": "2026-05-19",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -5197,7 +5197,7 @@
         {
           "numero": 12,
           "nombre": "Fecha 12",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f12-01",
@@ -5284,7 +5284,10 @@
               "local": "Deportes Santa Cruz",
               "visita": "Deportes Temuco",
               "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "3"
+              ],
               "prob": null
             },
             {
@@ -5294,7 +5297,10 @@
               "local": "Unión Española",
               "visita": "Deportes Iquique",
               "estadio": "Estadio Santa Laura",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "1"
+              ],
               "prob": null
             }
           ]
