@@ -5308,7 +5308,7 @@
         {
           "numero": 13,
           "nombre": "Fecha 13",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f13-01",
@@ -5317,7 +5317,10 @@
               "local": "Deportes Recoleta",
               "visita": "Cobreloa",
               "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
