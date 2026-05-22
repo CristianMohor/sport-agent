@@ -1343,7 +1343,7 @@
         {
           "numero": 13,
           "nombre": "Fecha 13",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f13-01",
@@ -1352,7 +1352,10 @@
               "local": "Everton",
               "visita": "Coquimbo Unido",
               "estadio": "Estadio Sausalito",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
