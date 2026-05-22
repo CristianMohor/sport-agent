@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-05-21",
+  "actualizado": "2026-05-22",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -5318,8 +5318,8 @@
               "visita": "Cobreloa",
               "estadio": "Estadio Municipal de Recoleta",
               "resultado": [
-                "1",
-                "0"
+                "2",
+                "2"
               ],
               "prob": null
             },
@@ -5540,7 +5540,7 @@
             {
               "id": "f15-06",
               "fecha": "2026-06-07",
-              "hora": "15:00",
+              "hora": "15:30",
               "local": "Deportes Antofagasta",
               "visita": "Magallanes",
               "estadio": "Estadio Regional Calvo y Bascuñán",
