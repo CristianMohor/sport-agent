@@ -1365,7 +1365,10 @@
               "local": "Audax Italiano",
               "visita": "Cobresal",
               "estadio": "Estadio Bicentenario Municipal de La Florida",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
