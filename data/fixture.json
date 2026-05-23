@@ -5352,7 +5352,10 @@
               "local": "Deportes Iquique",
               "visita": "Curicó Unido",
               "estadio": "Estadio Tierra de Campeones",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
