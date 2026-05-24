@@ -1417,7 +1417,10 @@
               "local": "D. La Serena",
               "visita": "D. Limache",
               "estadio": "Estadio La Portada",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5397,7 +5400,10 @@
               "local": "Deportes Puerto Montt",
               "visita": "San Marcos de Arica",
               "estadio": "Estadio Regional de Chinquihue",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "2"
+              ],
               "prob": null
             },
             {
