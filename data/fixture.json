@@ -1430,7 +1430,10 @@
               "local": "U. Católica",
               "visita": "Colo Colo",
               "estadio": "Claro Arena",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "1"
+              ],
               "prob": null
             },
             {
