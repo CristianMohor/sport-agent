@@ -1404,7 +1404,10 @@
               "local": "D. Concepción",
               "visita": "Huachipato",
               "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5381,7 +5384,10 @@
               "local": "Deportes Antofagasta",
               "visita": "Deportes Santa Cruz",
               "estadio": "Estadio Regional Calvo y Bascuñán",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
