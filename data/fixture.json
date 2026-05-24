@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-05-23",
+  "actualizado": "2026-05-24",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1391,7 +1391,10 @@
               "local": "Unión La Calera",
               "visita": "Palestino",
               "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "2"
+              ],
               "prob": null
             },
             {
@@ -5365,7 +5368,10 @@
               "local": "Deportes Temuco",
               "visita": "Unión San Felipe",
               "estadio": "Estadio Municipal Germán Becker",
-              "resultado": null,
+              "resultado": [
+                "5",
+                "0"
+              ],
               "prob": null
             },
             {
