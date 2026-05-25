@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-05-24",
+  "actualizado": "2026-05-25",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -5416,7 +5416,10 @@
               "local": "San Luis de Quillota",
               "visita": "Magallanes",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "1"
+              ],
               "prob": null
             },
             {
