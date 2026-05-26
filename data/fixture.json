@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-05-25",
+  "actualizado": "2026-05-26",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -5329,7 +5329,7 @@
         {
           "numero": 13,
           "nombre": "Fecha 13",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f13-01",
@@ -5429,7 +5429,10 @@
               "local": "Deportes Copiapó",
               "visita": "Unión Española",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
-              "resultado": null,
+              "resultado": [
+                "3",
+                "1"
+              ],
               "prob": null
             }
           ]
