@@ -5455,20 +5455,20 @@
             {
               "id": "f14-02",
               "fecha": "2026-05-30",
-              "hora": "15:00",
-              "local": "Unión San Felipe",
-              "visita": "Deportes Puerto Montt",
-              "estadio": "Estadio Municipal de San Felipe",
+              "hora": "12:30",
+              "local": "Santiago Wanderers",
+              "visita": "Unión Española",
+              "estadio": "Estadio Elías Figueroa Brander",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f14-03",
               "fecha": "2026-05-30",
-              "hora": "17:30",
-              "local": "Santiago Wanderers",
-              "visita": "Unión Española",
-              "estadio": "Estadio Elías Figueroa Brander",
+              "hora": "15:00",
+              "local": "Unión San Felipe",
+              "visita": "Deportes Puerto Montt",
+              "estadio": "Estadio Municipal de San Felipe",
               "resultado": null,
               "prob": null
             },
