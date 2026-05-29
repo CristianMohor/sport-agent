@@ -1451,7 +1451,7 @@
         {
           "numero": 14,
           "nombre": "Fecha 14",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f14-01",
@@ -1460,7 +1460,10 @@
               "local": "Cobresal",
               "visita": "Ñublense",
               "estadio": "Estadio El Cobre",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
