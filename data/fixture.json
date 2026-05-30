@@ -1499,7 +1499,10 @@
               "local": "U. de Chile",
               "visita": "D. Concepción",
               "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
