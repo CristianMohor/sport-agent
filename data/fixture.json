@@ -1486,7 +1486,10 @@
               "local": "D. La Serena",
               "visita": "Colo Colo",
               "estadio": "Estadio La Portada",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -5481,7 +5484,10 @@
               "local": "Unión San Felipe",
               "visita": "Deportes Puerto Montt",
               "estadio": "Estadio Municipal de San Felipe",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
