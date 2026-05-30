@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-05-29",
+  "actualizado": "2026-05-30",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1473,7 +1473,10 @@
               "local": "U. Concepción",
               "visita": "Unión La Calera",
               "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
