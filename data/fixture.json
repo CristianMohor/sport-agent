@@ -5446,7 +5446,7 @@
         {
           "numero": 14,
           "nombre": "Fecha 14",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f14-01",
@@ -5455,7 +5455,10 @@
               "local": "Deportes Recoleta",
               "visita": "San Luis de Quillota",
               "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5465,7 +5468,10 @@
               "local": "Santiago Wanderers",
               "visita": "Unión Española",
               "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
