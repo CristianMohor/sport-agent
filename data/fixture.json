@@ -1525,7 +1525,10 @@
               "local": "Huachipato",
               "visita": "U. Católica",
               "estadio": "Estadio CAP",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
