@@ -1538,7 +1538,10 @@
               "local": "O'Higgins",
               "visita": "Everton",
               "estadio": "Estadio El Teniente",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "2"
+              ],
               "prob": null
             },
             {
@@ -5532,7 +5535,10 @@
               "local": "Cobreloa",
               "visita": "Rangers",
               "estadio": "Estadio Zorros del Desierto",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "0"
+              ],
               "prob": null
             },
             {
