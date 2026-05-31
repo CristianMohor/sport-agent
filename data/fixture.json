@@ -1512,7 +1512,10 @@
               "local": "D. Limache",
               "visita": "Coquimbo Unido",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5513,7 +5516,10 @@
               "local": "Magallanes",
               "visita": "Deportes Iquique",
               "estadio": "Estadio Municipal Luis Navarro Avilés",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
