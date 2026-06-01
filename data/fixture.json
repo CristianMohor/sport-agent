@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-05-31",
+  "actualizado": "2026-06-01",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1451,7 +1451,7 @@
         {
           "numero": 14,
           "nombre": "Fecha 14",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f14-01",
@@ -1551,7 +1551,10 @@
               "local": "Palestino",
               "visita": "Audax Italiano",
               "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             }
           ]
