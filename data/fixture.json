@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-06-01",
+  "actualizado": "2026-06-02",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -5464,7 +5464,7 @@
         {
           "numero": 14,
           "nombre": "Fecha 14",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f14-01",
@@ -5551,7 +5551,10 @@
               "local": "Deportes Santa Cruz",
               "visita": "Deportes Copiapó",
               "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5561,7 +5564,10 @@
               "local": "Curicó Unido",
               "visita": "Deportes Antofagasta",
               "estadio": "Estadio Bicentenario La Granja",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             }
           ]
