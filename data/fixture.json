@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-06-02",
+  "actualizado": "2026-06-03",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -99,8 +99,8 @@
               "visita": "Unión La Calera",
               "estadio": "Estadio Sausalito",
               "resultado": [
-                "3",
-                "0"
+                "0",
+                "1"
               ],
               "prob": null
             },
@@ -223,8 +223,8 @@
               "visita": "Cobresal",
               "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
               "resultado": [
-                "0",
-                "3"
+                "3",
+                "1"
               ],
               "prob": null
             }
