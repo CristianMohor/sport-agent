@@ -7586,6 +7586,16 @@
             {
               "id": "f3-04",
               "fecha": "2026-06-20",
+              "hora": "12:30",
+              "local": "Coquimbo Unido",
+              "visita": "Deportes Iquique",
+              "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f3-05",
+              "fecha": "2026-06-20",
               "hora": "15:00",
               "local": "Cobreloa",
               "visita": "Cobresal",
@@ -7594,7 +7604,7 @@
               "prob": null
             },
             {
-              "id": "f3-05",
+              "id": "f3-06",
               "fecha": "2026-06-20",
               "hora": "15:00",
               "local": "Deportes Copiapó",
@@ -7604,22 +7614,12 @@
               "prob": null
             },
             {
-              "id": "f3-06",
+              "id": "f3-07",
               "fecha": "2026-06-20",
               "hora": "17:30",
               "local": "Deportes Recoleta",
               "visita": "Colo Colo",
               "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f3-07",
-              "fecha": "2026-06-20",
-              "hora": "18:00",
-              "local": "Curicó Unido",
-              "visita": "Ñublense",
-              "estadio": "Estadio Bicentenario La Granja",
               "resultado": null,
               "prob": null
             },
@@ -7645,16 +7645,6 @@
             },
             {
               "id": "f3-10",
-              "fecha": "2026-06-20",
-              "hora": "20:00",
-              "local": "Coquimbo Unido",
-              "visita": "Deportes Iquique",
-              "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f3-11",
               "fecha": "2026-06-21",
               "hora": "12:30",
               "local": "Deportes Antofagasta",
@@ -7664,7 +7654,7 @@
               "prob": null
             },
             {
-              "id": "f3-12",
+              "id": "f3-11",
               "fecha": "2026-06-21",
               "hora": "12:30",
               "local": "Huachipato",
@@ -7674,7 +7664,7 @@
               "prob": null
             },
             {
-              "id": "f3-13",
+              "id": "f3-12",
               "fecha": "2026-06-21",
               "hora": "15:00",
               "local": "Deportes Temuco",
@@ -7684,12 +7674,22 @@
               "prob": null
             },
             {
-              "id": "f3-14",
+              "id": "f3-13",
               "fecha": "2026-06-21",
               "hora": "15:00",
               "local": "Unión La Calera",
               "visita": "Unión San Felipe",
               "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f3-14",
+              "fecha": "2026-06-21",
+              "hora": "16:00",
+              "local": "Curicó Unido",
+              "visita": "Ñublense",
+              "estadio": "Estadio Bicentenario La Granja",
               "resultado": null,
               "prob": null
             },
