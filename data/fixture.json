@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-06-05",
+  "actualizado": "2026-06-06",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1577,6 +1577,16 @@
             {
               "id": "f15-02",
               "fecha": "2026-06-13",
+              "hora": "12:30",
+              "local": "Coquimbo Unido",
+              "visita": "O'Higgins",
+              "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f15-03",
+              "fecha": "2026-06-13",
               "hora": "15:00",
               "local": "Everton",
               "visita": "Palestino",
@@ -1585,7 +1595,7 @@
               "prob": null
             },
             {
-              "id": "f15-03",
+              "id": "f15-04",
               "fecha": "2026-06-13",
               "hora": "17:30",
               "local": "Colo Colo",
@@ -1595,7 +1605,7 @@
               "prob": null
             },
             {
-              "id": "f15-04",
+              "id": "f15-05",
               "fecha": "2026-06-13",
               "hora": "20:00",
               "local": "Ñublense",
@@ -1605,7 +1615,7 @@
               "prob": null
             },
             {
-              "id": "f15-05",
+              "id": "f15-06",
               "fecha": "2026-06-14",
               "hora": "12:30",
               "local": "D. Concepción",
@@ -1615,7 +1625,7 @@
               "prob": null
             },
             {
-              "id": "f15-06",
+              "id": "f15-07",
               "fecha": "2026-06-14",
               "hora": "15:00",
               "local": "Unión La Calera",
@@ -1625,22 +1635,12 @@
               "prob": null
             },
             {
-              "id": "f15-07",
+              "id": "f15-08",
               "fecha": "2026-06-14",
               "hora": "17:30",
               "local": "U. Católica",
               "visita": "U. Concepción",
               "estadio": "Claro Arena",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f15-08",
-              "fecha": "2026-06-14",
-              "hora": "20:00",
-              "local": "Coquimbo Unido",
-              "visita": "O'Higgins",
-              "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
               "resultado": null,
               "prob": null
             }
@@ -3711,7 +3711,7 @@
         {
           "numero": 6,
           "nombre": "Fecha 6",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f6-01",
@@ -3720,7 +3720,10 @@
               "local": "D. Concepción",
               "visita": "Coquimbo Unido",
               "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "2"
+              ],
               "prob": null
             },
             {
@@ -3857,14 +3860,14 @@
             {
               "pos": 1,
               "equipo": "Coquimbo Unido",
-              "pts": 11,
-              "pj": 5,
-              "pg": 3,
+              "pts": 14,
+              "pj": 6,
+              "pg": 4,
               "pe": 2,
               "pp": 0,
-              "gf": 7,
-              "gc": 4,
-              "dif": 3
+              "gf": 9,
+              "gc": 5,
+              "dif": 4
             },
             {
               "pos": 2,
@@ -3894,13 +3897,13 @@
               "pos": 4,
               "equipo": "D. Concepción",
               "pts": 1,
-              "pj": 5,
+              "pj": 6,
               "pg": 0,
               "pe": 1,
-              "pp": 4,
-              "gf": 5,
-              "gc": 11,
-              "dif": -6
+              "pp": 5,
+              "gf": 6,
+              "gc": 13,
+              "dif": -7
             }
           ]
         },
@@ -5575,7 +5578,7 @@
         {
           "numero": 15,
           "nombre": "Fecha 15",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f15-01",
@@ -5584,7 +5587,10 @@
               "local": "San Luis de Quillota",
               "visita": "San Marcos de Arica",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
