@@ -3733,7 +3733,10 @@
               "local": "Ñublense",
               "visita": "U. Concepción",
               "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -3743,7 +3746,10 @@
               "local": "U. Católica",
               "visita": "Cobresal",
               "estadio": "Claro Arena",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -3913,49 +3919,49 @@
             {
               "pos": 1,
               "equipo": "Ñublense",
-              "pts": 11,
-              "pj": 5,
-              "pg": 3,
+              "pts": 14,
+              "pj": 6,
+              "pg": 4,
               "pe": 2,
               "pp": 0,
-              "gf": 7,
+              "gf": 8,
               "gc": 2,
-              "dif": 5
+              "dif": 6
             },
             {
               "pos": 2,
               "equipo": "U. Católica",
-              "pts": 8,
-              "pj": 5,
+              "pts": 9,
+              "pj": 6,
               "pg": 2,
-              "pe": 2,
+              "pe": 3,
               "pp": 1,
-              "gf": 8,
-              "gc": 6,
+              "gf": 9,
+              "gc": 7,
               "dif": 2
             },
             {
               "pos": 3,
-              "equipo": "U. Concepción",
-              "pts": 4,
-              "pj": 5,
+              "equipo": "Cobresal",
+              "pts": 5,
+              "pj": 6,
               "pg": 1,
-              "pe": 1,
+              "pe": 2,
               "pp": 3,
               "gf": 6,
-              "gc": 9,
-              "dif": -3
+              "gc": 10,
+              "dif": -4
             },
             {
               "pos": 4,
-              "equipo": "Cobresal",
+              "equipo": "U. Concepción",
               "pts": 4,
-              "pj": 5,
+              "pj": 6,
               "pg": 1,
               "pe": 1,
-              "pp": 3,
-              "gf": 5,
-              "gc": 9,
+              "pp": 4,
+              "gf": 6,
+              "gc": 10,
               "dif": -4
             }
           ]
