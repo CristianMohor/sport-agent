@@ -5600,7 +5600,10 @@
               "local": "Deportes Copiapó",
               "visita": "Santiago Wanderers",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5610,7 +5613,10 @@
               "local": "Deportes Puerto Montt",
               "visita": "Cobreloa",
               "estadio": "Estadio Regional de Chinquihue",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
