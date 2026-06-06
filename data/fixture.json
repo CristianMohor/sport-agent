@@ -5601,7 +5601,7 @@
               "visita": "Santiago Wanderers",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
               "resultado": [
-                "0",
+                "1",
                 "0"
               ],
               "prob": null
@@ -5614,8 +5614,8 @@
               "visita": "Cobreloa",
               "estadio": "Estadio Regional de Chinquihue",
               "resultado": [
-                "0",
-                "0"
+                "1",
+                "1"
               ],
               "prob": null
             },
