@@ -3734,8 +3734,8 @@
               "visita": "U. Concepción",
               "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
               "resultado": [
-                "1",
-                "0"
+                "2",
+                "1"
               ],
               "prob": null
             },
@@ -3747,7 +3747,7 @@
               "visita": "Cobresal",
               "estadio": "Claro Arena",
               "resultado": [
-                "1",
+                "5",
                 "1"
               ],
               "prob": null
@@ -3924,45 +3924,45 @@
               "pg": 4,
               "pe": 2,
               "pp": 0,
-              "gf": 8,
-              "gc": 2,
+              "gf": 9,
+              "gc": 3,
               "dif": 6
             },
             {
               "pos": 2,
               "equipo": "U. Católica",
-              "pts": 9,
+              "pts": 11,
               "pj": 6,
-              "pg": 2,
-              "pe": 3,
+              "pg": 3,
+              "pe": 2,
               "pp": 1,
-              "gf": 9,
+              "gf": 13,
               "gc": 7,
-              "dif": 2
+              "dif": 6
             },
             {
               "pos": 3,
-              "equipo": "Cobresal",
-              "pts": 5,
-              "pj": 6,
-              "pg": 1,
-              "pe": 2,
-              "pp": 3,
-              "gf": 6,
-              "gc": 10,
-              "dif": -4
-            },
-            {
-              "pos": 4,
               "equipo": "U. Concepción",
               "pts": 4,
               "pj": 6,
               "pg": 1,
               "pe": 1,
               "pp": 4,
-              "gf": 6,
-              "gc": 10,
+              "gf": 7,
+              "gc": 11,
               "dif": -4
+            },
+            {
+              "pos": 4,
+              "equipo": "Cobresal",
+              "pts": 4,
+              "pj": 6,
+              "pg": 1,
+              "pe": 1,
+              "pp": 4,
+              "gf": 6,
+              "gc": 14,
+              "dif": -8
             }
           ]
         },
