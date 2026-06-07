@@ -3759,7 +3759,10 @@
               "local": "D. La Serena",
               "visita": "Unión La Calera",
               "estadio": "Estadio La Portada",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -3769,7 +3772,10 @@
               "local": "U. de Chile",
               "visita": "Audax Italiano",
               "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -3813,10 +3819,10 @@
             {
               "pos": 1,
               "equipo": "Audax Italiano",
-              "pts": 10,
-              "pj": 5,
+              "pts": 11,
+              "pj": 6,
               "pg": 3,
-              "pe": 1,
+              "pe": 2,
               "pp": 1,
               "gf": 10,
               "gc": 7,
@@ -3825,10 +3831,10 @@
             {
               "pos": 2,
               "equipo": "Unión La Calera",
-              "pts": 10,
-              "pj": 5,
+              "pts": 11,
+              "pj": 6,
               "pg": 3,
-              "pe": 1,
+              "pe": 2,
               "pp": 1,
               "gf": 5,
               "gc": 3,
@@ -3837,10 +3843,10 @@
             {
               "pos": 3,
               "equipo": "U. de Chile",
-              "pts": 7,
-              "pj": 5,
+              "pts": 8,
+              "pj": 6,
               "pg": 2,
-              "pe": 1,
+              "pe": 2,
               "pp": 2,
               "gf": 10,
               "gc": 5,
@@ -3849,10 +3855,10 @@
             {
               "pos": 4,
               "equipo": "D. La Serena",
-              "pts": 1,
-              "pj": 5,
+              "pts": 2,
+              "pj": 6,
               "pg": 0,
-              "pe": 1,
+              "pe": 2,
               "pp": 4,
               "gf": 6,
               "gc": 16,
