@@ -3761,7 +3761,7 @@
               "estadio": "Estadio La Portada",
               "resultado": [
                 "0",
-                "0"
+                "2"
               ],
               "prob": null
             },
@@ -3773,8 +3773,8 @@
               "visita": "Audax Italiano",
               "estadio": "Estadio Nacional Julio Martínez Prádanos",
               "resultado": [
-                "0",
-                "0"
+                "1",
+                "2"
               ],
               "prob": null
             },
@@ -3819,50 +3819,50 @@
             {
               "pos": 1,
               "equipo": "Audax Italiano",
-              "pts": 11,
+              "pts": 13,
               "pj": 6,
-              "pg": 3,
-              "pe": 2,
+              "pg": 4,
+              "pe": 1,
               "pp": 1,
-              "gf": 10,
-              "gc": 7,
-              "dif": 3
+              "gf": 12,
+              "gc": 8,
+              "dif": 4
             },
             {
               "pos": 2,
               "equipo": "Unión La Calera",
-              "pts": 11,
+              "pts": 13,
               "pj": 6,
-              "pg": 3,
-              "pe": 2,
+              "pg": 4,
+              "pe": 1,
               "pp": 1,
-              "gf": 5,
+              "gf": 7,
               "gc": 3,
-              "dif": 2
+              "dif": 4
             },
             {
               "pos": 3,
               "equipo": "U. de Chile",
-              "pts": 8,
+              "pts": 7,
               "pj": 6,
               "pg": 2,
-              "pe": 2,
-              "pp": 2,
-              "gf": 10,
-              "gc": 5,
-              "dif": 5
+              "pe": 1,
+              "pp": 3,
+              "gf": 11,
+              "gc": 7,
+              "dif": 4
             },
             {
               "pos": 4,
               "equipo": "D. La Serena",
-              "pts": 2,
+              "pts": 1,
               "pj": 6,
               "pg": 0,
-              "pe": 2,
-              "pp": 4,
+              "pe": 1,
+              "pp": 5,
               "gf": 6,
-              "gc": 16,
-              "dif": -10
+              "gc": 18,
+              "dif": -12
             }
           ]
         },
