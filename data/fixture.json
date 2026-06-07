@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-06-06",
+  "actualizado": "2026-06-07",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -5632,7 +5632,10 @@
               "local": "Deportes Iquique",
               "visita": "Deportes Recoleta",
               "estadio": "Estadio Tierra de Campeones",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -5642,7 +5645,10 @@
               "local": "Rangers",
               "visita": "Deportes Santa Cruz",
               "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
