@@ -3786,7 +3786,7 @@
               "visita": "Colo Colo",
               "estadio": "Estadio CAP",
               "resultado": [
-                "0",
+                "1",
                 "0"
               ],
               "prob": null
@@ -3887,26 +3887,26 @@
             {
               "pos": 2,
               "equipo": "Colo Colo",
-              "pts": 11,
+              "pts": 10,
               "pj": 6,
               "pg": 3,
-              "pe": 2,
-              "pp": 1,
+              "pe": 1,
+              "pp": 2,
               "gf": 8,
-              "gc": 4,
-              "dif": 4
+              "gc": 5,
+              "dif": 3
             },
             {
               "pos": 3,
               "equipo": "Huachipato",
-              "pts": 6,
+              "pts": 8,
               "pj": 6,
-              "pg": 1,
-              "pe": 3,
+              "pg": 2,
+              "pe": 2,
               "pp": 2,
-              "gf": 5,
+              "gf": 6,
               "gc": 6,
-              "dif": -1
+              "dif": 0
             },
             {
               "pos": 4,
@@ -5667,7 +5667,10 @@
               "local": "Deportes Antofagasta",
               "visita": "Magallanes",
               "estadio": "Estadio Regional Calvo y Bascuñán",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
