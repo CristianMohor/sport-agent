@@ -3711,7 +3711,7 @@
         {
           "numero": 6,
           "nombre": "Fecha 6",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f6-01",
@@ -3798,7 +3798,10 @@
               "local": "D. Limache",
               "visita": "Everton",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -3808,7 +3811,10 @@
               "local": "O'Higgins",
               "visita": "Palestino",
               "estadio": "Estadio El Teniente",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "0"
+              ],
               "prob": null
             }
           ]
@@ -3981,22 +3987,22 @@
             {
               "pos": 1,
               "equipo": "O'Higgins",
-              "pts": 11,
-              "pj": 5,
-              "pg": 3,
+              "pts": 14,
+              "pj": 6,
+              "pg": 4,
               "pe": 2,
               "pp": 0,
-              "gf": 9,
+              "gf": 11,
               "gc": 5,
-              "dif": 4
+              "dif": 6
             },
             {
               "pos": 2,
               "equipo": "D. Limache",
-              "pts": 6,
-              "pj": 5,
+              "pts": 7,
+              "pj": 6,
               "pg": 1,
-              "pe": 3,
+              "pe": 4,
               "pp": 1,
               "gf": 7,
               "gc": 7,
@@ -4004,27 +4010,27 @@
             },
             {
               "pos": 3,
-              "equipo": "Palestino",
+              "equipo": "Everton",
               "pts": 5,
-              "pj": 5,
+              "pj": 6,
               "pg": 1,
               "pe": 2,
-              "pp": 2,
-              "gf": 8,
-              "gc": 10,
-              "dif": -2
-            },
-            {
-              "pos": 4,
-              "equipo": "Everton",
-              "pts": 4,
-              "pj": 5,
-              "pg": 1,
-              "pe": 1,
               "pp": 3,
               "gf": 7,
               "gc": 9,
               "dif": -2
+            },
+            {
+              "pos": 4,
+              "equipo": "Palestino",
+              "pts": 5,
+              "pj": 6,
+              "pg": 1,
+              "pe": 2,
+              "pp": 3,
+              "gf": 8,
+              "gc": 12,
+              "dif": -4
             }
           ]
         }
