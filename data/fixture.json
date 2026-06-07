@@ -3773,7 +3773,7 @@
               "visita": "Audax Italiano",
               "estadio": "Estadio Nacional Julio Martínez Prádanos",
               "resultado": [
-                "1",
+                "2",
                 "2"
               ],
               "prob": null
@@ -3785,7 +3785,10 @@
               "local": "Huachipato",
               "visita": "Colo Colo",
               "estadio": "Estadio CAP",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -3818,18 +3821,6 @@
           "tabla": [
             {
               "pos": 1,
-              "equipo": "Audax Italiano",
-              "pts": 13,
-              "pj": 6,
-              "pg": 4,
-              "pe": 1,
-              "pp": 1,
-              "gf": 12,
-              "gc": 8,
-              "dif": 4
-            },
-            {
-              "pos": 2,
               "equipo": "Unión La Calera",
               "pts": 13,
               "pj": 6,
@@ -3841,16 +3832,28 @@
               "dif": 4
             },
             {
+              "pos": 2,
+              "equipo": "Audax Italiano",
+              "pts": 11,
+              "pj": 6,
+              "pg": 3,
+              "pe": 2,
+              "pp": 1,
+              "gf": 12,
+              "gc": 9,
+              "dif": 3
+            },
+            {
               "pos": 3,
               "equipo": "U. de Chile",
-              "pts": 7,
+              "pts": 8,
               "pj": 6,
               "pg": 2,
-              "pe": 1,
-              "pp": 3,
-              "gf": 11,
+              "pe": 2,
+              "pp": 2,
+              "gf": 12,
               "gc": 7,
-              "dif": 4
+              "dif": 5
             },
             {
               "pos": 4,
@@ -3884,10 +3887,10 @@
             {
               "pos": 2,
               "equipo": "Colo Colo",
-              "pts": 10,
-              "pj": 5,
+              "pts": 11,
+              "pj": 6,
               "pg": 3,
-              "pe": 1,
+              "pe": 2,
               "pp": 1,
               "gf": 8,
               "gc": 4,
@@ -3896,10 +3899,10 @@
             {
               "pos": 3,
               "equipo": "Huachipato",
-              "pts": 5,
-              "pj": 5,
+              "pts": 6,
+              "pj": 6,
               "pg": 1,
-              "pe": 2,
+              "pe": 3,
               "pp": 2,
               "gf": 5,
               "gc": 6,
