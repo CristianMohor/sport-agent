@@ -3800,7 +3800,7 @@
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
               "resultado": [
                 "0",
-                "0"
+                "1"
               ],
               "prob": null
             },
@@ -3813,7 +3813,7 @@
               "estadio": "Estadio El Teniente",
               "resultado": [
                 "2",
-                "0"
+                "1"
               ],
               "prob": null
             }
@@ -3993,32 +3993,32 @@
               "pe": 2,
               "pp": 0,
               "gf": 11,
-              "gc": 5,
-              "dif": 6
+              "gc": 6,
+              "dif": 5
             },
             {
               "pos": 2,
-              "equipo": "D. Limache",
+              "equipo": "Everton",
               "pts": 7,
               "pj": 6,
-              "pg": 1,
-              "pe": 4,
-              "pp": 1,
-              "gf": 7,
-              "gc": 7,
-              "dif": 0
+              "pg": 2,
+              "pe": 1,
+              "pp": 3,
+              "gf": 8,
+              "gc": 9,
+              "dif": -1
             },
             {
               "pos": 3,
-              "equipo": "Everton",
-              "pts": 5,
+              "equipo": "D. Limache",
+              "pts": 6,
               "pj": 6,
               "pg": 1,
-              "pe": 2,
-              "pp": 3,
+              "pe": 3,
+              "pp": 2,
               "gf": 7,
-              "gc": 9,
-              "dif": -2
+              "gc": 8,
+              "dif": -1
             },
             {
               "pos": 4,
@@ -4028,9 +4028,9 @@
               "pg": 1,
               "pe": 2,
               "pp": 3,
-              "gf": 8,
+              "gf": 9,
               "gc": 12,
-              "dif": -4
+              "dif": -3
             }
           ]
         }
