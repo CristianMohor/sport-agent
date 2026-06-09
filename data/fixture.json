@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-06-08",
+  "actualizado": "2026-06-09",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -5599,7 +5599,7 @@
         {
           "numero": 15,
           "nombre": "Fecha 15",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f15-01",
@@ -5686,7 +5686,10 @@
               "local": "Deportes Temuco",
               "visita": "Curicó Unido",
               "estadio": "Estadio Municipal Germán Becker",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -5696,7 +5699,10 @@
               "local": "Unión Española",
               "visita": "Unión San Felipe",
               "estadio": "Estadio Santa Laura",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "2"
+              ],
               "prob": null
             }
           ]
