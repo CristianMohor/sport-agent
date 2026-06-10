@@ -7998,6 +7998,16 @@
             {
               "id": "f5-07",
               "fecha": "2026-07-05",
+              "hora": "12:30",
+              "local": "D. La Serena",
+              "visita": "Deportes Antofagasta",
+              "estadio": "Estadio La Portada",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f5-08",
+              "fecha": "2026-07-05",
               "hora": "15:00",
               "local": "U. Concepción",
               "visita": "Rangers",
@@ -8006,7 +8016,7 @@
               "prob": null
             },
             {
-              "id": "f5-08",
+              "id": "f5-09",
               "fecha": "2026-07-05",
               "hora": "15:00",
               "local": "Cobresal",
@@ -8016,22 +8026,12 @@
               "prob": null
             },
             {
-              "id": "f5-09",
+              "id": "f5-10",
               "fecha": "2026-07-05",
               "hora": "15:00",
               "local": "Ñublense",
               "visita": "Curicó Unido",
               "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f5-10",
-              "fecha": "2026-07-05",
-              "hora": "15:00",
-              "local": "D. La Serena",
-              "visita": "Deportes Antofagasta",
-              "estadio": "Estadio La Portada",
               "resultado": null,
               "prob": null
             },
