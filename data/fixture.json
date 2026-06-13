@@ -1610,7 +1610,10 @@
               "local": "Colo Colo",
               "visita": "Cobresal",
               "estadio": "Estadio Monumental David Arellano",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "0"
+              ],
               "prob": null
             },
             {
