@@ -1597,7 +1597,10 @@
               "local": "Everton",
               "visita": "Palestino",
               "estadio": "Estadio Sausalito",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "2"
+              ],
               "prob": null
             },
             {
