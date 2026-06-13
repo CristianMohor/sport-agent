@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-06-12",
+  "actualizado": "2026-06-13",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1562,7 +1562,7 @@
         {
           "numero": 15,
           "nombre": "Fecha 15",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f15-01",
@@ -1571,7 +1571,10 @@
               "local": "Audax Italiano",
               "visita": "D. La Serena",
               "estadio": "Estadio Bicentenario Municipal de La Florida",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
