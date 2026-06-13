@@ -1584,7 +1584,10 @@
               "local": "Coquimbo Unido",
               "visita": "O'Higgins",
               "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
