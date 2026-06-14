@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-06-13",
+  "actualizado": "2026-06-14",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -77,45 +77,6 @@
                 "2"
               ],
               "prob": null
-            },
-            {
-              "id": "f1-06",
-              "fecha": "2026-02-01",
-              "hora": "19:30",
-              "local": "Palestino",
-              "visita": "Ñublense",
-              "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f1-07",
-              "fecha": "2026-02-02",
-              "hora": "17:00",
-              "local": "Everton",
-              "visita": "Unión La Calera",
-              "estadio": "Estadio Sausalito",
-              "resultado": [
-                "0",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f1-08",
-              "fecha": "2026-02-02",
-              "hora": "19:30",
-              "local": "O'Higgins",
-              "visita": "D. Concepción",
-              "estadio": "Estadio El Teniente",
-              "resultado": [
-                "2",
-                "1"
-              ],
-              "prob": null
             }
           ]
         },
@@ -185,45 +146,6 @@
               "estadio": "Estadio CAP",
               "resultado": [
                 "2",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f2-06",
-              "fecha": "2026-02-08",
-              "hora": "17:00",
-              "local": "Ñublense",
-              "visita": "D. Limache",
-              "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f2-07",
-              "fecha": "2026-02-08",
-              "hora": "19:30",
-              "local": "U. Católica",
-              "visita": "D. Concepción",
-              "estadio": "Claro Arena",
-              "resultado": [
-                "2",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f2-08",
-              "fecha": "2026-02-09",
-              "hora": "19:00",
-              "local": "Unión La Calera",
-              "visita": "Cobresal",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
-              "resultado": [
-                "3",
                 "1"
               ],
               "prob": null
@@ -299,45 +221,6 @@
                 "2"
               ],
               "prob": null
-            },
-            {
-              "id": "f3-06",
-              "fecha": "2026-02-15",
-              "hora": "11:00",
-              "local": "U. Concepción",
-              "visita": "D. Concepción",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": [
-                "2",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f3-07",
-              "fecha": "2026-02-15",
-              "hora": "17:00",
-              "local": "Ñublense",
-              "visita": "Audax Italiano",
-              "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": [
-                "1",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f3-08",
-              "fecha": "2026-02-15",
-              "hora": "19:30",
-              "local": "Colo Colo",
-              "visita": "Unión La Calera",
-              "estadio": "Estadio Monumental David Arellano",
-              "resultado": [
-                "1",
-                "0"
-              ],
-              "prob": null
             }
           ]
         },
@@ -410,45 +293,6 @@
                 "1"
               ],
               "prob": null
-            },
-            {
-              "id": "f4-06",
-              "fecha": "2026-02-22",
-              "hora": "11:00",
-              "local": "D. La Serena",
-              "visita": "U. Concepción",
-              "estadio": "Estadio La Portada",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f4-07",
-              "fecha": "2026-02-22",
-              "hora": "17:00",
-              "local": "Audax Italiano",
-              "visita": "Everton",
-              "estadio": "Estadio Bicentenario Municipal de La Florida",
-              "resultado": [
-                "1",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f4-08",
-              "fecha": "2026-02-22",
-              "hora": "19:30",
-              "local": "U. de Chile",
-              "visita": "D. Limache",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": [
-                "2",
-                "2"
-              ],
-              "prob": null
             }
           ]
         },
@@ -518,45 +362,6 @@
               "estadio": "Estadio Municipal de La Cisterna",
               "resultado": [
                 "4",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f5-06",
-              "fecha": "2026-03-01",
-              "hora": "11:00",
-              "local": "U. Concepción",
-              "visita": "Everton",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": [
-                "0",
-                "3"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f5-07",
-              "fecha": "2026-03-01",
-              "hora": "17:00",
-              "local": "Colo Colo",
-              "visita": "U. de Chile",
-              "estadio": "Estadio Monumental David Arellano",
-              "resultado": [
-                "0",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f5-08",
-              "fecha": "2026-03-01",
-              "hora": "19:30",
-              "local": "Ñublense",
-              "visita": "U. Católica",
-              "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": [
-                "1",
                 "2"
               ],
               "prob": null
@@ -632,45 +437,6 @@
                 "1"
               ],
               "prob": null
-            },
-            {
-              "id": "f6-06",
-              "fecha": "2026-03-07",
-              "hora": "19:30",
-              "local": "O'Higgins",
-              "visita": "U. Católica",
-              "estadio": "Estadio El Teniente",
-              "resultado": [
-                "1",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f6-07",
-              "fecha": "2026-03-08",
-              "hora": "19:30",
-              "local": "Palestino",
-              "visita": "Cobresal",
-              "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": [
-                "4",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f6-08",
-              "fecha": "2026-03-09",
-              "hora": "19:00",
-              "local": "U. de Chile",
-              "visita": "U. Concepción",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
             }
           ]
         },
@@ -721,19 +487,6 @@
             {
               "id": "f7-04",
               "fecha": "2026-03-15",
-              "hora": "11:00",
-              "local": "U. Concepción",
-              "visita": "Palestino",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": [
-                "1",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f7-05",
-              "fecha": "2026-03-15",
               "hora": "17:00",
               "local": "Cobresal",
               "visita": "D. Limache",
@@ -745,7 +498,7 @@
               "prob": null
             },
             {
-              "id": "f7-06",
+              "id": "f7-05",
               "fecha": "2026-03-15",
               "hora": "19:30",
               "local": "Ñublense",
@@ -754,32 +507,6 @@
               "resultado": [
                 "2",
                 "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f7-07",
-              "fecha": "2026-03-16",
-              "hora": "17:00",
-              "local": "Unión La Calera",
-              "visita": "O'Higgins",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
-              "resultado": [
-                "3",
-                "3"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f7-08",
-              "fecha": "2026-03-16",
-              "hora": "19:30",
-              "local": "Colo Colo",
-              "visita": "Huachipato",
-              "estadio": "Estadio Monumental David Arellano",
-              "resultado": [
-                "2",
-                "0"
               ],
               "prob": null
             }
@@ -854,45 +581,6 @@
                 "0"
               ],
               "prob": null
-            },
-            {
-              "id": "f8-06",
-              "fecha": "2026-04-05",
-              "hora": "15:30",
-              "local": "D. Concepción",
-              "visita": "Colo Colo",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": [
-                "0",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f8-07",
-              "fecha": "2026-04-05",
-              "hora": "18:00",
-              "local": "U. de Chile",
-              "visita": "D. La Serena",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": [
-                "4",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f8-08",
-              "fecha": "2026-04-06",
-              "hora": "20:00",
-              "local": "Huachipato",
-              "visita": "U. Concepción",
-              "estadio": "Estadio CAP",
-              "resultado": [
-                "5",
-                "1"
-              ],
-              "prob": null
             }
           ]
         },
@@ -965,45 +653,6 @@
                 "0"
               ],
               "prob": null
-            },
-            {
-              "id": "f9-06",
-              "fecha": "2026-04-12",
-              "hora": "20:00",
-              "local": "U. Concepción",
-              "visita": "Cobresal",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": [
-                "1",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f9-07",
-              "fecha": "2026-04-13",
-              "hora": "20:00",
-              "local": "Unión La Calera",
-              "visita": "D. Concepción",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
-              "resultado": [
-                "1",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f9-08",
-              "fecha": "2026-05-03",
-              "hora": "17:30",
-              "local": "Colo Colo",
-              "visita": "Coquimbo Unido",
-              "estadio": "Estadio Monumental David Arellano",
-              "resultado": [
-                "3",
-                "1"
-              ],
-              "prob": null
             }
           ]
         },
@@ -1040,19 +689,6 @@
             },
             {
               "id": "f10-03",
-              "fecha": "2026-04-18",
-              "hora": "20:00",
-              "local": "D. Concepción",
-              "visita": "D. La Serena",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": [
-                "3",
-                "3"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f10-04",
               "fecha": "2026-04-19",
               "hora": "12:30",
               "local": "Coquimbo Unido",
@@ -1065,7 +701,7 @@
               "prob": null
             },
             {
-              "id": "f10-05",
+              "id": "f10-04",
               "fecha": "2026-04-19",
               "hora": "15:30",
               "local": "Cobresal",
@@ -1078,7 +714,7 @@
               "prob": null
             },
             {
-              "id": "f10-06",
+              "id": "f10-05",
               "fecha": "2026-04-19",
               "hora": "18:30",
               "local": "Colo Colo",
@@ -1087,32 +723,6 @@
               "resultado": [
                 "0",
                 "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f10-07",
-              "fecha": "2026-04-19",
-              "hora": "20:45",
-              "local": "Huachipato",
-              "visita": "Audax Italiano",
-              "estadio": "Estadio CAP",
-              "resultado": [
-                "3",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f10-08",
-              "fecha": "2026-04-20",
-              "hora": "20:30",
-              "local": "U. Católica",
-              "visita": "Unión La Calera",
-              "estadio": "Claro Arena",
-              "resultado": [
-                "1",
-                "2"
               ],
               "prob": null
             }
@@ -1187,45 +797,6 @@
                 "0"
               ],
               "prob": null
-            },
-            {
-              "id": "f11-06",
-              "fecha": "2026-04-26",
-              "hora": "12:30",
-              "local": "D. La Serena",
-              "visita": "Huachipato",
-              "estadio": "Estadio La Portada",
-              "resultado": [
-                "0",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f11-07",
-              "fecha": "2026-04-26",
-              "hora": "15:00",
-              "local": "U. Concepción",
-              "visita": "Colo Colo",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": [
-                "1",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f11-08",
-              "fecha": "2026-04-26",
-              "hora": "17:30",
-              "local": "Everton",
-              "visita": "Cobresal",
-              "estadio": "Estadio Sausalito",
-              "resultado": [
-                "3",
-                "1"
-              ],
-              "prob": null
             }
           ]
         },
@@ -1275,32 +846,6 @@
             },
             {
               "id": "f12-04",
-              "fecha": "2026-05-16",
-              "hora": "20:00",
-              "local": "D. Limache",
-              "visita": "U. Católica",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": [
-                "0",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f12-05",
-              "fecha": "2026-05-17",
-              "hora": "12:30",
-              "local": "Huachipato",
-              "visita": "Unión La Calera",
-              "estadio": "Estadio CAP",
-              "resultado": [
-                "3",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f12-06",
               "fecha": "2026-05-17",
               "hora": "15:00",
               "local": "Cobresal",
@@ -1313,7 +858,7 @@
               "prob": null
             },
             {
-              "id": "f12-07",
+              "id": "f12-05",
               "fecha": "2026-05-17",
               "hora": "17:30",
               "local": "Colo Colo",
@@ -1324,26 +869,13 @@
                 "2"
               ],
               "prob": null
-            },
-            {
-              "id": "f12-08",
-              "fecha": "2026-05-17",
-              "hora": "20:00",
-              "local": "D. Concepción",
-              "visita": "Everton",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": [
-                "0",
-                "2"
-              ],
-              "prob": null
             }
           ]
         },
         {
           "numero": 13,
           "nombre": "Fecha 13",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f13-01",
@@ -1386,19 +918,6 @@
             },
             {
               "id": "f13-04",
-              "fecha": "2026-05-23",
-              "hora": "20:00",
-              "local": "Unión La Calera",
-              "visita": "Palestino",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
-              "resultado": [
-                "1",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f13-05",
               "fecha": "2026-05-24",
               "hora": "12:30",
               "local": "D. Concepción",
@@ -1411,7 +930,7 @@
               "prob": null
             },
             {
-              "id": "f13-06",
+              "id": "f13-05",
               "fecha": "2026-05-24",
               "hora": "15:00",
               "local": "D. La Serena",
@@ -1421,29 +940,6 @@
                 "4",
                 "1"
               ],
-              "prob": null
-            },
-            {
-              "id": "f13-07",
-              "fecha": "2026-05-24",
-              "hora": "18:00",
-              "local": "U. Católica",
-              "visita": "Colo Colo",
-              "estadio": "Claro Arena",
-              "resultado": [
-                "1",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f13-08",
-              "fecha": "2026-06-18",
-              "hora": "20:00",
-              "local": "U. de Chile",
-              "visita": "O'Higgins",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
               "prob": null
             }
           ]
@@ -1508,19 +1004,6 @@
             {
               "id": "f14-05",
               "fecha": "2026-05-31",
-              "hora": "12:30",
-              "local": "D. Limache",
-              "visita": "Coquimbo Unido",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": [
-                "2",
-                "3"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f14-06",
-              "fecha": "2026-05-31",
               "hora": "15:00",
               "local": "Huachipato",
               "visita": "U. Católica",
@@ -1528,32 +1011,6 @@
               "resultado": [
                 "0",
                 "3"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f14-07",
-              "fecha": "2026-05-31",
-              "hora": "17:30",
-              "local": "O'Higgins",
-              "visita": "Everton",
-              "estadio": "Estadio El Teniente",
-              "resultado": [
-                "2",
-                "3"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f14-08",
-              "fecha": "2026-05-31",
-              "hora": "20:00",
-              "local": "Palestino",
-              "visita": "Audax Italiano",
-              "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": [
-                "0",
-                "0"
               ],
               "prob": null
             }
@@ -1618,41 +1075,11 @@
             },
             {
               "id": "f15-05",
-              "fecha": "2026-06-13",
-              "hora": "20:00",
-              "local": "Ñublense",
-              "visita": "Huachipato",
-              "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f15-06",
               "fecha": "2026-06-14",
               "hora": "12:30",
               "local": "D. Concepción",
               "visita": "D. Limache",
               "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f15-07",
-              "fecha": "2026-06-14",
-              "hora": "15:00",
-              "local": "Unión La Calera",
-              "visita": "U. de Chile",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f15-08",
-              "fecha": "2026-06-14",
-              "hora": "17:30",
-              "local": "U. Católica",
-              "visita": "U. Concepción",
-              "estadio": "Claro Arena",
               "resultado": null,
               "prob": null
             }
@@ -1712,36 +1139,6 @@
               "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f16-06",
-              "fecha": "2026-07-26",
-              "hora": "16:00",
-              "local": "O'Higgins",
-              "visita": "D. Concepción",
-              "estadio": "Estadio El Teniente",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f16-07",
-              "fecha": "2026-07-26",
-              "hora": "16:00",
-              "local": "U. Católica",
-              "visita": "D. La Serena",
-              "estadio": "Claro Arena",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f16-08",
-              "fecha": "2026-07-26",
-              "hora": "16:00",
-              "local": "Unión La Calera",
-              "visita": "Everton",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -1797,36 +1194,6 @@
               "local": "D. Limache",
               "visita": "Ñublense",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f17-06",
-              "fecha": "2026-08-02",
-              "hora": "16:00",
-              "local": "Palestino",
-              "visita": "Coquimbo Unido",
-              "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f17-07",
-              "fecha": "2026-08-02",
-              "hora": "16:00",
-              "local": "U. de Chile",
-              "visita": "Huachipato",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f17-08",
-              "fecha": "2026-08-02",
-              "hora": "16:00",
-              "local": "U. Concepción",
-              "visita": "Audax Italiano",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
               "resultado": null,
               "prob": null
             }
@@ -1886,36 +1253,6 @@
               "estadio": "Estadio El Teniente",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f18-06",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
-              "local": "U. Católica",
-              "visita": "Cobresal",
-              "estadio": "Claro Arena",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f18-07",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
-              "local": "U. de Chile",
-              "visita": "Palestino",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f18-08",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
-              "local": "Unión La Calera",
-              "visita": "Colo Colo",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -1971,36 +1308,6 @@
               "local": "D. Limache",
               "visita": "U. de Chile",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f19-06",
-              "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "Ñublense",
-              "visita": "Unión La Calera",
-              "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f19-07",
-              "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "Palestino",
-              "visita": "Huachipato",
-              "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f19-08",
-              "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "U. Concepción",
-              "visita": "D. La Serena",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
               "resultado": null,
               "prob": null
             }
@@ -2060,36 +1367,6 @@
               "estadio": "Estadio La Portada",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f20-06",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
-              "local": "O'Higgins",
-              "visita": "Palestino",
-              "estadio": "Estadio El Teniente",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f20-07",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
-              "local": "U. Católica",
-              "visita": "Ñublense",
-              "estadio": "Claro Arena",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f20-08",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
-              "local": "U. de Chile",
-              "visita": "Colo Colo",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -2145,36 +1422,6 @@
               "local": "Ñublense",
               "visita": "D. Concepción",
               "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f21-06",
-              "fecha": "2026-08-30",
-              "hora": "16:00",
-              "local": "U. Católica",
-              "visita": "O'Higgins",
-              "estadio": "Claro Arena",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f21-07",
-              "fecha": "2026-08-30",
-              "hora": "16:00",
-              "local": "U. Concepción",
-              "visita": "U. de Chile",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f21-08",
-              "fecha": "2026-08-30",
-              "hora": "16:00",
-              "local": "Unión La Calera",
-              "visita": "D. La Serena",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
               "resultado": null,
               "prob": null
             }
@@ -2234,36 +1481,6 @@
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f22-06",
-              "fecha": "2026-09-06",
-              "hora": "00:00",
-              "local": "O'Higgins",
-              "visita": "Unión La Calera",
-              "estadio": "Estadio El Teniente",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f22-07",
-              "fecha": "2026-09-06",
-              "hora": "00:00",
-              "local": "Palestino",
-              "visita": "U. Concepción",
-              "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f22-08",
-              "fecha": "2026-09-06",
-              "hora": "00:00",
-              "local": "U. de Chile",
-              "visita": "Coquimbo Unido",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -2319,36 +1536,6 @@
               "local": "Ñublense",
               "visita": "Everton",
               "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f23-06",
-              "fecha": "2026-09-13",
-              "hora": "16:00",
-              "local": "Palestino",
-              "visita": "U. Católica",
-              "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f23-07",
-              "fecha": "2026-09-13",
-              "hora": "16:00",
-              "local": "U. Concepción",
-              "visita": "Huachipato",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f23-08",
-              "fecha": "2026-09-13",
-              "hora": "16:00",
-              "local": "Unión La Calera",
-              "visita": "D. Limache",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
               "resultado": null,
               "prob": null
             }
@@ -2408,36 +1595,6 @@
               "estadio": "Estadio CAP",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f24-06",
-              "fecha": "2026-10-11",
-              "hora": "16:00",
-              "local": "D. Limache",
-              "visita": "Palestino",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f24-07",
-              "fecha": "2026-10-11",
-              "hora": "16:00",
-              "local": "U. Católica",
-              "visita": "Audax Italiano",
-              "estadio": "Claro Arena",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f24-08",
-              "fecha": "2026-10-11",
-              "hora": "16:00",
-              "local": "U. de Chile",
-              "visita": "Ñublense",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -2493,36 +1650,6 @@
               "local": "Palestino",
               "visita": "Colo Colo",
               "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f25-06",
-              "fecha": "2026-10-25",
-              "hora": "17:00",
-              "local": "U. de Chile",
-              "visita": "Everton",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f25-07",
-              "fecha": "2026-10-25",
-              "hora": "17:00",
-              "local": "U. Concepción",
-              "visita": "D. Limache",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f25-08",
-              "fecha": "2026-10-25",
-              "hora": "17:00",
-              "local": "Unión La Calera",
-              "visita": "U. Católica",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
               "resultado": null,
               "prob": null
             }
@@ -2582,36 +1709,6 @@
               "estadio": "Estadio CAP",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f26-06",
-              "fecha": "2026-11-01",
-              "hora": "17:00",
-              "local": "D. Limache",
-              "visita": "Audax Italiano",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f26-07",
-              "fecha": "2026-11-01",
-              "hora": "17:00",
-              "local": "O'Higgins",
-              "visita": "Ñublense",
-              "estadio": "Estadio El Teniente",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f26-08",
-              "fecha": "2026-11-01",
-              "hora": "17:00",
-              "local": "U. Católica",
-              "visita": "U. de Chile",
-              "estadio": "Claro Arena",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -2667,36 +1764,6 @@
               "local": "U. Católica",
               "visita": "D. Limache",
               "estadio": "Claro Arena",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f27-06",
-              "fecha": "2026-11-08",
-              "hora": "17:00",
-              "local": "U. de Chile",
-              "visita": "Cobresal",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f27-07",
-              "fecha": "2026-11-08",
-              "hora": "17:00",
-              "local": "U. Concepción",
-              "visita": "O'Higgins",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f27-08",
-              "fecha": "2026-11-08",
-              "hora": "17:00",
-              "local": "Unión La Calera",
-              "visita": "Huachipato",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
               "resultado": null,
               "prob": null
             }
@@ -2756,36 +1823,6 @@
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f28-06",
-              "fecha": "2026-11-22",
-              "hora": "17:00",
-              "local": "O'Higgins",
-              "visita": "U. de Chile",
-              "estadio": "Estadio El Teniente",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f28-07",
-              "fecha": "2026-11-22",
-              "hora": "17:00",
-              "local": "Palestino",
-              "visita": "Unión La Calera",
-              "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f28-08",
-              "fecha": "2026-11-22",
-              "hora": "17:00",
-              "local": "U. Concepción",
-              "visita": "Ñublense",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -2843,36 +1880,6 @@
               "estadio": "Estadio Sausalito",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f29-06",
-              "fecha": "2026-11-29",
-              "hora": "17:00",
-              "local": "Ñublense",
-              "visita": "Cobresal",
-              "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f29-07",
-              "fecha": "2026-11-29",
-              "hora": "17:00",
-              "local": "U. Católica",
-              "visita": "Huachipato",
-              "estadio": "Claro Arena",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f29-08",
-              "fecha": "2026-11-29",
-              "hora": "17:00",
-              "local": "Unión La Calera",
-              "visita": "U. Concepción",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -2928,36 +1935,6 @@
               "local": "O'Higgins",
               "visita": "Coquimbo Unido",
               "estadio": "Estadio El Teniente",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f30-06",
-              "fecha": "2026-12-06",
-              "hora": "17:00",
-              "local": "Palestino",
-              "visita": "Everton",
-              "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f30-07",
-              "fecha": "2026-12-06",
-              "hora": "17:00",
-              "local": "U. de Chile",
-              "visita": "Unión La Calera",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f30-08",
-              "fecha": "2026-12-06",
-              "hora": "17:00",
-              "local": "U. Concepción",
-              "visita": "U. Católica",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
               "resultado": null,
               "prob": null
             }
@@ -3234,45 +2211,6 @@
                 "1"
               ],
               "prob": null
-            },
-            {
-              "id": "f1-06",
-              "fecha": "2026-03-22",
-              "hora": "17:00",
-              "local": "U. Católica",
-              "visita": "U. Concepción",
-              "estadio": "Claro Arena",
-              "resultado": [
-                "2",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f1-07",
-              "fecha": "2026-03-22",
-              "hora": "19:30",
-              "local": "O'Higgins",
-              "visita": "D. Limache",
-              "estadio": "Estadio El Teniente",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f1-08",
-              "fecha": "2026-03-23",
-              "hora": "19:30",
-              "local": "Palestino",
-              "visita": "Everton",
-              "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": [
-                "1",
-                "2"
-              ],
-              "prob": null
             }
           ]
         },
@@ -3342,45 +2280,6 @@
               "estadio": "Estadio Bicentenario Municipal de La Florida",
               "resultado": [
                 "3",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f2-06",
-              "fecha": "2026-03-26",
-              "hora": "17:00",
-              "local": "D. Limache",
-              "visita": "Palestino",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f2-07",
-              "fecha": "2026-03-26",
-              "hora": "19:30",
-              "local": "Everton",
-              "visita": "O'Higgins",
-              "estadio": "Estadio Sausalito",
-              "resultado": [
-                "1",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f2-08",
-              "fecha": "2026-03-26",
-              "hora": "19:30",
-              "local": "U. Concepción",
-              "visita": "Cobresal",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": [
-                "2",
                 "1"
               ],
               "prob": null
@@ -3456,45 +2355,6 @@
                 "2"
               ],
               "prob": null
-            },
-            {
-              "id": "f3-06",
-              "fecha": "2026-03-31",
-              "hora": "17:00",
-              "local": "Audax Italiano",
-              "visita": "U. de Chile",
-              "estadio": "Estadio Bicentenario Municipal de La Florida",
-              "resultado": [
-                "1",
-                "3"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f3-07",
-              "fecha": "2026-03-31",
-              "hora": "19:30",
-              "local": "Everton",
-              "visita": "D. Limache",
-              "estadio": "Estadio Sausalito",
-              "resultado": [
-                "1",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f3-08",
-              "fecha": "2026-04-01",
-              "hora": "17:00",
-              "local": "Colo Colo",
-              "visita": "Huachipato",
-              "estadio": "Estadio Monumental David Arellano",
-              "resultado": [
-                "1",
-                "0"
-              ],
-              "prob": null
             }
           ]
         },
@@ -3565,45 +2425,6 @@
               "resultado": [
                 "2",
                 "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f4-06",
-              "fecha": "2026-05-03",
-              "hora": "20:00",
-              "local": "D. Limache",
-              "visita": "O'Higgins",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f4-07",
-              "fecha": "2026-05-04",
-              "hora": "20:30",
-              "local": "D. Concepción",
-              "visita": "Huachipato",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": [
-                "0",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f4-08",
-              "fecha": "2026-05-13",
-              "hora": "19:00",
-              "local": "Coquimbo Unido",
-              "visita": "Colo Colo",
-              "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": [
-                "1",
-                "0"
               ],
               "prob": null
             }
@@ -3678,45 +2499,6 @@
                 "0"
               ],
               "prob": null
-            },
-            {
-              "id": "f5-06",
-              "fecha": "2026-05-10",
-              "hora": "17:30",
-              "local": "U. Católica",
-              "visita": "Ñublense",
-              "estadio": "Claro Arena",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f5-07",
-              "fecha": "2026-05-10",
-              "hora": "20:00",
-              "local": "O'Higgins",
-              "visita": "Everton",
-              "estadio": "Estadio El Teniente",
-              "resultado": [
-                "2",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f5-08",
-              "fecha": "2026-05-11",
-              "hora": "20:00",
-              "local": "Palestino",
-              "visita": "D. Limache",
-              "estadio": "Estadio Municipal de La Pintana",
-              "resultado": [
-                "3",
-                "2"
-              ],
-              "prob": null
             }
           ]
         },
@@ -3789,45 +2571,6 @@
                 "2"
               ],
               "prob": null
-            },
-            {
-              "id": "f6-06",
-              "fecha": "2026-06-07",
-              "hora": "15:00",
-              "local": "Huachipato",
-              "visita": "Colo Colo",
-              "estadio": "Estadio CAP",
-              "resultado": [
-                "1",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f6-07",
-              "fecha": "2026-06-07",
-              "hora": "18:00",
-              "local": "D. Limache",
-              "visita": "Everton",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": [
-                "0",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f6-08",
-              "fecha": "2026-06-07",
-              "hora": "18:00",
-              "local": "O'Higgins",
-              "visita": "Palestino",
-              "estadio": "Estadio El Teniente",
-              "resultado": [
-                "2",
-                "1"
-              ],
-              "prob": null
             }
           ]
         }
@@ -3853,25 +2596,25 @@
               "pos": 2,
               "equipo": "Audax Italiano",
               "pts": 11,
-              "pj": 6,
+              "pj": 5,
               "pg": 3,
               "pe": 2,
-              "pp": 1,
-              "gf": 12,
-              "gc": 9,
-              "dif": 3
+              "pp": 0,
+              "gf": 11,
+              "gc": 6,
+              "dif": 5
             },
             {
               "pos": 3,
               "equipo": "U. de Chile",
-              "pts": 8,
-              "pj": 6,
-              "pg": 2,
+              "pts": 5,
+              "pj": 5,
+              "pg": 1,
               "pe": 2,
               "pp": 2,
-              "gf": 12,
-              "gc": 7,
-              "dif": 5
+              "gf": 9,
+              "gc": 6,
+              "dif": 3
             },
             {
               "pos": 4,
@@ -3893,50 +2636,50 @@
             {
               "pos": 1,
               "equipo": "Coquimbo Unido",
-              "pts": 14,
-              "pj": 6,
-              "pg": 4,
+              "pts": 11,
+              "pj": 5,
+              "pg": 3,
               "pe": 2,
               "pp": 0,
-              "gf": 9,
-              "gc": 5,
-              "dif": 4
-            },
-            {
-              "pos": 2,
-              "equipo": "Colo Colo",
-              "pts": 10,
-              "pj": 6,
-              "pg": 3,
-              "pe": 1,
-              "pp": 2,
               "gf": 8,
               "gc": 5,
               "dif": 3
             },
             {
+              "pos": 2,
+              "equipo": "Colo Colo",
+              "pts": 7,
+              "pj": 3,
+              "pg": 2,
+              "pe": 1,
+              "pp": 0,
+              "gf": 7,
+              "gc": 3,
+              "dif": 4
+            },
+            {
               "pos": 3,
               "equipo": "Huachipato",
-              "pts": 8,
-              "pj": 6,
-              "pg": 2,
+              "pts": 2,
+              "pj": 3,
+              "pg": 0,
               "pe": 2,
-              "pp": 2,
-              "gf": 6,
-              "gc": 6,
-              "dif": 0
+              "pp": 1,
+              "gf": 4,
+              "gc": 5,
+              "dif": -1
             },
             {
               "pos": 4,
               "equipo": "D. Concepción",
               "pts": 1,
-              "pj": 6,
+              "pj": 5,
               "pg": 0,
               "pe": 1,
-              "pp": 5,
+              "pp": 4,
               "gf": 6,
-              "gc": 13,
-              "dif": -7
+              "gc": 12,
+              "dif": -6
             }
           ]
         },
@@ -3946,50 +2689,50 @@
             {
               "pos": 1,
               "equipo": "Ñublense",
-              "pts": 14,
-              "pj": 6,
+              "pts": 13,
+              "pj": 5,
               "pg": 4,
-              "pe": 2,
+              "pe": 1,
               "pp": 0,
-              "gf": 9,
-              "gc": 3,
+              "gf": 8,
+              "gc": 2,
               "dif": 6
             },
             {
               "pos": 2,
               "equipo": "U. Católica",
-              "pts": 11,
-              "pj": 6,
-              "pg": 3,
-              "pe": 2,
+              "pts": 7,
+              "pj": 4,
+              "pg": 2,
+              "pe": 1,
               "pp": 1,
-              "gf": 13,
-              "gc": 7,
-              "dif": 6
+              "gf": 10,
+              "gc": 5,
+              "dif": 5
             },
             {
               "pos": 3,
-              "equipo": "U. Concepción",
+              "equipo": "Cobresal",
               "pts": 4,
-              "pj": 6,
+              "pj": 5,
               "pg": 1,
               "pe": 1,
-              "pp": 4,
-              "gf": 7,
-              "gc": 11,
-              "dif": -4
+              "pp": 3,
+              "gf": 5,
+              "gc": 12,
+              "dif": -7
             },
             {
               "pos": 4,
-              "equipo": "Cobresal",
-              "pts": 4,
-              "pj": 6,
-              "pg": 1,
+              "equipo": "U. Concepción",
+              "pts": 1,
+              "pj": 4,
+              "pg": 0,
               "pe": 1,
-              "pp": 4,
-              "gf": 6,
-              "gc": 14,
-              "dif": -8
+              "pp": 3,
+              "gf": 4,
+              "gc": 8,
+              "dif": -4
             }
           ]
         },
@@ -3999,50 +2742,50 @@
             {
               "pos": 1,
               "equipo": "O'Higgins",
-              "pts": 14,
-              "pj": 6,
-              "pg": 4,
-              "pe": 2,
+              "pts": 3,
+              "pj": 1,
+              "pg": 1,
+              "pe": 0,
               "pp": 0,
-              "gf": 11,
-              "gc": 6,
-              "dif": 5
+              "gf": 3,
+              "gc": 1,
+              "dif": 2
             },
             {
               "pos": 2,
               "equipo": "Everton",
-              "pts": 7,
-              "pj": 6,
-              "pg": 2,
+              "pts": 1,
+              "pj": 1,
+              "pg": 0,
               "pe": 1,
-              "pp": 3,
-              "gf": 8,
-              "gc": 9,
-              "dif": -1
+              "pp": 0,
+              "gf": 2,
+              "gc": 2,
+              "dif": 0
             },
             {
               "pos": 3,
-              "equipo": "D. Limache",
-              "pts": 6,
-              "pj": 6,
-              "pg": 1,
-              "pe": 3,
-              "pp": 2,
-              "gf": 7,
-              "gc": 8,
-              "dif": -1
+              "equipo": "Palestino",
+              "pts": 1,
+              "pj": 2,
+              "pg": 0,
+              "pe": 1,
+              "pp": 1,
+              "gf": 3,
+              "gc": 5,
+              "dif": -2
             },
             {
               "pos": 4,
-              "equipo": "Palestino",
-              "pts": 5,
-              "pj": 6,
-              "pg": 1,
-              "pe": 2,
-              "pp": 3,
-              "gf": 9,
-              "gc": 12,
-              "dif": -3
+              "equipo": "D. Limache",
+              "pts": 0,
+              "pj": 0,
+              "pg": 0,
+              "pe": 0,
+              "pp": 0,
+              "gf": 0,
+              "gc": 0,
+              "dif": 0
             }
           ]
         }
@@ -4114,19 +2857,6 @@
             {
               "id": "f1-05",
               "fecha": "2026-02-22",
-              "hora": "17:00",
-              "local": "Rangers",
-              "visita": "Deportes Antofagasta",
-              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": [
-                "0",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f1-06",
-              "fecha": "2026-02-22",
               "hora": "19:30",
               "local": "Deportes Puerto Montt",
               "visita": "Deportes Copiapó",
@@ -4134,32 +2864,6 @@
               "resultado": [
                 "2",
                 "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f1-07",
-              "fecha": "2026-02-23",
-              "hora": "17:00",
-              "local": "Cobreloa",
-              "visita": "Deportes Temuco",
-              "estadio": "Estadio Zorros del Desierto",
-              "resultado": [
-                "3",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f1-08",
-              "fecha": "2026-02-23",
-              "hora": "19:30",
-              "local": "Curicó Unido",
-              "visita": "Magallanes",
-              "estadio": "Estadio Municipal Jorge Silva Valenzuela",
-              "resultado": [
-                "1",
-                "2"
               ],
               "prob": null
             }
@@ -4234,45 +2938,6 @@
                 "2"
               ],
               "prob": null
-            },
-            {
-              "id": "f2-06",
-              "fecha": "2026-03-01",
-              "hora": "19:30",
-              "local": "Deportes Temuco",
-              "visita": "Deportes Iquique",
-              "estadio": "Estadio Municipal Germán Becker",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f2-07",
-              "fecha": "2026-03-02",
-              "hora": "17:00",
-              "local": "Magallanes",
-              "visita": "San Marcos de Arica",
-              "estadio": "Estadio Municipal Luis Navarro Avilés",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f2-08",
-              "fecha": "2026-03-02",
-              "hora": "19:30",
-              "local": "San Luis de Quillota",
-              "visita": "Curicó Unido",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
             }
           ]
         },
@@ -4343,45 +3008,6 @@
               "resultado": [
                 "1",
                 "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f3-06",
-              "fecha": "2026-03-09",
-              "hora": "17:00",
-              "local": "Santiago Wanderers",
-              "visita": "Deportes Santa Cruz",
-              "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": [
-                "3",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f3-07",
-              "fecha": "2026-03-09",
-              "hora": "19:30",
-              "local": "Deportes Copiapó",
-              "visita": "Deportes Temuco",
-              "estadio": "Estadio Luis Valenzuela Hermosilla",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f3-08",
-              "fecha": "2026-03-10",
-              "hora": "18:00",
-              "local": "Unión Española",
-              "visita": "Magallanes",
-              "estadio": "Estadio Santa Laura",
-              "resultado": [
-                "1",
-                "2"
               ],
               "prob": null
             }
@@ -4456,45 +3082,6 @@
                 "1"
               ],
               "prob": null
-            },
-            {
-              "id": "f4-06",
-              "fecha": "2026-03-15",
-              "hora": "17:00",
-              "local": "Curicó Unido",
-              "visita": "Rangers",
-              "estadio": "Estadio Bicentenario La Granja",
-              "resultado": [
-                "1",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f4-07",
-              "fecha": "2026-03-15",
-              "hora": "19:30",
-              "local": "Deportes Puerto Montt",
-              "visita": "Deportes Santa Cruz",
-              "estadio": "Estadio Regional de Chinquihue",
-              "resultado": [
-                "2",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f4-08",
-              "fecha": "2026-03-16",
-              "hora": "19:30",
-              "local": "San Marcos de Arica",
-              "visita": "Santiago Wanderers",
-              "estadio": "Estadio Carlos Dittborn",
-              "resultado": [
-                "0",
-                "0"
-              ],
-              "prob": null
             }
           ]
         },
@@ -4545,19 +3132,6 @@
             {
               "id": "f5-04",
               "fecha": "2026-03-22",
-              "hora": "11:00",
-              "local": "Santiago Wanderers",
-              "visita": "Deportes Antofagasta",
-              "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": [
-                "2",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f5-05",
-              "fecha": "2026-03-22",
               "hora": "17:00",
               "local": "Deportes Copiapó",
               "visita": "Deportes Iquique",
@@ -4569,38 +3143,12 @@
               "prob": null
             },
             {
-              "id": "f5-06",
+              "id": "f5-05",
               "fecha": "2026-03-22",
               "hora": "19:30",
               "local": "Deportes Temuco",
               "visita": "San Luis de Quillota",
               "estadio": "Estadio Municipal Germán Becker",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f5-07",
-              "fecha": "2026-03-23",
-              "hora": "17:00",
-              "local": "Unión San Felipe",
-              "visita": "San Marcos de Arica",
-              "estadio": "Estadio Municipal de San Felipe",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f5-08",
-              "fecha": "2026-03-23",
-              "hora": "19:30",
-              "local": "Cobreloa",
-              "visita": "Magallanes",
-              "estadio": "Estadio Zorros del Desierto",
               "resultado": [
                 "1",
                 "1"
@@ -4678,45 +3226,6 @@
                 "0"
               ],
               "prob": null
-            },
-            {
-              "id": "f6-06",
-              "fecha": "2026-03-29",
-              "hora": "17:00",
-              "local": "Cobreloa",
-              "visita": "Unión San Felipe",
-              "estadio": "Estadio Zorros del Desierto",
-              "resultado": [
-                "2",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f6-07",
-              "fecha": "2026-03-29",
-              "hora": "19:30",
-              "local": "San Luis de Quillota",
-              "visita": "Deportes Santa Cruz",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": [
-                "3",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f6-08",
-              "fecha": "2026-03-30",
-              "hora": "17:00",
-              "local": "Magallanes",
-              "visita": "Rangers",
-              "estadio": "Estadio Municipal Luis Navarro Avilés",
-              "resultado": [
-                "3",
-                "2"
-              ],
-              "prob": null
             }
           ]
         },
@@ -4789,45 +3298,6 @@
                 "4"
               ],
               "prob": null
-            },
-            {
-              "id": "f7-06",
-              "fecha": "2026-04-12",
-              "hora": "15:00",
-              "local": "Santiago Wanderers",
-              "visita": "San Luis de Quillota",
-              "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": [
-                "3",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f7-07",
-              "fecha": "2026-04-12",
-              "hora": "17:30",
-              "local": "Deportes Temuco",
-              "visita": "Deportes Antofagasta",
-              "estadio": "Estadio Municipal Germán Becker",
-              "resultado": [
-                "3",
-                "3"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f7-08",
-              "fecha": "2026-04-12",
-              "hora": "20:00",
-              "local": "Rangers",
-              "visita": "San Marcos de Arica",
-              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": [
-                "2",
-                "3"
-              ],
-              "prob": null
             }
           ]
         },
@@ -4890,50 +3360,11 @@
             },
             {
               "id": "f8-05",
-              "fecha": "2026-04-18",
-              "hora": "20:00",
-              "local": "Deportes Santa Cruz",
-              "visita": "Unión San Felipe",
-              "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": [
-                "1",
-                "3"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f8-06",
               "fecha": "2026-04-19",
               "hora": "15:30",
               "local": "Deportes Antofagasta",
               "visita": "Deportes Copiapó",
               "estadio": "Estadio Regional Calvo y Bascuñán",
-              "resultado": [
-                "1",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f8-07",
-              "fecha": "2026-04-19",
-              "hora": "18:00",
-              "local": "San Luis de Quillota",
-              "visita": "Deportes Iquique",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": [
-                "2",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f8-08",
-              "fecha": "2026-04-20",
-              "hora": "20:00",
-              "local": "Deportes Puerto Montt",
-              "visita": "Deportes Temuco",
-              "estadio": "Estadio Regional de Chinquihue",
               "resultado": [
                 "1",
                 "0"
@@ -5002,51 +3433,12 @@
             {
               "id": "f9-05",
               "fecha": "2026-04-26",
-              "hora": "12:30",
-              "local": "Deportes Recoleta",
-              "visita": "Deportes Antofagasta",
-              "estadio": "Estadio Municipal de Recoleta",
-              "resultado": [
-                "0",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f9-06",
-              "fecha": "2026-04-26",
               "hora": "15:00",
               "local": "Cobreloa",
               "visita": "San Luis de Quillota",
               "estadio": "Estadio Zorros del Desierto",
               "resultado": [
                 "3",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f9-07",
-              "fecha": "2026-04-26",
-              "hora": "20:00",
-              "local": "Unión Española",
-              "visita": "Deportes Santa Cruz",
-              "estadio": "Estadio Santa Laura",
-              "resultado": [
-                "2",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f9-08",
-              "fecha": "2026-04-27",
-              "hora": "20:00",
-              "local": "Deportes Iquique",
-              "visita": "Santiago Wanderers",
-              "estadio": "Estadio Tierra de Campeones",
-              "resultado": [
-                "2",
                 "1"
               ],
               "prob": null
@@ -5113,51 +3505,12 @@
             {
               "id": "f10-05",
               "fecha": "2026-05-03",
-              "hora": "15:00",
-              "local": "Santiago Wanderers",
-              "visita": "Deportes Temuco",
-              "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": [
-                "2",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f10-06",
-              "fecha": "2026-05-03",
               "hora": "17:30",
               "local": "Cobreloa",
               "visita": "Deportes Antofagasta",
               "estadio": "Estadio Zorros del Desierto",
               "resultado": [
                 "2",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f10-07",
-              "fecha": "2026-05-04",
-              "hora": "18:00",
-              "local": "San Luis de Quillota",
-              "visita": "Unión San Felipe",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": [
-                "4",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f10-08",
-              "fecha": "2026-05-04",
-              "hora": "20:30",
-              "local": "San Marcos de Arica",
-              "visita": "Deportes Recoleta",
-              "estadio": "Estadio Carlos Dittborn",
-              "resultado": [
-                "1",
                 "0"
               ],
               "prob": null
@@ -5223,19 +3576,6 @@
             },
             {
               "id": "f11-05",
-              "fecha": "2026-05-09",
-              "hora": "20:00",
-              "local": "Santiago Wanderers",
-              "visita": "Cobreloa",
-              "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": [
-                "5",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f11-06",
               "fecha": "2026-05-10",
               "hora": "12:30",
               "local": "Deportes Antofagasta",
@@ -5244,32 +3584,6 @@
               "resultado": [
                 "3",
                 "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f11-07",
-              "fecha": "2026-05-10",
-              "hora": "12:30",
-              "local": "Deportes Copiapó",
-              "visita": "Unión San Felipe",
-              "estadio": "Estadio Luis Valenzuela Hermosilla",
-              "resultado": [
-                "2",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f11-08",
-              "fecha": "2026-05-11",
-              "hora": "20:00",
-              "local": "Curicó Unido",
-              "visita": "San Marcos de Arica",
-              "estadio": "Estadio Bicentenario La Granja",
-              "resultado": [
-                "2",
-                "2"
               ],
               "prob": null
             }
@@ -5341,45 +3655,6 @@
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
               "resultado": [
                 "4",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f12-06",
-              "fecha": "2026-05-17",
-              "hora": "17:30",
-              "local": "San Marcos de Arica",
-              "visita": "Deportes Antofagasta",
-              "estadio": "Estadio Carlos Dittborn",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f12-07",
-              "fecha": "2026-05-18",
-              "hora": "19:00",
-              "local": "Deportes Santa Cruz",
-              "visita": "Deportes Temuco",
-              "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": [
-                "2",
-                "3"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f12-08",
-              "fecha": "2026-05-18",
-              "hora": "19:00",
-              "local": "Unión Española",
-              "visita": "Deportes Iquique",
-              "estadio": "Estadio Santa Laura",
-              "resultado": [
-                "2",
                 "1"
               ],
               "prob": null
@@ -5455,45 +3730,6 @@
                 "1"
               ],
               "prob": null
-            },
-            {
-              "id": "f13-06",
-              "fecha": "2026-05-24",
-              "hora": "15:00",
-              "local": "Deportes Puerto Montt",
-              "visita": "San Marcos de Arica",
-              "estadio": "Estadio Regional de Chinquihue",
-              "resultado": [
-                "0",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f13-07",
-              "fecha": "2026-05-24",
-              "hora": "20:00",
-              "local": "San Luis de Quillota",
-              "visita": "Magallanes",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": [
-                "2",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f13-08",
-              "fecha": "2026-05-25",
-              "hora": "20:00",
-              "local": "Deportes Copiapó",
-              "visita": "Unión Española",
-              "estadio": "Estadio Luis Valenzuela Hermosilla",
-              "resultado": [
-                "3",
-                "1"
-              ],
-              "prob": null
             }
           ]
         },
@@ -5543,19 +3779,6 @@
             },
             {
               "id": "f14-04",
-              "fecha": "2026-05-30",
-              "hora": "20:00",
-              "local": "San Marcos de Arica",
-              "visita": "Deportes Temuco",
-              "estadio": "Estadio Carlos Dittborn",
-              "resultado": [
-                "0",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f14-05",
               "fecha": "2026-05-31",
               "hora": "12:30",
               "local": "Magallanes",
@@ -5568,7 +3791,7 @@
               "prob": null
             },
             {
-              "id": "f14-06",
+              "id": "f14-05",
               "fecha": "2026-05-31",
               "hora": "17:30",
               "local": "Cobreloa",
@@ -5576,32 +3799,6 @@
               "estadio": "Estadio Zorros del Desierto",
               "resultado": [
                 "2",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f14-07",
-              "fecha": "2026-06-01",
-              "hora": "19:00",
-              "local": "Deportes Santa Cruz",
-              "visita": "Deportes Copiapó",
-              "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": [
-                "1",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f14-08",
-              "fecha": "2026-06-01",
-              "hora": "19:00",
-              "local": "Curicó Unido",
-              "visita": "Deportes Antofagasta",
-              "estadio": "Estadio Bicentenario La Granja",
-              "resultado": [
-                "1",
                 "0"
               ],
               "prob": null
@@ -5667,19 +3864,6 @@
             },
             {
               "id": "f15-05",
-              "fecha": "2026-06-06",
-              "hora": "20:30",
-              "local": "Rangers",
-              "visita": "Deportes Santa Cruz",
-              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": [
-                "0",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f15-06",
               "fecha": "2026-06-07",
               "hora": "15:30",
               "local": "Deportes Antofagasta",
@@ -5688,32 +3872,6 @@
               "resultado": [
                 "0",
                 "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f15-07",
-              "fecha": "2026-06-08",
-              "hora": "19:30",
-              "local": "Deportes Temuco",
-              "visita": "Curicó Unido",
-              "estadio": "Estadio Municipal Germán Becker",
-              "resultado": [
-                "0",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f15-08",
-              "fecha": "2026-06-08",
-              "hora": "19:30",
-              "local": "Unión Española",
-              "visita": "Unión San Felipe",
-              "estadio": "Estadio Santa Laura",
-              "resultado": [
-                "2",
-                "2"
               ],
               "prob": null
             }
@@ -5773,36 +3931,6 @@
               "estadio": "Estadio Municipal Luis Navarro Avilés",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f16-06",
-              "fecha": "2026-07-19",
-              "hora": "16:00",
-              "local": "Deportes Recoleta",
-              "visita": "Santiago Wanderers",
-              "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f16-07",
-              "fecha": "2026-07-19",
-              "hora": "16:00",
-              "local": "Unión San Felipe",
-              "visita": "Deportes Iquique",
-              "estadio": "Estadio Municipal de San Felipe",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f16-08",
-              "fecha": "2026-07-19",
-              "hora": "16:00",
-              "local": "San Luis de Quillota",
-              "visita": "Unión Española",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -5858,36 +3986,6 @@
               "local": "Rangers",
               "visita": "Deportes Copiapó",
               "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f17-06",
-              "fecha": "2026-07-26",
-              "hora": "16:00",
-              "local": "San Marcos de Arica",
-              "visita": "Magallanes",
-              "estadio": "Estadio Carlos Dittborn",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f17-07",
-              "fecha": "2026-07-26",
-              "hora": "16:00",
-              "local": "Santiago Wanderers",
-              "visita": "Unión San Felipe",
-              "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f17-08",
-              "fecha": "2026-07-26",
-              "hora": "16:00",
-              "local": "Unión Española",
-              "visita": "Deportes Recoleta",
-              "estadio": "Estadio Santa Laura",
               "resultado": null,
               "prob": null
             }
@@ -5947,36 +4045,6 @@
               "estadio": "Estadio Municipal Luis Navarro Avilés",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f18-06",
-              "fecha": "2026-08-02",
-              "hora": "16:00",
-              "local": "Deportes Recoleta",
-              "visita": "Deportes Puerto Montt",
-              "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f18-07",
-              "fecha": "2026-08-02",
-              "hora": "16:00",
-              "local": "San Luis de Quillota",
-              "visita": "Rangers",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f18-08",
-              "fecha": "2026-08-02",
-              "hora": "16:00",
-              "local": "San Marcos de Arica",
-              "visita": "Deportes Iquique",
-              "estadio": "Estadio Carlos Dittborn",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -6032,36 +4100,6 @@
               "local": "Rangers",
               "visita": "Curicó Unido",
               "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f19-06",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
-              "local": "Unión San Felipe",
-              "visita": "Deportes Recoleta",
-              "estadio": "Estadio Municipal de San Felipe",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f19-07",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
-              "local": "Santiago Wanderers",
-              "visita": "San Marcos de Arica",
-              "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f19-08",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
-              "local": "Unión Española",
-              "visita": "Deportes Antofagasta",
-              "estadio": "Estadio Santa Laura",
               "resultado": null,
               "prob": null
             }
@@ -6121,36 +4159,6 @@
               "estadio": "Estadio Municipal Luis Navarro Avilés",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f20-06",
-              "fecha": "2026-08-12",
-              "hora": "16:00",
-              "local": "Deportes Recoleta",
-              "visita": "Rangers",
-              "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f20-07",
-              "fecha": "2026-08-12",
-              "hora": "16:00",
-              "local": "San Luis de Quillota",
-              "visita": "Deportes Temuco",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f20-08",
-              "fecha": "2026-08-12",
-              "hora": "16:00",
-              "local": "San Marcos de Arica",
-              "visita": "Unión San Felipe",
-              "estadio": "Estadio Carlos Dittborn",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -6206,36 +4214,6 @@
               "local": "Rangers",
               "visita": "Magallanes",
               "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f21-06",
-              "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "Unión San Felipe",
-              "visita": "Cobreloa",
-              "estadio": "Estadio Municipal de San Felipe",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f21-07",
-              "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "Santiago Wanderers",
-              "visita": "Deportes Puerto Montt",
-              "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f21-08",
-              "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "Unión Española",
-              "visita": "San Marcos de Arica",
-              "estadio": "Estadio Santa Laura",
               "resultado": null,
               "prob": null
             }
@@ -6295,36 +4273,6 @@
               "estadio": "Estadio Municipal Luis Navarro Avilés",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f22-06",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
-              "local": "Deportes Recoleta",
-              "visita": "Deportes Copiapó",
-              "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f22-07",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
-              "local": "San Luis de Quillota",
-              "visita": "Santiago Wanderers",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f22-08",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
-              "local": "San Marcos de Arica",
-              "visita": "Rangers",
-              "estadio": "Estadio Carlos Dittborn",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -6380,36 +4328,6 @@
               "local": "Deportes Temuco",
               "visita": "Deportes Puerto Montt",
               "estadio": "Estadio Municipal Germán Becker",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f23-06",
-              "fecha": "2026-08-30",
-              "hora": "16:00",
-              "local": "Unión San Felipe",
-              "visita": "Deportes Santa Cruz",
-              "estadio": "Estadio Municipal de San Felipe",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f23-07",
-              "fecha": "2026-08-30",
-              "hora": "16:00",
-              "local": "Santiago Wanderers",
-              "visita": "Magallanes",
-              "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f23-08",
-              "fecha": "2026-08-30",
-              "hora": "16:00",
-              "local": "Unión Española",
-              "visita": "Rangers",
-              "estadio": "Estadio Santa Laura",
               "resultado": null,
               "prob": null
             }
@@ -6469,36 +4387,6 @@
               "estadio": "Estadio Bicentenario Iván Azócar Bernales",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f24-06",
-              "fecha": "2026-09-02",
-              "hora": "16:00",
-              "local": "San Luis de Quillota",
-              "visita": "Cobreloa",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f24-07",
-              "fecha": "2026-09-02",
-              "hora": "16:00",
-              "local": "San Marcos de Arica",
-              "visita": "Deportes Copiapó",
-              "estadio": "Estadio Carlos Dittborn",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f24-08",
-              "fecha": "2026-09-02",
-              "hora": "16:00",
-              "local": "Santiago Wanderers",
-              "visita": "Deportes Iquique",
-              "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -6554,36 +4442,6 @@
               "local": "Deportes Temuco",
               "visita": "Santiago Wanderers",
               "estadio": "Estadio Municipal Germán Becker",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f25-06",
-              "fecha": "2026-09-06",
-              "hora": "00:00",
-              "local": "Deportes Puerto Montt",
-              "visita": "Rangers",
-              "estadio": "Estadio Regional de Chinquihue",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f25-07",
-              "fecha": "2026-09-06",
-              "hora": "00:00",
-              "local": "Deportes Recoleta",
-              "visita": "San Marcos de Arica",
-              "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f25-08",
-              "fecha": "2026-09-06",
-              "hora": "00:00",
-              "local": "Unión San Felipe",
-              "visita": "San Luis de Quillota",
-              "estadio": "Estadio Municipal de San Felipe",
               "resultado": null,
               "prob": null
             }
@@ -6643,36 +4501,6 @@
               "estadio": "Estadio Municipal de San Felipe",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f26-06",
-              "fecha": "2026-09-13",
-              "hora": "16:00",
-              "local": "San Luis de Quillota",
-              "visita": "Deportes Antofagasta",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f26-07",
-              "fecha": "2026-09-13",
-              "hora": "16:00",
-              "local": "San Marcos de Arica",
-              "visita": "Curicó Unido",
-              "estadio": "Estadio Carlos Dittborn",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f26-08",
-              "fecha": "2026-09-13",
-              "hora": "16:00",
-              "local": "Unión Española",
-              "visita": "Deportes Temuco",
-              "estadio": "Estadio Santa Laura",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -6728,36 +4556,6 @@
               "local": "Deportes Puerto Montt",
               "visita": "San Luis de Quillota",
               "estadio": "Estadio Regional de Chinquihue",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f27-06",
-              "fecha": "2026-10-11",
-              "hora": "16:00",
-              "local": "Rangers",
-              "visita": "Unión San Felipe",
-              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f27-07",
-              "fecha": "2026-10-11",
-              "hora": "16:00",
-              "local": "Deportes Recoleta",
-              "visita": "Magallanes",
-              "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f27-08",
-              "fecha": "2026-10-11",
-              "hora": "16:00",
-              "local": "Santiago Wanderers",
-              "visita": "Curicó Unido",
-              "estadio": "Estadio Elías Figueroa Brander",
               "resultado": null,
               "prob": null
             }
@@ -6817,36 +4615,6 @@
               "estadio": "Estadio Municipal de San Felipe",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f28-06",
-              "fecha": "2026-10-18",
-              "hora": "16:00",
-              "local": "San Marcos de Arica",
-              "visita": "Deportes Puerto Montt",
-              "estadio": "Estadio Carlos Dittborn",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f28-07",
-              "fecha": "2026-10-18",
-              "hora": "16:00",
-              "local": "Santiago Wanderers",
-              "visita": "Rangers",
-              "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f28-08",
-              "fecha": "2026-10-18",
-              "hora": "16:00",
-              "local": "Unión Española",
-              "visita": "Deportes Copiapó",
-              "estadio": "Estadio Santa Laura",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -6904,36 +4672,6 @@
               "estadio": "Estadio Regional de Chinquihue",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f29-06",
-              "fecha": "2026-10-25",
-              "hora": "17:00",
-              "local": "Rangers",
-              "visita": "Cobreloa",
-              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f29-07",
-              "fecha": "2026-10-25",
-              "hora": "17:00",
-              "local": "San Luis de Quillota",
-              "visita": "Deportes Recoleta",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f29-08",
-              "fecha": "2026-10-25",
-              "hora": "17:00",
-              "local": "Unión Española",
-              "visita": "Santiago Wanderers",
-              "estadio": "Estadio Santa Laura",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -6989,36 +4727,6 @@
               "local": "Deportes Recoleta",
               "visita": "Deportes Iquique",
               "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f30-06",
-              "fecha": "2026-11-01",
-              "hora": "17:00",
-              "local": "Unión San Felipe",
-              "visita": "Unión Española",
-              "estadio": "Estadio Municipal de San Felipe",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f30-07",
-              "fecha": "2026-11-01",
-              "hora": "17:00",
-              "local": "San Marcos de Arica",
-              "visita": "San Luis de Quillota",
-              "estadio": "Estadio Carlos Dittborn",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f30-08",
-              "fecha": "2026-11-01",
-              "hora": "17:00",
-              "local": "Santiago Wanderers",
-              "visita": "Deportes Copiapó",
-              "estadio": "Estadio Elías Figueroa Brander",
               "resultado": null,
               "prob": null
             }
@@ -7229,7 +4937,7 @@
         {
           "numero": 1,
           "nombre": "Fecha 1",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f1-01",
@@ -7295,132 +5003,13 @@
                 "0"
               ],
               "prob": null
-            },
-            {
-              "id": "f1-06",
-              "fecha": "2026-02-01",
-              "hora": "17:00",
-              "local": "Deportes Recoleta",
-              "visita": "Unión Española",
-              "estadio": "Estadio Municipal de Recoleta",
-              "resultado": [
-                "0",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f1-07",
-              "fecha": "2026-02-01",
-              "hora": "17:00",
-              "local": "Unión San Felipe",
-              "visita": "Santiago Wanderers",
-              "estadio": "Estadio Municipal de San Felipe",
-              "resultado": [
-                "2",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f1-08",
-              "fecha": "2026-02-01",
-              "hora": "19:30",
-              "local": "Curicó Unido",
-              "visita": "Rangers",
-              "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": [
-                "0",
-                "1"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f1-09",
-              "fecha": "2026-06-23",
-              "hora": "15:00",
-              "local": "Coquimbo Unido",
-              "visita": "D. Limache",
-              "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f1-10",
-              "fecha": "2026-06-23",
-              "hora": "20:30",
-              "local": "Palestino",
-              "visita": "Audax Italiano",
-              "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f1-11",
-              "fecha": "2026-06-23",
-              "hora": "20:30",
-              "local": "Everton",
-              "visita": "U. Católica",
-              "estadio": "Estadio Sausalito",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f1-12",
-              "fecha": "2026-06-24",
-              "hora": "16:00",
-              "local": "D. La Serena",
-              "visita": "Cobresal",
-              "estadio": "Estadio La Portada",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f1-13",
-              "fecha": "2026-06-24",
-              "hora": "19:30",
-              "local": "Unión La Calera",
-              "visita": "U. de Chile",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f1-14",
-              "fecha": "2026-06-24",
-              "hora": "19:30",
-              "local": "D. Concepción",
-              "visita": "Huachipato",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f1-15",
-              "fecha": "2026-06-25",
-              "hora": "19:30",
-              "local": "Colo Colo",
-              "visita": "O'Higgins",
-              "estadio": "Estadio Monumental David Arellano",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f1-16",
-              "fecha": "2026-06-25",
-              "hora": "19:30",
-              "local": "Ñublense",
-              "visita": "U. Concepción",
-              "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
         {
           "numero": 2,
           "nombre": "Fecha 2",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f2-01",
@@ -7486,125 +5075,6 @@
                 "0"
               ],
               "prob": null
-            },
-            {
-              "id": "f2-06",
-              "fecha": "2026-02-08",
-              "hora": "17:00",
-              "local": "Rangers",
-              "visita": "Curicó Unido",
-              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": [
-                "1",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f2-07",
-              "fecha": "2026-02-08",
-              "hora": "17:00",
-              "local": "Unión Española",
-              "visita": "Deportes Recoleta",
-              "estadio": "Estadio Bicentenario Municipal de La Florida",
-              "resultado": [
-                "1",
-                "2"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f2-08",
-              "fecha": "2026-02-08",
-              "hora": "18:00",
-              "local": "Cobreloa",
-              "visita": "Deportes Antofagasta",
-              "estadio": "Estadio Zorros del Desierto",
-              "resultado": [
-                "0",
-                "0"
-              ],
-              "prob": null
-            },
-            {
-              "id": "f2-09",
-              "fecha": "2026-06-30",
-              "hora": "18:00",
-              "local": "Audax Italiano",
-              "visita": "Palestino",
-              "estadio": "Estadio Bicentenario Municipal de La Florida",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f2-10",
-              "fecha": "2026-06-30",
-              "hora": "20:30",
-              "local": "U. Católica",
-              "visita": "Everton",
-              "estadio": "Claro Arena",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f2-11",
-              "fecha": "2026-07-01",
-              "hora": "18:00",
-              "local": "U. Concepción",
-              "visita": "Ñublense",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f2-12",
-              "fecha": "2026-07-01",
-              "hora": "18:00",
-              "local": "Cobresal",
-              "visita": "D. La Serena",
-              "estadio": "Estadio El Cobre",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f2-13",
-              "fecha": "2026-07-01",
-              "hora": "18:00",
-              "local": "D. Limache",
-              "visita": "Coquimbo Unido",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f2-14",
-              "fecha": "2026-07-01",
-              "hora": "20:30",
-              "local": "U. de Chile",
-              "visita": "Unión La Calera",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f2-15",
-              "fecha": "2026-07-02",
-              "hora": "18:00",
-              "local": "Huachipato",
-              "visita": "D. Concepción",
-              "estadio": "Estadio CAP",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f2-16",
-              "fecha": "2026-07-02",
-              "hora": "20:30",
-              "local": "O'Higgins",
-              "visita": "Colo Colo",
-              "estadio": "Estadio El Teniente",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -7646,16 +5116,6 @@
             {
               "id": "f3-04",
               "fecha": "2026-06-20",
-              "hora": "12:30",
-              "local": "Coquimbo Unido",
-              "visita": "Deportes Iquique",
-              "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f3-05",
-              "fecha": "2026-06-20",
               "hora": "15:00",
               "local": "Cobreloa",
               "visita": "Cobresal",
@@ -7664,112 +5124,12 @@
               "prob": null
             },
             {
-              "id": "f3-06",
+              "id": "f3-05",
               "fecha": "2026-06-20",
               "hora": "15:00",
               "local": "Deportes Copiapó",
               "visita": "U. Católica",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f3-07",
-              "fecha": "2026-06-20",
-              "hora": "17:30",
-              "local": "Deportes Recoleta",
-              "visita": "Colo Colo",
-              "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f3-08",
-              "fecha": "2026-06-20",
-              "hora": "18:00",
-              "local": "Everton",
-              "visita": "San Luis de Quillota",
-              "estadio": "Estadio Sausalito",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f3-09",
-              "fecha": "2026-06-20",
-              "hora": "18:00",
-              "local": "Rangers",
-              "visita": "U. Concepción",
-              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f3-10",
-              "fecha": "2026-06-21",
-              "hora": "12:30",
-              "local": "Deportes Antofagasta",
-              "visita": "D. La Serena",
-              "estadio": "Estadio Regional Calvo y Bascuñán",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f3-11",
-              "fecha": "2026-06-21",
-              "hora": "12:30",
-              "local": "Huachipato",
-              "visita": "Deportes Puerto Montt",
-              "estadio": "Estadio CAP",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f3-12",
-              "fecha": "2026-06-21",
-              "hora": "15:00",
-              "local": "Deportes Temuco",
-              "visita": "D. Concepción",
-              "estadio": "Estadio Municipal Germán Becker",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f3-13",
-              "fecha": "2026-06-21",
-              "hora": "15:00",
-              "local": "Unión La Calera",
-              "visita": "Unión San Felipe",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f3-14",
-              "fecha": "2026-06-21",
-              "hora": "16:00",
-              "local": "Curicó Unido",
-              "visita": "Ñublense",
-              "estadio": "Estadio Bicentenario La Granja",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f3-15",
-              "fecha": "2026-06-21",
-              "hora": "17:30",
-              "local": "U. de Chile",
-              "visita": "Santiago Wanderers",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f3-16",
-              "fecha": "2026-06-21",
-              "hora": "20:00",
-              "local": "O'Higgins",
-              "visita": "Unión Española",
-              "estadio": "Estadio El Teniente",
               "resultado": null,
               "prob": null
             }
@@ -7829,116 +5189,6 @@
               "estadio": "Estadio Bicentenario Municipal de La Florida",
               "resultado": null,
               "prob": null
-            },
-            {
-              "id": "f4-06",
-              "fecha": "2026-06-27",
-              "hora": "20:00",
-              "local": "U. Católica",
-              "visita": "San Luis de Quillota",
-              "estadio": "Claro Arena",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f4-07",
-              "fecha": "2026-06-28",
-              "hora": "12:30",
-              "local": "Deportes Antofagasta",
-              "visita": "Cobresal",
-              "estadio": "Estadio Regional Calvo y Bascuñán",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f4-08",
-              "fecha": "2026-06-28",
-              "hora": "12:30",
-              "local": "D. La Serena",
-              "visita": "Cobreloa",
-              "estadio": "Estadio La Portada",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f4-09",
-              "fecha": "2026-06-28",
-              "hora": "15:00",
-              "local": "Unión La Calera",
-              "visita": "Santiago Wanderers",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f4-10",
-              "fecha": "2026-06-28",
-              "hora": "15:00",
-              "local": "Huachipato",
-              "visita": "Deportes Temuco",
-              "estadio": "Estadio CAP",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f4-11",
-              "fecha": "2026-06-28",
-              "hora": "16:00",
-              "local": "Curicó Unido",
-              "visita": "U. Concepción",
-              "estadio": "Estadio Bicentenario La Granja",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f4-12",
-              "fecha": "2026-06-28",
-              "hora": "17:00",
-              "local": "O'Higgins",
-              "visita": "Deportes Recoleta",
-              "estadio": "Estadio El Teniente",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f4-13",
-              "fecha": "2026-06-28",
-              "hora": "17:00",
-              "local": "Rangers",
-              "visita": "Ñublense",
-              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f4-14",
-              "fecha": "2026-06-28",
-              "hora": "17:30",
-              "local": "U. de Chile",
-              "visita": "Unión San Felipe",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f4-15",
-              "fecha": "2026-06-28",
-              "hora": "20:00",
-              "local": "Deportes Puerto Montt",
-              "visita": "D. Concepción",
-              "estadio": "Estadio Regional de Chinquihue",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f4-16",
-              "fecha": "2026-06-29",
-              "hora": "19:30",
-              "local": "Unión Española",
-              "visita": "Colo Colo",
-              "estadio": "Estadio Santa Laura",
-              "resultado": null,
-              "prob": null
             }
           ]
         },
@@ -7994,116 +5244,6 @@
               "local": "U. Católica",
               "visita": "Deportes Copiapó",
               "estadio": "Claro Arena",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f5-06",
-              "fecha": "2026-07-05",
-              "hora": "12:30",
-              "local": "Santiago Wanderers",
-              "visita": "U. de Chile",
-              "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f5-07",
-              "fecha": "2026-07-05",
-              "hora": "12:30",
-              "local": "D. La Serena",
-              "visita": "Deportes Antofagasta",
-              "estadio": "Estadio La Portada",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f5-08",
-              "fecha": "2026-07-05",
-              "hora": "15:00",
-              "local": "U. Concepción",
-              "visita": "Rangers",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f5-09",
-              "fecha": "2026-07-05",
-              "hora": "15:00",
-              "local": "Cobresal",
-              "visita": "Cobreloa",
-              "estadio": "Estadio El Cobre",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f5-10",
-              "fecha": "2026-07-05",
-              "hora": "15:00",
-              "local": "Ñublense",
-              "visita": "Curicó Unido",
-              "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f5-11",
-              "fecha": "2026-07-05",
-              "hora": "15:00",
-              "local": "Deportes Puerto Montt",
-              "visita": "Huachipato",
-              "estadio": "Estadio Regional de Chinquihue",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f5-12",
-              "fecha": "2026-07-05",
-              "hora": "16:00",
-              "local": "Deportes Santa Cruz",
-              "visita": "Audax Italiano",
-              "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f5-13",
-              "fecha": "2026-07-05",
-              "hora": "17:30",
-              "local": "Unión Española",
-              "visita": "O'Higgins",
-              "estadio": "Estadio Santa Laura",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f5-14",
-              "fecha": "2026-07-05",
-              "hora": "20:00",
-              "local": "D. Limache",
-              "visita": "San Marcos de Arica",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f5-15",
-              "fecha": "2026-07-06",
-              "hora": "19:30",
-              "local": "Colo Colo",
-              "visita": "Deportes Recoleta",
-              "estadio": "Estadio Monumental David Arellano",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f5-16",
-              "fecha": "2026-07-06",
-              "hora": "19:30",
-              "local": "D. Concepción",
-              "visita": "Deportes Temuco",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
               "resultado": null,
               "prob": null
             }
