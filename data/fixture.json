@@ -1019,7 +1019,7 @@
         {
           "numero": 15,
           "nombre": "Fecha 15",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f15-01",
@@ -1080,7 +1080,10 @@
               "local": "D. Concepción",
               "visita": "D. Limache",
               "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             }
           ]
