@@ -5084,7 +5084,7 @@
         {
           "numero": 3,
           "nombre": "Fecha 3",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f3-01",
@@ -5093,7 +5093,10 @@
               "local": "Audax Italiano",
               "visita": "Deportes Santa Cruz",
               "estadio": "Estadio Bicentenario Municipal de La Florida",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
