@@ -5129,7 +5129,10 @@
               "local": "Cobreloa",
               "visita": "Cobresal",
               "estadio": "Estadio Zorros del Desierto",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5139,7 +5142,10 @@
               "local": "Deportes Copiapó",
               "visita": "U. Católica",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             }
           ]
