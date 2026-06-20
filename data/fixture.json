@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-06-19",
+  "actualizado": "2026-06-20",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -5095,7 +5095,7 @@
               "estadio": "Estadio Bicentenario Municipal de La Florida",
               "resultado": [
                 "0",
-                "0"
+                "1"
               ],
               "prob": null
             },
@@ -5106,7 +5106,10 @@
               "local": "San Marcos de Arica",
               "visita": "D. Limache",
               "estadio": "Estadio Carlos Dittborn",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "3"
+              ],
               "prob": null
             },
             {
