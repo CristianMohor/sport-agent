@@ -5156,7 +5156,7 @@
         {
           "numero": 4,
           "nombre": "Fecha 4",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f4-01",
@@ -5165,7 +5165,10 @@
               "local": "Everton",
               "visita": "Deportes Copiapó",
               "estadio": "Estadio Sausalito",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
