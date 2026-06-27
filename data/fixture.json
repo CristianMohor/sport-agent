@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-06-26",
+  "actualizado": "2026-06-27",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -5166,7 +5166,7 @@
               "visita": "Deportes Copiapó",
               "estadio": "Estadio Sausalito",
               "resultado": [
-                "0",
+                "3",
                 "0"
               ],
               "prob": null
