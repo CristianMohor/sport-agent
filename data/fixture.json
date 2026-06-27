@@ -5156,7 +5156,7 @@
         {
           "numero": 4,
           "nombre": "Fecha 4",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f4-01",
@@ -5178,7 +5178,10 @@
               "local": "San Marcos de Arica",
               "visita": "Coquimbo Unido",
               "estadio": "Estadio Carlos Dittborn",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5188,7 +5191,10 @@
               "local": "Deportes Santa Cruz",
               "visita": "Palestino",
               "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5198,7 +5204,10 @@
               "local": "D. Limache",
               "visita": "Deportes Iquique",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -5208,7 +5217,10 @@
               "local": "Audax Italiano",
               "visita": "Magallanes",
               "estadio": "Estadio Bicentenario Municipal de La Florida",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             }
           ]
