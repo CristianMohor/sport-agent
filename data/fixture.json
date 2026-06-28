@@ -5281,6 +5281,63 @@
               "prob": null
             }
           ]
+        },
+        {
+          "numero": 6,
+          "nombre": "Fecha 6",
+          "estado": "proxima",
+          "partidos": [
+            {
+              "id": "f6-01",
+              "fecha": "2026-07-11",
+              "hora": "15:00",
+              "local": "Palestino",
+              "visita": "Deportes Santa Cruz",
+              "estadio": "Estadio Municipal de La Cisterna",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f6-02",
+              "fecha": "2026-07-11",
+              "hora": "15:00",
+              "local": "Magallanes",
+              "visita": "Audax Italiano",
+              "estadio": "Estadio Municipal Luis Navarro Avilés",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f6-03",
+              "fecha": "2026-07-11",
+              "hora": "17:30",
+              "local": "San Luis de Quillota",
+              "visita": "U. Católica",
+              "estadio": "Estadio Municipal Lucio Fariña Fernández",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f6-04",
+              "fecha": "2026-07-11",
+              "hora": "17:30",
+              "local": "Deportes Copiapó",
+              "visita": "Everton",
+              "estadio": "Estadio Luis Valenzuela Hermosilla",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f6-05",
+              "fecha": "2026-07-12",
+              "hora": "12:30",
+              "local": "Deportes Antofagasta",
+              "visita": "Cobresal",
+              "estadio": "Estadio Regional Calvo y Bascuñán",
+              "resultado": null,
+              "prob": null
+            }
+          ]
         }
       ],
       "tabla": null
