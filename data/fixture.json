@@ -5264,8 +5264,8 @@
               "visita": "Everton",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
               "resultado": [
-                "1",
-                "1"
+                "2",
+                "2"
               ],
               "prob": null
             },
@@ -5276,7 +5276,10 @@
               "local": "Deportes Iquique",
               "visita": "Coquimbo Unido",
               "estadio": "Estadio Tierra de Campeones",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
