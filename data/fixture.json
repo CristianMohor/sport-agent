@@ -5228,7 +5228,7 @@
         {
           "numero": 5,
           "nombre": "Fecha 5",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f5-01",
@@ -5237,7 +5237,10 @@
               "local": "Unión San Felipe",
               "visita": "Unión La Calera",
               "estadio": "Estadio Municipal de San Felipe",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5247,7 +5250,10 @@
               "local": "Magallanes",
               "visita": "Palestino",
               "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "2"
+              ],
               "prob": null
             },
             {
@@ -5257,7 +5263,10 @@
               "local": "San Luis de Quillota",
               "visita": "Everton",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
