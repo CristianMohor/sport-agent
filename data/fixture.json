@@ -3887,28 +3887,8 @@
           "partidos": [
             {
               "id": "f16-01",
-              "fecha": "2026-07-19",
-              "hora": "16:00",
-              "local": "Deportes Antofagasta",
-              "visita": "Rangers",
-              "estadio": "Estadio Regional Calvo y Bascuñán",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f16-02",
-              "fecha": "2026-07-19",
-              "hora": "16:00",
-              "local": "Deportes Santa Cruz",
-              "visita": "San Marcos de Arica",
-              "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f16-03",
-              "fecha": "2026-07-19",
-              "hora": "16:00",
+              "fecha": "2026-07-18",
+              "hora": "12:30",
               "local": "Deportes Copiapó",
               "visita": "Deportes Puerto Montt",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
@@ -3916,9 +3896,19 @@
               "prob": null
             },
             {
-              "id": "f16-04",
-              "fecha": "2026-07-19",
-              "hora": "16:00",
+              "id": "f16-02",
+              "fecha": "2026-07-18",
+              "hora": "12:30",
+              "local": "Unión San Felipe",
+              "visita": "Deportes Iquique",
+              "estadio": "Estadio Municipal de San Felipe",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f16-03",
+              "fecha": "2026-07-18",
+              "hora": "15:00",
               "local": "Deportes Temuco",
               "visita": "Cobreloa",
               "estadio": "Estadio Municipal Germán Becker",
@@ -3926,12 +3916,22 @@
               "prob": null
             },
             {
+              "id": "f16-04",
+              "fecha": "2026-07-18",
+              "hora": "15:00",
+              "local": "Deportes Recoleta",
+              "visita": "Santiago Wanderers",
+              "estadio": "Estadio Municipal de Recoleta",
+              "resultado": null,
+              "prob": null
+            },
+            {
               "id": "f16-05",
               "fecha": "2026-07-19",
-              "hora": "16:00",
-              "local": "Magallanes",
-              "visita": "Curicó Unido",
-              "estadio": "Estadio Municipal Luis Navarro Avilés",
+              "hora": "12:00",
+              "local": "Deportes Antofagasta",
+              "visita": "Rangers",
+              "estadio": "Estadio Regional Calvo y Bascuñán",
               "resultado": null,
               "prob": null
             }
@@ -3944,28 +3944,8 @@
           "partidos": [
             {
               "id": "f17-01",
-              "fecha": "2026-07-26",
-              "hora": "16:00",
-              "local": "Cobreloa",
-              "visita": "Deportes Santa Cruz",
-              "estadio": "Estadio Zorros del Desierto",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f17-02",
-              "fecha": "2026-07-26",
-              "hora": "16:00",
-              "local": "Curicó Unido",
-              "visita": "San Luis de Quillota",
-              "estadio": "Estadio Bicentenario La Granja",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f17-03",
-              "fecha": "2026-07-26",
-              "hora": "16:00",
+              "fecha": "2026-07-24",
+              "hora": "20:30",
               "local": "Deportes Iquique",
               "visita": "Deportes Temuco",
               "estadio": "Estadio Tierra de Campeones",
@@ -3973,22 +3953,42 @@
               "prob": null
             },
             {
+              "id": "f17-02",
+              "fecha": "2026-07-25",
+              "hora": "12:30",
+              "local": "Santiago Wanderers",
+              "visita": "Unión San Felipe",
+              "estadio": "Estadio Elías Figueroa Brander",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f17-03",
+              "fecha": "2026-07-25",
+              "hora": "15:00",
+              "local": "Curicó Unido",
+              "visita": "San Luis de Quillota",
+              "estadio": "Estadio Bicentenario La Granja",
+              "resultado": null,
+              "prob": null
+            },
+            {
               "id": "f17-04",
-              "fecha": "2026-07-26",
-              "hora": "16:00",
-              "local": "Deportes Puerto Montt",
-              "visita": "Deportes Antofagasta",
-              "estadio": "Estadio Regional de Chinquihue",
+              "fecha": "2026-07-25",
+              "hora": "17:30",
+              "local": "Cobreloa",
+              "visita": "Deportes Santa Cruz",
+              "estadio": "Estadio Zorros del Desierto",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f17-05",
               "fecha": "2026-07-26",
-              "hora": "16:00",
-              "local": "Rangers",
-              "visita": "Deportes Copiapó",
-              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
+              "hora": "12:30",
+              "local": "Deportes Puerto Montt",
+              "visita": "Deportes Antofagasta",
+              "estadio": "Estadio Regional de Chinquihue",
               "resultado": null,
               "prob": null
             }
@@ -4001,8 +4001,28 @@
           "partidos": [
             {
               "id": "f18-01",
-              "fecha": "2026-08-02",
-              "hora": "16:00",
+              "fecha": "2026-07-31",
+              "hora": "18:00",
+              "local": "San Luis de Quillota",
+              "visita": "Rangers",
+              "estadio": "Estadio Municipal Lucio Fariña Fernández",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f18-02",
+              "fecha": "2026-07-31",
+              "hora": "20:30",
+              "local": "San Marcos de Arica",
+              "visita": "Deportes Iquique",
+              "estadio": "Estadio Carlos Dittborn",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f18-03",
+              "fecha": "2026-08-01",
+              "hora": "15:00",
               "local": "Deportes Antofagasta",
               "visita": "Unión San Felipe",
               "estadio": "Estadio Regional Calvo y Bascuñán",
@@ -4010,19 +4030,9 @@
               "prob": null
             },
             {
-              "id": "f18-02",
-              "fecha": "2026-08-02",
-              "hora": "16:00",
-              "local": "Deportes Santa Cruz",
-              "visita": "Santiago Wanderers",
-              "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f18-03",
-              "fecha": "2026-08-02",
-              "hora": "16:00",
+              "id": "f18-04",
+              "fecha": "2026-08-01",
+              "hora": "17:30",
               "local": "Curicó Unido",
               "visita": "Cobreloa",
               "estadio": "Estadio Bicentenario La Granja",
@@ -4030,22 +4040,12 @@
               "prob": null
             },
             {
-              "id": "f18-04",
-              "fecha": "2026-08-02",
-              "hora": "16:00",
-              "local": "Deportes Temuco",
-              "visita": "Deportes Copiapó",
-              "estadio": "Estadio Municipal Germán Becker",
-              "resultado": null,
-              "prob": null
-            },
-            {
               "id": "f18-05",
               "fecha": "2026-08-02",
-              "hora": "16:00",
-              "local": "Magallanes",
-              "visita": "Unión Española",
-              "estadio": "Estadio Municipal Luis Navarro Avilés",
+              "hora": "17:30",
+              "local": "Deportes Santa Cruz",
+              "visita": "Santiago Wanderers",
+              "estadio": "Estadio Municipal Joaquín Muñoz García",
               "resultado": null,
               "prob": null
             }
@@ -4058,8 +4058,18 @@
           "partidos": [
             {
               "id": "f19-01",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
+              "fecha": "2026-08-07",
+              "hora": "18:00",
+              "local": "Unión Española",
+              "visita": "Deportes Antofagasta",
+              "estadio": "Estadio Santa Laura",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f19-02",
+              "fecha": "2026-08-07",
+              "hora": "20:30",
               "local": "Deportes Santa Cruz",
               "visita": "Deportes Puerto Montt",
               "estadio": "Estadio Municipal Joaquín Muñoz García",
@@ -4067,42 +4077,32 @@
               "prob": null
             },
             {
-              "id": "f19-02",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
-              "local": "Cobreloa",
-              "visita": "Deportes Iquique",
-              "estadio": "Estadio Zorros del Desierto",
-              "resultado": null,
-              "prob": null
-            },
-            {
               "id": "f19-03",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
-              "local": "Deportes Copiapó",
-              "visita": "San Luis de Quillota",
-              "estadio": "Estadio Luis Valenzuela Hermosilla",
+              "fecha": "2026-08-08",
+              "hora": "12:30",
+              "local": "Unión San Felipe",
+              "visita": "Deportes Recoleta",
+              "estadio": "Estadio Municipal de San Felipe",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f19-04",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
-              "local": "Deportes Temuco",
-              "visita": "Magallanes",
-              "estadio": "Estadio Municipal Germán Becker",
+              "fecha": "2026-08-08",
+              "hora": "15:00",
+              "local": "Santiago Wanderers",
+              "visita": "San Marcos de Arica",
+              "estadio": "Estadio Elías Figueroa Brander",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f19-05",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
-              "local": "Rangers",
-              "visita": "Curicó Unido",
-              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
+              "fecha": "2026-08-08",
+              "hora": "17:30",
+              "local": "Cobreloa",
+              "visita": "Deportes Iquique",
+              "estadio": "Estadio Zorros del Desierto",
               "resultado": null,
               "prob": null
             }
@@ -4115,38 +4115,8 @@
           "partidos": [
             {
               "id": "f20-01",
-              "fecha": "2026-08-12",
-              "hora": "16:00",
-              "local": "Deportes Antofagasta",
-              "visita": "Santiago Wanderers",
-              "estadio": "Estadio Regional Calvo y Bascuñán",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f20-02",
-              "fecha": "2026-08-12",
-              "hora": "16:00",
-              "local": "Curicó Unido",
-              "visita": "Deportes Santa Cruz",
-              "estadio": "Estadio Bicentenario La Granja",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f20-03",
-              "fecha": "2026-08-12",
-              "hora": "16:00",
-              "local": "Deportes Iquique",
-              "visita": "Deportes Copiapó",
-              "estadio": "Estadio Tierra de Campeones",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f20-04",
-              "fecha": "2026-08-12",
-              "hora": "16:00",
+              "fecha": "2026-08-11",
+              "hora": "19:00",
               "local": "Deportes Puerto Montt",
               "visita": "Unión Española",
               "estadio": "Estadio Regional de Chinquihue",
@@ -4154,12 +4124,42 @@
               "prob": null
             },
             {
-              "id": "f20-05",
+              "id": "f20-02",
               "fecha": "2026-08-12",
-              "hora": "16:00",
+              "hora": "18:00",
               "local": "Magallanes",
               "visita": "Cobreloa",
               "estadio": "Estadio Municipal Luis Navarro Avilés",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f20-03",
+              "fecha": "2026-08-12",
+              "hora": "18:00",
+              "local": "Deportes Recoleta",
+              "visita": "Rangers",
+              "estadio": "Estadio Municipal de Recoleta",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f20-04",
+              "fecha": "2026-08-12",
+              "hora": "20:30",
+              "local": "Deportes Antofagasta",
+              "visita": "Santiago Wanderers",
+              "estadio": "Estadio Regional Calvo y Bascuñán",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f20-05",
+              "fecha": "2026-08-13",
+              "hora": "18:00",
+              "local": "San Luis de Quillota",
+              "visita": "Deportes Temuco",
+              "estadio": "Estadio Municipal Lucio Fariña Fernández",
               "resultado": null,
               "prob": null
             }
@@ -4172,51 +4172,51 @@
           "partidos": [
             {
               "id": "f21-01",
-              "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "Deportes Santa Cruz",
-              "visita": "San Luis de Quillota",
-              "estadio": "Estadio Municipal Joaquín Muñoz García",
+              "fecha": "2026-08-15",
+              "hora": "15:00",
+              "local": "Rangers",
+              "visita": "Magallanes",
+              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f21-02",
-              "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "Deportes Copiapó",
-              "visita": "Curicó Unido",
-              "estadio": "Estadio Luis Valenzuela Hermosilla",
+              "fecha": "2026-08-15",
+              "hora": "20:00",
+              "local": "Unión Española",
+              "visita": "San Marcos de Arica",
+              "estadio": "Estadio Santa Laura",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f21-03",
               "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "Deportes Iquique",
-              "visita": "Deportes Antofagasta",
-              "estadio": "Estadio Tierra de Campeones",
+              "hora": "12:30",
+              "local": "Santiago Wanderers",
+              "visita": "Deportes Puerto Montt",
+              "estadio": "Estadio Elías Figueroa Brander",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f21-04",
               "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "Deportes Temuco",
-              "visita": "Deportes Recoleta",
-              "estadio": "Estadio Municipal Germán Becker",
+              "hora": "15:00",
+              "local": "Unión San Felipe",
+              "visita": "Cobreloa",
+              "estadio": "Estadio Municipal de San Felipe",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f21-05",
-              "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "Rangers",
-              "visita": "Magallanes",
-              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
+              "fecha": "2026-08-17",
+              "hora": "18:00",
+              "local": "Deportes Santa Cruz",
+              "visita": "San Luis de Quillota",
+              "estadio": "Estadio Municipal Joaquín Muñoz García",
               "resultado": null,
               "prob": null
             }
@@ -4229,38 +4229,28 @@
           "partidos": [
             {
               "id": "f22-01",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
-              "local": "Deportes Antofagasta",
-              "visita": "Deportes Temuco",
-              "estadio": "Estadio Regional Calvo y Bascuñán",
+              "fecha": "2026-08-21",
+              "hora": "20:30",
+              "local": "San Marcos de Arica",
+              "visita": "Rangers",
+              "estadio": "Estadio Carlos Dittborn",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f22-02",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
-              "local": "Cobreloa",
-              "visita": "Unión Española",
-              "estadio": "Estadio Zorros del Desierto",
+              "fecha": "2026-08-22",
+              "hora": "12:30",
+              "local": "Deportes Recoleta",
+              "visita": "Deportes Copiapó",
+              "estadio": "Estadio Municipal de Recoleta",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f22-03",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
-              "local": "Curicó Unido",
-              "visita": "Unión San Felipe",
-              "estadio": "Estadio Bicentenario La Granja",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f22-04",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
+              "fecha": "2026-08-22",
+              "hora": "15:00",
               "local": "Deportes Puerto Montt",
               "visita": "Deportes Iquique",
               "estadio": "Estadio Regional de Chinquihue",
@@ -4268,12 +4258,22 @@
               "prob": null
             },
             {
-              "id": "f22-05",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
+              "id": "f22-04",
+              "fecha": "2026-08-22",
+              "hora": "15:00",
               "local": "Magallanes",
               "visita": "Deportes Santa Cruz",
               "estadio": "Estadio Municipal Luis Navarro Avilés",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f22-05",
+              "fecha": "2026-08-22",
+              "hora": "17:30",
+              "local": "Cobreloa",
+              "visita": "Unión Española",
+              "estadio": "Estadio Zorros del Desierto",
               "resultado": null,
               "prob": null
             }
@@ -4286,18 +4286,38 @@
           "partidos": [
             {
               "id": "f23-01",
-              "fecha": "2026-08-30",
-              "hora": "16:00",
-              "local": "Cobreloa",
-              "visita": "San Marcos de Arica",
-              "estadio": "Estadio Zorros del Desierto",
+              "fecha": "2026-08-29",
+              "hora": "12:30",
+              "local": "Unión San Felipe",
+              "visita": "Deportes Santa Cruz",
+              "estadio": "Estadio Municipal de San Felipe",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f23-02",
+              "fecha": "2026-08-29",
+              "hora": "15:00",
+              "local": "Santiago Wanderers",
+              "visita": "Magallanes",
+              "estadio": "Estadio Elías Figueroa Brander",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f23-03",
+              "fecha": "2026-08-29",
+              "hora": "17:30",
+              "local": "Unión Española",
+              "visita": "Rangers",
+              "estadio": "Estadio Santa Laura",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f23-04",
               "fecha": "2026-08-30",
-              "hora": "16:00",
+              "hora": "12:30",
               "local": "Deportes Copiapó",
               "visita": "Deportes Antofagasta",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
@@ -4305,32 +4325,12 @@
               "prob": null
             },
             {
-              "id": "f23-03",
+              "id": "f23-05",
               "fecha": "2026-08-30",
-              "hora": "16:00",
+              "hora": "17:30",
               "local": "Curicó Unido",
               "visita": "Deportes Recoleta",
               "estadio": "Estadio Bicentenario La Granja",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f23-04",
-              "fecha": "2026-08-30",
-              "hora": "16:00",
-              "local": "Deportes Iquique",
-              "visita": "San Luis de Quillota",
-              "estadio": "Estadio Tierra de Campeones",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f23-05",
-              "fecha": "2026-08-30",
-              "hora": "16:00",
-              "local": "Deportes Temuco",
-              "visita": "Deportes Puerto Montt",
-              "estadio": "Estadio Municipal Germán Becker",
               "resultado": null,
               "prob": null
             }
@@ -4343,28 +4343,28 @@
           "partidos": [
             {
               "id": "f24-01",
-              "fecha": "2026-09-02",
-              "hora": "16:00",
-              "local": "Deportes Antofagasta",
-              "visita": "Deportes Recoleta",
-              "estadio": "Estadio Regional Calvo y Bascuñán",
+              "fecha": "2026-09-04",
+              "hora": "18:00",
+              "local": "Rangers",
+              "visita": "Deportes Temuco",
+              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f24-02",
-              "fecha": "2026-09-02",
-              "hora": "16:00",
-              "local": "Deportes Santa Cruz",
-              "visita": "Unión Española",
-              "estadio": "Estadio Municipal Joaquín Muñoz García",
+              "fecha": "2026-09-04",
+              "hora": "18:00",
+              "local": "Santiago Wanderers",
+              "visita": "Deportes Iquique",
+              "estadio": "Estadio Elías Figueroa Brander",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f24-03",
-              "fecha": "2026-09-02",
-              "hora": "16:00",
+              "fecha": "2026-09-04",
+              "hora": "20:30",
               "local": "Deportes Puerto Montt",
               "visita": "Curicó Unido",
               "estadio": "Estadio Regional de Chinquihue",
@@ -4373,8 +4373,8 @@
             },
             {
               "id": "f24-04",
-              "fecha": "2026-09-02",
-              "hora": "16:00",
+              "fecha": "2026-09-05",
+              "hora": "12:30",
               "local": "Magallanes",
               "visita": "Unión San Felipe",
               "estadio": "Estadio Municipal Luis Navarro Avilés",
@@ -4383,11 +4383,11 @@
             },
             {
               "id": "f24-05",
-              "fecha": "2026-09-02",
-              "hora": "16:00",
-              "local": "Rangers",
-              "visita": "Deportes Temuco",
-              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
+              "fecha": "2026-09-05",
+              "hora": "15:00",
+              "local": "Deportes Santa Cruz",
+              "visita": "Unión Española",
+              "estadio": "Estadio Municipal Joaquín Muñoz García",
               "resultado": null,
               "prob": null
             }
@@ -4400,28 +4400,28 @@
           "partidos": [
             {
               "id": "f25-01",
-              "fecha": "2026-09-06",
-              "hora": "00:00",
-              "local": "Deportes Antofagasta",
-              "visita": "Cobreloa",
-              "estadio": "Estadio Regional Calvo y Bascuñán",
+              "fecha": "2026-09-08",
+              "hora": "17:00",
+              "local": "Deportes Puerto Montt",
+              "visita": "Rangers",
+              "estadio": "Estadio Regional de Chinquihue",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f25-02",
-              "fecha": "2026-09-06",
-              "hora": "00:00",
-              "local": "Deportes Copiapó",
-              "visita": "Magallanes",
-              "estadio": "Estadio Luis Valenzuela Hermosilla",
+              "fecha": "2026-09-08",
+              "hora": "17:00",
+              "local": "Unión San Felipe",
+              "visita": "San Luis de Quillota",
+              "estadio": "Estadio Municipal de San Felipe",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f25-03",
-              "fecha": "2026-09-06",
-              "hora": "00:00",
+              "fecha": "2026-09-08",
+              "hora": "19:30",
               "local": "Curicó Unido",
               "visita": "Unión Española",
               "estadio": "Estadio Bicentenario La Granja",
@@ -4430,21 +4430,21 @@
             },
             {
               "id": "f25-04",
-              "fecha": "2026-09-06",
-              "hora": "00:00",
-              "local": "Deportes Iquique",
-              "visita": "Deportes Santa Cruz",
-              "estadio": "Estadio Tierra de Campeones",
+              "fecha": "2026-09-08",
+              "hora": "19:30",
+              "local": "Deportes Temuco",
+              "visita": "Santiago Wanderers",
+              "estadio": "Estadio Municipal Germán Becker",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f25-05",
-              "fecha": "2026-09-06",
-              "hora": "00:00",
-              "local": "Deportes Temuco",
-              "visita": "Santiago Wanderers",
-              "estadio": "Estadio Municipal Germán Becker",
+              "fecha": "2026-09-09",
+              "hora": "17:00",
+              "local": "Deportes Antofagasta",
+              "visita": "Cobreloa",
+              "estadio": "Estadio Regional Calvo y Bascuñán",
               "resultado": null,
               "prob": null
             }
@@ -4457,28 +4457,18 @@
           "partidos": [
             {
               "id": "f26-01",
-              "fecha": "2026-09-13",
-              "hora": "16:00",
-              "local": "Deportes Santa Cruz",
-              "visita": "Deportes Recoleta",
-              "estadio": "Estadio Municipal Joaquín Muñoz García",
+              "fecha": "2026-09-12",
+              "hora": "19:00",
+              "local": "San Marcos de Arica",
+              "visita": "Curicó Unido",
+              "estadio": "Estadio Carlos Dittborn",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f26-02",
               "fecha": "2026-09-13",
-              "hora": "16:00",
-              "local": "Cobreloa",
-              "visita": "Santiago Wanderers",
-              "estadio": "Estadio Zorros del Desierto",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f26-03",
-              "fecha": "2026-09-13",
-              "hora": "16:00",
+              "hora": "11:30",
               "local": "Magallanes",
               "visita": "Deportes Puerto Montt",
               "estadio": "Estadio Municipal Luis Navarro Avilés",
@@ -4486,22 +4476,32 @@
               "prob": null
             },
             {
-              "id": "f26-04",
+              "id": "f26-03",
               "fecha": "2026-09-13",
-              "hora": "16:00",
-              "local": "Rangers",
-              "visita": "Deportes Iquique",
-              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
+              "hora": "14:00",
+              "local": "Cobreloa",
+              "visita": "Santiago Wanderers",
+              "estadio": "Estadio Zorros del Desierto",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f26-04",
+              "fecha": "2026-09-14",
+              "hora": "17:00",
+              "local": "Deportes Santa Cruz",
+              "visita": "Deportes Recoleta",
+              "estadio": "Estadio Municipal Joaquín Muñoz García",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f26-05",
-              "fecha": "2026-09-13",
-              "hora": "16:00",
-              "local": "Unión San Felipe",
-              "visita": "Deportes Copiapó",
-              "estadio": "Estadio Municipal de San Felipe",
+              "fecha": "2026-09-14",
+              "hora": "19:30",
+              "local": "Rangers",
+              "visita": "Deportes Iquique",
+              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
               "resultado": null,
               "prob": null
             }
@@ -4514,38 +4514,28 @@
           "partidos": [
             {
               "id": "f27-01",
-              "fecha": "2026-10-11",
-              "hora": "16:00",
-              "local": "Deportes Antofagasta",
-              "visita": "San Marcos de Arica",
-              "estadio": "Estadio Regional Calvo y Bascuñán",
+              "fecha": "2026-10-10",
+              "hora": "11:30",
+              "local": "Deportes Recoleta",
+              "visita": "Magallanes",
+              "estadio": "Estadio Municipal de Recoleta",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f27-02",
-              "fecha": "2026-10-11",
-              "hora": "16:00",
-              "local": "Deportes Copiapó",
-              "visita": "Cobreloa",
-              "estadio": "Estadio Luis Valenzuela Hermosilla",
+              "fecha": "2026-10-10",
+              "hora": "14:00",
+              "local": "Santiago Wanderers",
+              "visita": "Curicó Unido",
+              "estadio": "Estadio Elías Figueroa Brander",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f27-03",
-              "fecha": "2026-10-11",
-              "hora": "16:00",
-              "local": "Deportes Iquique",
-              "visita": "Unión Española",
-              "estadio": "Estadio Tierra de Campeones",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f27-04",
-              "fecha": "2026-10-11",
-              "hora": "16:00",
+              "fecha": "2026-10-10",
+              "hora": "16:30",
               "local": "Deportes Temuco",
               "visita": "Deportes Santa Cruz",
               "estadio": "Estadio Municipal Germán Becker",
@@ -4553,12 +4543,22 @@
               "prob": null
             },
             {
+              "id": "f27-04",
+              "fecha": "2026-10-11",
+              "hora": "11:30",
+              "local": "Deportes Antofagasta",
+              "visita": "San Marcos de Arica",
+              "estadio": "Estadio Regional Calvo y Bascuñán",
+              "resultado": null,
+              "prob": null
+            },
+            {
               "id": "f27-05",
               "fecha": "2026-10-11",
-              "hora": "16:00",
-              "local": "Deportes Puerto Montt",
-              "visita": "San Luis de Quillota",
-              "estadio": "Estadio Regional de Chinquihue",
+              "hora": "14:00",
+              "local": "Deportes Copiapó",
+              "visita": "Cobreloa",
+              "estadio": "Estadio Luis Valenzuela Hermosilla",
               "resultado": null,
               "prob": null
             }
@@ -5228,7 +5228,7 @@
         {
           "numero": 5,
           "nombre": "Fecha 5",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f5-01",
@@ -5277,8 +5277,8 @@
               "visita": "Coquimbo Unido",
               "estadio": "Estadio Tierra de Campeones",
               "resultado": [
-                "0",
-                "0"
+                "1",
+                "1"
               ],
               "prob": null
             },
@@ -5289,7 +5289,10 @@
               "local": "U. Católica",
               "visita": "Deportes Copiapó",
               "estadio": "Claro Arena",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "1"
+              ],
               "prob": null
             }
           ]
