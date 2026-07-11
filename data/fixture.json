@@ -5310,8 +5310,8 @@
               "visita": "Deportes Santa Cruz",
               "estadio": "Estadio Municipal de La Cisterna",
               "resultado": [
-                "1",
-                "1"
+                "3",
+                "2"
               ],
               "prob": null
             },
@@ -5335,7 +5335,10 @@
               "local": "San Luis de Quillota",
               "visita": "U. Católica",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5345,7 +5348,10 @@
               "local": "Deportes Copiapó",
               "visita": "Everton",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
