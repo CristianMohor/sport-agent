@@ -5300,7 +5300,7 @@
         {
           "numero": 6,
           "nombre": "Fecha 6",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f6-01",
@@ -5309,7 +5309,10 @@
               "local": "Palestino",
               "visita": "Deportes Santa Cruz",
               "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -5319,7 +5322,10 @@
               "local": "Magallanes",
               "visita": "Audax Italiano",
               "estadio": "Estadio Municipal Luis Navarro Avilés",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
