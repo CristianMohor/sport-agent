@@ -1095,18 +1095,18 @@
           "partidos": [
             {
               "id": "f16-01",
-              "fecha": "2026-07-26",
-              "hora": "16:00",
-              "local": "Audax Italiano",
-              "visita": "U. de Chile",
-              "estadio": "Estadio Bicentenario Municipal de La Florida",
+              "fecha": "2026-07-24",
+              "hora": "18:00",
+              "local": "Unión La Calera",
+              "visita": "Everton",
+              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f16-02",
-              "fecha": "2026-07-26",
-              "hora": "16:00",
+              "fecha": "2026-07-24",
+              "hora": "20:30",
               "local": "Colo Colo",
               "visita": "D. Limache",
               "estadio": "Estadio Monumental David Arellano",
@@ -1115,8 +1115,8 @@
             },
             {
               "id": "f16-03",
-              "fecha": "2026-07-26",
-              "hora": "16:00",
+              "fecha": "2026-07-25",
+              "hora": "15:00",
               "local": "Coquimbo Unido",
               "visita": "U. Concepción",
               "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
@@ -1125,8 +1125,8 @@
             },
             {
               "id": "f16-04",
-              "fecha": "2026-07-26",
-              "hora": "16:00",
+              "fecha": "2026-07-25",
+              "hora": "17:30",
               "local": "Huachipato",
               "visita": "Cobresal",
               "estadio": "Estadio CAP",
@@ -1136,10 +1136,10 @@
             {
               "id": "f16-05",
               "fecha": "2026-07-26",
-              "hora": "16:00",
-              "local": "Ñublense",
-              "visita": "Palestino",
-              "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
+              "hora": "17:30",
+              "local": "Audax Italiano",
+              "visita": "U. de Chile",
+              "estadio": "Estadio Bicentenario Municipal de La Florida",
               "resultado": null,
               "prob": null
             }
@@ -1152,8 +1152,18 @@
           "partidos": [
             {
               "id": "f17-01",
-              "fecha": "2026-08-02",
-              "hora": "16:00",
+              "fecha": "2026-07-31",
+              "hora": "20:00",
+              "local": "U. Concepción",
+              "visita": "Audax Italiano",
+              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f17-02",
+              "fecha": "2026-08-01",
+              "hora": "12:30",
               "local": "Cobresal",
               "visita": "Unión La Calera",
               "estadio": "Estadio El Cobre",
@@ -1161,19 +1171,9 @@
               "prob": null
             },
             {
-              "id": "f17-02",
-              "fecha": "2026-08-02",
-              "hora": "16:00",
-              "local": "D. Concepción",
-              "visita": "U. Católica",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
-              "prob": null
-            },
-            {
               "id": "f17-03",
-              "fecha": "2026-08-02",
-              "hora": "16:00",
+              "fecha": "2026-08-01",
+              "hora": "15:00",
               "local": "Everton",
               "visita": "Colo Colo",
               "estadio": "Estadio Sausalito",
@@ -1182,21 +1182,21 @@
             },
             {
               "id": "f17-04",
-              "fecha": "2026-08-02",
-              "hora": "16:00",
-              "local": "D. La Serena",
-              "visita": "O'Higgins",
-              "estadio": "Estadio La Portada",
+              "fecha": "2026-08-01",
+              "hora": "17:30",
+              "local": "Palestino",
+              "visita": "Coquimbo Unido",
+              "estadio": "Estadio Municipal de La Cisterna",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f17-05",
               "fecha": "2026-08-02",
-              "hora": "16:00",
-              "local": "D. Limache",
-              "visita": "Ñublense",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
+              "hora": "12:30",
+              "local": "D. Concepción",
+              "visita": "U. Católica",
+              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
               "resultado": null,
               "prob": null
             }
@@ -1209,38 +1209,18 @@
           "partidos": [
             {
               "id": "f18-01",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
-              "local": "Audax Italiano",
-              "visita": "Ñublense",
-              "estadio": "Estadio Bicentenario Municipal de La Florida",
+              "fecha": "2026-08-07",
+              "hora": "20:30",
+              "local": "U. Católica",
+              "visita": "Cobresal",
+              "estadio": "Claro Arena",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f18-02",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
-              "local": "Coquimbo Unido",
-              "visita": "D. La Serena",
-              "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f18-03",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
-              "local": "D. Concepción",
-              "visita": "U. Concepción",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f18-04",
-              "fecha": "2026-08-09",
-              "hora": "16:00",
+              "fecha": "2026-08-08",
+              "hora": "15:00",
               "local": "Huachipato",
               "visita": "Everton",
               "estadio": "Estadio CAP",
@@ -1248,9 +1228,29 @@
               "prob": null
             },
             {
+              "id": "f18-03",
+              "fecha": "2026-08-08",
+              "hora": "17:30",
+              "local": "Coquimbo Unido",
+              "visita": "D. La Serena",
+              "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f18-04",
+              "fecha": "2026-08-09",
+              "hora": "12:30",
+              "local": "D. Concepción",
+              "visita": "U. Concepción",
+              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
+              "resultado": null,
+              "prob": null
+            },
+            {
               "id": "f18-05",
               "fecha": "2026-08-09",
-              "hora": "16:00",
+              "hora": "15:00",
               "local": "O'Higgins",
               "visita": "D. Limache",
               "estadio": "Estadio El Teniente",
@@ -1266,38 +1266,28 @@
           "partidos": [
             {
               "id": "f19-01",
-              "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "Cobresal",
-              "visita": "D. Concepción",
-              "estadio": "Estadio El Cobre",
+              "fecha": "2026-08-14",
+              "hora": "19:00",
+              "local": "U. Concepción",
+              "visita": "D. La Serena",
+              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f19-02",
-              "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "Colo Colo",
-              "visita": "O'Higgins",
-              "estadio": "Estadio Monumental David Arellano",
+              "fecha": "2026-08-15",
+              "hora": "17:30",
+              "local": "D. Limache",
+              "visita": "U. de Chile",
+              "estadio": "Estadio Municipal Lucio Fariña Fernández",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f19-03",
-              "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "Coquimbo Unido",
-              "visita": "U. Católica",
-              "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f19-04",
-              "fecha": "2026-08-16",
-              "hora": "16:00",
+              "fecha": "2026-08-15",
+              "hora": "20:00",
               "local": "Everton",
               "visita": "Audax Italiano",
               "estadio": "Estadio Sausalito",
@@ -1305,12 +1295,22 @@
               "prob": null
             },
             {
+              "id": "f19-04",
+              "fecha": "2026-08-16",
+              "hora": "15:00",
+              "local": "Cobresal",
+              "visita": "D. Concepción",
+              "estadio": "Estadio El Cobre",
+              "resultado": null,
+              "prob": null
+            },
+            {
               "id": "f19-05",
               "fecha": "2026-08-16",
-              "hora": "16:00",
-              "local": "D. Limache",
-              "visita": "U. de Chile",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
+              "hora": "17:30",
+              "local": "Colo Colo",
+              "visita": "O'Higgins",
+              "estadio": "Estadio Monumental David Arellano",
               "resultado": null,
               "prob": null
             }
@@ -1323,8 +1323,8 @@
           "partidos": [
             {
               "id": "f20-01",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
+              "fecha": "2026-08-21",
+              "hora": "20:30",
               "local": "Audax Italiano",
               "visita": "Unión La Calera",
               "estadio": "Estadio Bicentenario Municipal de La Florida",
@@ -1333,28 +1333,8 @@
             },
             {
               "id": "f20-02",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
-              "local": "D. Concepción",
-              "visita": "Coquimbo Unido",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f20-03",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
-              "local": "Everton",
-              "visita": "U. Concepción",
-              "estadio": "Estadio Sausalito",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f20-04",
-              "fecha": "2026-08-23",
-              "hora": "16:00",
+              "fecha": "2026-08-22",
+              "hora": "17:30",
               "local": "Huachipato",
               "visita": "D. Limache",
               "estadio": "Estadio CAP",
@@ -1362,12 +1342,32 @@
               "prob": null
             },
             {
-              "id": "f20-05",
+              "id": "f20-03",
               "fecha": "2026-08-23",
-              "hora": "16:00",
+              "hora": "12:00",
+              "local": "D. Concepción",
+              "visita": "Coquimbo Unido",
+              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f20-04",
+              "fecha": "2026-08-23",
+              "hora": "12:00",
               "local": "D. La Serena",
               "visita": "Cobresal",
               "estadio": "Estadio La Portada",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f20-05",
+              "fecha": "2026-08-23",
+              "hora": "19:00",
+              "local": "O'Higgins",
+              "visita": "Palestino",
+              "estadio": "Estadio El Teniente",
               "resultado": null,
               "prob": null
             }
@@ -1380,8 +1380,8 @@
           "partidos": [
             {
               "id": "f21-01",
-              "fecha": "2026-08-30",
-              "hora": "16:00",
+              "fecha": "2026-08-28",
+              "hora": "18:30",
               "local": "Cobresal",
               "visita": "Palestino",
               "estadio": "Estadio El Cobre",
@@ -1390,28 +1390,8 @@
             },
             {
               "id": "f21-02",
-              "fecha": "2026-08-30",
-              "hora": "16:00",
-              "local": "Colo Colo",
-              "visita": "Audax Italiano",
-              "estadio": "Estadio Monumental David Arellano",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f21-03",
-              "fecha": "2026-08-30",
-              "hora": "16:00",
-              "local": "Coquimbo Unido",
-              "visita": "Huachipato",
-              "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f21-04",
-              "fecha": "2026-08-30",
-              "hora": "16:00",
+              "fecha": "2026-08-29",
+              "hora": "17:30",
               "local": "D. Limache",
               "visita": "Everton",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
@@ -1419,12 +1399,32 @@
               "prob": null
             },
             {
-              "id": "f21-05",
-              "fecha": "2026-08-30",
-              "hora": "16:00",
+              "id": "f21-03",
+              "fecha": "2026-08-29",
+              "hora": "20:00",
               "local": "Ñublense",
               "visita": "D. Concepción",
               "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f21-04",
+              "fecha": "2026-08-30",
+              "hora": "15:00",
+              "local": "U. Concepción",
+              "visita": "U. de Chile",
+              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f21-05",
+              "fecha": "2026-08-30",
+              "hora": "17:30",
+              "local": "Colo Colo",
+              "visita": "Audax Italiano",
+              "estadio": "Estadio Monumental David Arellano",
               "resultado": null,
               "prob": null
             }
@@ -1437,8 +1437,8 @@
           "partidos": [
             {
               "id": "f22-01",
-              "fecha": "2026-09-06",
-              "hora": "00:00",
+              "fecha": "2026-09-04",
+              "hora": "20:30",
               "local": "D. Concepción",
               "visita": "Audax Italiano",
               "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
@@ -1447,8 +1447,8 @@
             },
             {
               "id": "f22-02",
-              "fecha": "2026-09-06",
-              "hora": "00:00",
+              "fecha": "2026-09-05",
+              "hora": "17:30",
               "local": "Everton",
               "visita": "U. Católica",
               "estadio": "Estadio Sausalito",
@@ -1458,17 +1458,7 @@
             {
               "id": "f22-03",
               "fecha": "2026-09-06",
-              "hora": "00:00",
-              "local": "Huachipato",
-              "visita": "Colo Colo",
-              "estadio": "Estadio CAP",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f22-04",
-              "fecha": "2026-09-06",
-              "hora": "00:00",
+              "hora": "11:30",
               "local": "D. La Serena",
               "visita": "Ñublense",
               "estadio": "Estadio La Portada",
@@ -1476,12 +1466,22 @@
               "prob": null
             },
             {
+              "id": "f22-04",
+              "fecha": "2026-09-06",
+              "hora": "13:45",
+              "local": "O'Higgins",
+              "visita": "Unión La Calera",
+              "estadio": "Estadio El Teniente",
+              "resultado": null,
+              "prob": null
+            },
+            {
               "id": "f22-05",
               "fecha": "2026-09-06",
-              "hora": "00:00",
-              "local": "D. Limache",
-              "visita": "Cobresal",
-              "estadio": "Estadio Municipal Lucio Fariña Fernández",
+              "hora": "16:00",
+              "local": "Huachipato",
+              "visita": "Colo Colo",
+              "estadio": "Estadio CAP",
               "resultado": null,
               "prob": null
             }
@@ -1494,18 +1494,18 @@
           "partidos": [
             {
               "id": "f23-01",
-              "fecha": "2026-09-13",
-              "hora": "16:00",
-              "local": "Audax Italiano",
-              "visita": "O'Higgins",
-              "estadio": "Estadio Bicentenario Municipal de La Florida",
+              "fecha": "2026-09-12",
+              "hora": "11:30",
+              "local": "Ñublense",
+              "visita": "Everton",
+              "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f23-02",
-              "fecha": "2026-09-13",
-              "hora": "16:00",
+              "fecha": "2026-09-12",
+              "hora": "14:00",
               "local": "Cobresal",
               "visita": "Coquimbo Unido",
               "estadio": "Estadio El Cobre",
@@ -1514,8 +1514,18 @@
             },
             {
               "id": "f23-03",
+              "fecha": "2026-09-12",
+              "hora": "19:00",
+              "local": "Palestino",
+              "visita": "U. Católica",
+              "estadio": "Estadio Municipal de La Cisterna",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f23-04",
               "fecha": "2026-09-13",
-              "hora": "16:00",
+              "hora": "16:30",
               "local": "Colo Colo",
               "visita": "D. Concepción",
               "estadio": "Estadio Monumental David Arellano",
@@ -1523,22 +1533,12 @@
               "prob": null
             },
             {
-              "id": "f23-04",
-              "fecha": "2026-09-13",
-              "hora": "16:00",
-              "local": "D. La Serena",
-              "visita": "U. de Chile",
-              "estadio": "Estadio La Portada",
-              "resultado": null,
-              "prob": null
-            },
-            {
               "id": "f23-05",
               "fecha": "2026-09-13",
-              "hora": "16:00",
-              "local": "Ñublense",
-              "visita": "Everton",
-              "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
+              "hora": "19:00",
+              "local": "Audax Italiano",
+              "visita": "O'Higgins",
+              "estadio": "Estadio Bicentenario Municipal de La Florida",
               "resultado": null,
               "prob": null
             }
@@ -1551,8 +1551,18 @@
           "partidos": [
             {
               "id": "f24-01",
-              "fecha": "2026-10-11",
-              "hora": "16:00",
+              "fecha": "2026-10-09",
+              "hora": "19:00",
+              "local": "U. de Chile",
+              "visita": "Ñublense",
+              "estadio": "Estadio Nacional Julio Martínez Prádanos",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f24-02",
+              "fecha": "2026-10-10",
+              "hora": "14:00",
               "local": "Cobresal",
               "visita": "U. Concepción",
               "estadio": "Estadio El Cobre",
@@ -1560,42 +1570,32 @@
               "prob": null
             },
             {
-              "id": "f24-02",
-              "fecha": "2026-10-11",
-              "hora": "16:00",
-              "local": "Coquimbo Unido",
-              "visita": "Colo Colo",
-              "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": null,
-              "prob": null
-            },
-            {
               "id": "f24-03",
-              "fecha": "2026-10-11",
-              "hora": "16:00",
-              "local": "D. Concepción",
-              "visita": "Unión La Calera",
-              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
+              "fecha": "2026-10-10",
+              "hora": "16:30",
+              "local": "Huachipato",
+              "visita": "O'Higgins",
+              "estadio": "Estadio CAP",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f24-04",
-              "fecha": "2026-10-11",
-              "hora": "16:00",
-              "local": "Everton",
-              "visita": "D. La Serena",
-              "estadio": "Estadio Sausalito",
+              "fecha": "2026-10-10",
+              "hora": "19:00",
+              "local": "U. Católica",
+              "visita": "Audax Italiano",
+              "estadio": "Claro Arena",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f24-05",
               "fecha": "2026-10-11",
-              "hora": "16:00",
-              "local": "Huachipato",
-              "visita": "O'Higgins",
-              "estadio": "Estadio CAP",
+              "hora": "14:00",
+              "local": "Coquimbo Unido",
+              "visita": "Colo Colo",
+              "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
               "resultado": null,
               "prob": null
             }
