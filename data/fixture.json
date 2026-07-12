@@ -5300,7 +5300,7 @@
         {
           "numero": 6,
           "nombre": "Fecha 6",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f6-01",
@@ -5361,7 +5361,10 @@
               "local": "Deportes Antofagasta",
               "visita": "Cobresal",
               "estadio": "Estadio Regional Calvo y Bascuñán",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             }
           ]
