@@ -1096,16 +1096,6 @@
             {
               "id": "f16-01",
               "fecha": "2026-07-24",
-              "hora": "18:00",
-              "local": "Unión La Calera",
-              "visita": "Everton",
-              "estadio": "Estadio Municipal Nicolás Chahuán Nazar",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f16-02",
-              "fecha": "2026-07-24",
               "hora": "20:30",
               "local": "Colo Colo",
               "visita": "D. Limache",
@@ -1114,7 +1104,7 @@
               "prob": null
             },
             {
-              "id": "f16-03",
+              "id": "f16-02",
               "fecha": "2026-07-25",
               "hora": "15:00",
               "local": "Coquimbo Unido",
@@ -1124,12 +1114,22 @@
               "prob": null
             },
             {
-              "id": "f16-04",
+              "id": "f16-03",
               "fecha": "2026-07-25",
               "hora": "17:30",
               "local": "Huachipato",
               "visita": "Cobresal",
               "estadio": "Estadio CAP",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f16-04",
+              "fecha": "2026-07-26",
+              "hora": "15:00",
+              "local": "Ñublense",
+              "visita": "Palestino",
+              "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
               "resultado": null,
               "prob": null
             },
