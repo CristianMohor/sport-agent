@@ -3965,7 +3965,10 @@
               "local": "Santiago Wanderers",
               "visita": "Unión San Felipe",
               "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
