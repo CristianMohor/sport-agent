@@ -3978,7 +3978,10 @@
               "local": "Curicó Unido",
               "visita": "San Luis de Quillota",
               "estadio": "Estadio Bicentenario La Granja",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
