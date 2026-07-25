@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-07-24",
+  "actualizado": "2026-07-25",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1091,7 +1091,7 @@
         {
           "numero": 16,
           "nombre": "Fecha 16",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f16-01",
@@ -1100,7 +1100,10 @@
               "local": "Colo Colo",
               "visita": "D. Limache",
               "estadio": "Estadio Monumental David Arellano",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -3940,7 +3943,7 @@
         {
           "numero": 17,
           "nombre": "Fecha 17",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f17-01",
@@ -3949,7 +3952,10 @@
               "local": "Deportes Iquique",
               "visita": "Deportes Temuco",
               "estadio": "Estadio Tierra de Campeones",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
