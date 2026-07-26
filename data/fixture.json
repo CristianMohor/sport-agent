@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-07-25",
+  "actualizado": "2026-07-26",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1124,7 +1124,7 @@
               "visita": "Cobresal",
               "estadio": "Estadio CAP",
               "resultado": [
-                "2",
+                "3",
                 "3"
               ],
               "prob": null
