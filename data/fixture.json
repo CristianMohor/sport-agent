@@ -1136,7 +1136,10 @@
               "local": "Ñublense",
               "visita": "Palestino",
               "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "0"
+              ],
               "prob": null
             },
             {
