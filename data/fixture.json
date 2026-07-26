@@ -3946,7 +3946,7 @@
         {
           "numero": 17,
           "nombre": "Fecha 17",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f17-01",
@@ -4007,7 +4007,10 @@
               "local": "Deportes Puerto Montt",
               "visita": "Deportes Antofagasta",
               "estadio": "Estadio Regional de Chinquihue",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             }
           ]
