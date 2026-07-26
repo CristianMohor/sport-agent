@@ -1149,7 +1149,10 @@
               "local": "Audax Italiano",
               "visita": "U. de Chile",
               "estadio": "Estadio Bicentenario Municipal de La Florida",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             }
           ]
