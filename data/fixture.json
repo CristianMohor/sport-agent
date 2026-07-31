@@ -4024,7 +4024,7 @@
         {
           "numero": 18,
           "nombre": "Fecha 18",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f18-01",
@@ -4033,7 +4033,10 @@
               "local": "San Luis de Quillota",
               "visita": "Rangers",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
