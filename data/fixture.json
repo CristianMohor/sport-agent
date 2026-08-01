@@ -1182,7 +1182,10 @@
               "local": "Cobresal",
               "visita": "Unión La Calera",
               "estadio": "Estadio El Cobre",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
