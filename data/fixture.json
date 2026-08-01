@@ -1208,7 +1208,10 @@
               "local": "Palestino",
               "visita": "Coquimbo Unido",
               "estadio": "Estadio Municipal de La Cisterna",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -4081,7 +4084,10 @@
               "local": "Curicó Unido",
               "visita": "Cobreloa",
               "estadio": "Estadio Bicentenario La Granja",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
