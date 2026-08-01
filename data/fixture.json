@@ -1195,7 +1195,10 @@
               "local": "Everton",
               "visita": "Colo Colo",
               "estadio": "Estadio Sausalito",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "2"
+              ],
               "prob": null
             },
             {
@@ -4065,7 +4068,10 @@
               "local": "Deportes Antofagasta",
               "visita": "Unión San Felipe",
               "estadio": "Estadio Regional Calvo y Bascuñán",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "0"
+              ],
               "prob": null
             },
             {
