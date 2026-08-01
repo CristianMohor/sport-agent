@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-07-31",
+  "actualizado": "2026-08-01",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1160,7 +1160,7 @@
         {
           "numero": 17,
           "nombre": "Fecha 17",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f17-01",
@@ -1169,7 +1169,10 @@
               "local": "U. Concepción",
               "visita": "Audax Italiano",
               "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -4034,7 +4037,7 @@
               "visita": "Rangers",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
               "resultado": [
-                "0",
+                "1",
                 "1"
               ],
               "prob": null
@@ -4046,7 +4049,10 @@
               "local": "San Marcos de Arica",
               "visita": "Deportes Iquique",
               "estadio": "Estadio Carlos Dittborn",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
