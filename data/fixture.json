@@ -4039,7 +4039,7 @@
         {
           "numero": 18,
           "nombre": "Fecha 18",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f18-01",
@@ -4100,7 +4100,10 @@
               "local": "Deportes Santa Cruz",
               "visita": "Santiago Wanderers",
               "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             }
           ]
