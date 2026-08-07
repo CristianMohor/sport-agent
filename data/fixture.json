@@ -4111,7 +4111,7 @@
         {
           "numero": 19,
           "nombre": "Fecha 19",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f19-01",
@@ -4120,7 +4120,10 @@
               "local": "Unión Española",
               "visita": "Deportes Antofagasta",
               "estadio": "Estadio Santa Laura",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
