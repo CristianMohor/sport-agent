@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-08-07",
+  "actualizado": "2026-08-08",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1232,7 +1232,7 @@
         {
           "numero": 18,
           "nombre": "Fecha 18",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f18-01",
@@ -1241,7 +1241,10 @@
               "local": "U. Católica",
               "visita": "Cobresal",
               "estadio": "Claro Arena",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -4133,7 +4136,10 @@
               "local": "Deportes Santa Cruz",
               "visita": "Deportes Puerto Montt",
               "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
