@@ -4149,7 +4149,10 @@
               "local": "Unión San Felipe",
               "visita": "Deportes Recoleta",
               "estadio": "Estadio Municipal de San Felipe",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
