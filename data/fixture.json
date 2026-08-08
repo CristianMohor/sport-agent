@@ -1254,7 +1254,10 @@
               "local": "Huachipato",
               "visita": "Everton",
               "estadio": "Estadio CAP",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -4162,7 +4165,10 @@
               "local": "Santiago Wanderers",
               "visita": "San Marcos de Arica",
               "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
