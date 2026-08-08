@@ -1267,7 +1267,10 @@
               "local": "Coquimbo Unido",
               "visita": "D. La Serena",
               "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -4117,7 +4120,7 @@
         {
           "numero": 19,
           "nombre": "Fecha 19",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f19-01",
@@ -4178,7 +4181,10 @@
               "local": "Cobreloa",
               "visita": "Deportes Iquique",
               "estadio": "Estadio Zorros del Desierto",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             }
           ]
