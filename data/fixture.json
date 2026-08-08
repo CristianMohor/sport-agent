@@ -1269,7 +1269,7 @@
               "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
               "resultado": [
                 "0",
-                "0"
+                "1"
               ],
               "prob": null
             },
@@ -4183,7 +4183,7 @@
               "estadio": "Estadio Zorros del Desierto",
               "resultado": [
                 "1",
-                "0"
+                "1"
               ],
               "prob": null
             }
