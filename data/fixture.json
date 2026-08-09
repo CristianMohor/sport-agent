@@ -1232,7 +1232,7 @@
         {
           "numero": 18,
           "nombre": "Fecha 18",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f18-01",
@@ -1293,7 +1293,10 @@
               "local": "O'Higgins",
               "visita": "D. Limache",
               "estadio": "Estadio El Teniente",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             }
           ]
