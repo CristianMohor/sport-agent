@@ -1280,7 +1280,10 @@
               "local": "D. Concepción",
               "visita": "U. Concepción",
               "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
