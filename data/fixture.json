@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-08-11",
+  "actualizado": "2026-08-12",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -4198,7 +4198,7 @@
         {
           "numero": 20,
           "nombre": "Fecha 20",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f20-01",
@@ -4207,7 +4207,10 @@
               "local": "Deportes Puerto Montt",
               "visita": "Unión Española",
               "estadio": "Estadio Regional de Chinquihue",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
