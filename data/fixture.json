@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-08-12",
+  "actualizado": "2026-08-13",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -4220,7 +4220,10 @@
               "local": "Magallanes",
               "visita": "Cobreloa",
               "estadio": "Estadio Municipal Luis Navarro Avilés",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "2"
+              ],
               "prob": null
             },
             {
@@ -4230,7 +4233,10 @@
               "local": "Deportes Recoleta",
               "visita": "Rangers",
               "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
+              "resultado": [
+                "4",
+                "2"
+              ],
               "prob": null
             },
             {
@@ -4240,7 +4246,10 @@
               "local": "Deportes Antofagasta",
               "visita": "Santiago Wanderers",
               "estadio": "Estadio Regional Calvo y Bascuñán",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
