@@ -1304,7 +1304,7 @@
         {
           "numero": 19,
           "nombre": "Fecha 19",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f19-01",
@@ -1313,7 +1313,10 @@
               "local": "U. Concepción",
               "visita": "D. La Serena",
               "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
