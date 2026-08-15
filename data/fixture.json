@@ -1326,7 +1326,10 @@
               "local": "D. Limache",
               "visita": "U. de Chile",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
