@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-08-14",
+  "actualizado": "2026-08-15",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1315,7 +1315,7 @@
               "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
               "resultado": [
                 "0",
-                "1"
+                "2"
               ],
               "prob": null
             },
