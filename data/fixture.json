@@ -4273,7 +4273,7 @@
         {
           "numero": 21,
           "nombre": "Fecha 21",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f21-01",
@@ -4282,7 +4282,10 @@
               "local": "Rangers",
               "visita": "Magallanes",
               "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "1"
+              ],
               "prob": null
             },
             {
