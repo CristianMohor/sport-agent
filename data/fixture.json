@@ -1352,7 +1352,10 @@
               "local": "Cobresal",
               "visita": "D. Concepción",
               "estadio": "Estadio El Cobre",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -4316,7 +4319,7 @@
               "estadio": "Estadio Elías Figueroa Brander",
               "resultado": [
                 "1",
-                "0"
+                "1"
               ],
               "prob": null
             },
@@ -4327,7 +4330,10 @@
               "local": "Unión San Felipe",
               "visita": "Cobreloa",
               "estadio": "Estadio Municipal de San Felipe",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
