@@ -4314,7 +4314,10 @@
               "local": "Santiago Wanderers",
               "visita": "Deportes Puerto Montt",
               "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
