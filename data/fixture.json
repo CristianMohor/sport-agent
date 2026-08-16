@@ -1304,7 +1304,7 @@
         {
           "numero": 19,
           "nombre": "Fecha 19",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f19-01",
@@ -1365,7 +1365,10 @@
               "local": "Colo Colo",
               "visita": "O'Higgins",
               "estadio": "Estadio Monumental David Arellano",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             }
           ]
