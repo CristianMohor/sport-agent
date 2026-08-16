@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-08-15",
+  "actualizado": "2026-08-16",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1339,7 +1339,10 @@
               "local": "Everton",
               "visita": "Audax Italiano",
               "estadio": "Estadio Sausalito",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -4298,7 +4301,10 @@
               "local": "Unión Española",
               "visita": "San Marcos de Arica",
               "estadio": "Estadio Santa Laura",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "1"
+              ],
               "prob": null
             },
             {
