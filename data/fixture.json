@@ -4285,7 +4285,7 @@
         {
           "numero": 21,
           "nombre": "Fecha 21",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f21-01",
@@ -4346,7 +4346,10 @@
               "local": "Deportes Santa Cruz",
               "visita": "San Luis de Quillota",
               "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "2"
+              ],
               "prob": null
             }
           ]
