@@ -1091,7 +1091,7 @@
         {
           "numero": 16,
           "nombre": "Fecha 16",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f16-01",
@@ -1109,20 +1109,23 @@
             {
               "id": "f16-02",
               "fecha": "2026-07-25",
-              "hora": "15:00",
-              "local": "Coquimbo Unido",
-              "visita": "U. Concepción",
-              "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": null,
+              "hora": "17:30",
+              "local": "Huachipato",
+              "visita": "Cobresal",
+              "estadio": "Estadio CAP",
+              "resultado": [
+                "3",
+                "3"
+              ],
               "prob": null
             },
             {
               "id": "f16-03",
               "fecha": "2026-07-25",
-              "hora": "17:30",
-              "local": "Huachipato",
-              "visita": "Cobresal",
-              "estadio": "Estadio CAP",
+              "hora": "20:00",
+              "local": "U. Católica",
+              "visita": "D. La Serena",
+              "estadio": "Claro Arena",
               "resultado": [
                 "3",
                 "3"
