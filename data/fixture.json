@@ -1379,7 +1379,7 @@
         {
           "numero": 20,
           "nombre": "Fecha 20",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f20-01",
@@ -1388,7 +1388,10 @@
               "local": "Audax Italiano",
               "visita": "Unión La Calera",
               "estadio": "Estadio Bicentenario Municipal de La Florida",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -4360,7 +4363,7 @@
         {
           "numero": 22,
           "nombre": "Fecha 22",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f22-01",
@@ -4369,7 +4372,10 @@
               "local": "San Marcos de Arica",
               "visita": "Rangers",
               "estadio": "Estadio Carlos Dittborn",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "1"
+              ],
               "prob": null
             },
             {
