@@ -4398,7 +4398,10 @@
               "local": "Deportes Puerto Montt",
               "visita": "Deportes Iquique",
               "estadio": "Estadio Regional de Chinquihue",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -4408,7 +4411,10 @@
               "local": "Magallanes",
               "visita": "Deportes Santa Cruz",
               "estadio": "Estadio Municipal Luis Navarro Avilés",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
