@@ -4385,7 +4385,10 @@
               "local": "Deportes Recoleta",
               "visita": "Deportes Copiapó",
               "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
