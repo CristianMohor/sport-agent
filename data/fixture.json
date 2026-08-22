@@ -1401,7 +1401,10 @@
               "local": "Huachipato",
               "visita": "D. Limache",
               "estadio": "Estadio CAP",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -4363,7 +4366,7 @@
         {
           "numero": 22,
           "nombre": "Fecha 22",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f22-01",
@@ -4424,7 +4427,10 @@
               "local": "Cobreloa",
               "visita": "Unión Española",
               "estadio": "Estadio Zorros del Desierto",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             }
           ]
