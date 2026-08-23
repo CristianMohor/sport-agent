@@ -1379,7 +1379,7 @@
         {
           "numero": 20,
           "nombre": "Fecha 20",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f20-01",
@@ -1440,7 +1440,10 @@
               "local": "O'Higgins",
               "visita": "Palestino",
               "estadio": "Estadio El Teniente",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             }
           ]
