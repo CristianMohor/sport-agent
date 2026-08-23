@@ -1414,7 +1414,10 @@
               "local": "D. Concepción",
               "visita": "Coquimbo Unido",
               "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -1424,7 +1427,10 @@
               "local": "D. La Serena",
               "visita": "Cobresal",
               "estadio": "Estadio La Portada",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
