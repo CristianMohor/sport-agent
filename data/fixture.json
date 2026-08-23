@@ -4613,21 +4613,21 @@
           "partidos": [
             {
               "id": "f26-01",
-              "fecha": "2026-09-12",
-              "hora": "19:00",
-              "local": "San Marcos de Arica",
-              "visita": "Curicó Unido",
-              "estadio": "Estadio Carlos Dittborn",
+              "fecha": "2026-09-13",
+              "hora": "11:30",
+              "local": "Magallanes",
+              "visita": "Deportes Puerto Montt",
+              "estadio": "Estadio Municipal Luis Navarro Avilés",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f26-02",
               "fecha": "2026-09-13",
-              "hora": "11:30",
-              "local": "Magallanes",
-              "visita": "Deportes Puerto Montt",
-              "estadio": "Estadio Municipal Luis Navarro Avilés",
+              "hora": "14:00",
+              "local": "San Marcos de Arica",
+              "visita": "Curicó Unido",
+              "estadio": "Estadio Carlos Dittborn",
               "resultado": null,
               "prob": null
             },
