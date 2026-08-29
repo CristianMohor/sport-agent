@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-08-28",
+  "actualizado": "2026-08-29",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1451,7 +1451,7 @@
         {
           "numero": 21,
           "nombre": "Fecha 21",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f21-01",
@@ -1460,7 +1460,10 @@
               "local": "Cobresal",
               "visita": "Palestino",
               "estadio": "Estadio El Cobre",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -4606,10 +4609,10 @@
             {
               "id": "f25-05",
               "fecha": "2026-09-09",
-              "hora": "17:00",
-              "local": "Deportes Antofagasta",
-              "visita": "Cobreloa",
-              "estadio": "Estadio Regional Calvo y Bascuñán",
+              "hora": "19:30",
+              "local": "Deportes Copiapó",
+              "visita": "Magallanes",
+              "estadio": "Estadio Luis Valenzuela Hermosilla",
               "resultado": null,
               "prob": null
             }
