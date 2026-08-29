@@ -4450,7 +4450,7 @@
         {
           "numero": 23,
           "nombre": "Fecha 23",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f23-01",
@@ -4459,7 +4459,10 @@
               "local": "Unión San Felipe",
               "visita": "Deportes Santa Cruz",
               "estadio": "Estadio Municipal de San Felipe",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
