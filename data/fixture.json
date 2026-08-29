@@ -4472,7 +4472,10 @@
               "local": "Santiago Wanderers",
               "visita": "Magallanes",
               "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
