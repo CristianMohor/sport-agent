@@ -1473,7 +1473,10 @@
               "local": "D. Limache",
               "visita": "Everton",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "2"
+              ],
               "prob": null
             },
             {
@@ -4473,8 +4476,8 @@
               "visita": "Magallanes",
               "estadio": "Estadio Elías Figueroa Brander",
               "resultado": [
-                "0",
-                "0"
+                "2",
+                "1"
               ],
               "prob": null
             },
@@ -4485,7 +4488,10 @@
               "local": "Unión Española",
               "visita": "Rangers",
               "estadio": "Estadio Santa Laura",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
