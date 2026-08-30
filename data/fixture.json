@@ -4504,7 +4504,10 @@
               "local": "Deportes Copiapó",
               "visita": "Deportes Antofagasta",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "4"
+              ],
               "prob": null
             },
             {
