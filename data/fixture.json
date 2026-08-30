@@ -1451,7 +1451,7 @@
         {
           "numero": 21,
           "nombre": "Fecha 21",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f21-01",
@@ -1499,7 +1499,10 @@
               "local": "U. Concepción",
               "visita": "U. de Chile",
               "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -1509,7 +1512,10 @@
               "local": "Colo Colo",
               "visita": "Audax Italiano",
               "estadio": "Estadio Monumental David Arellano",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             }
           ]
@@ -4456,7 +4462,7 @@
         {
           "numero": 23,
           "nombre": "Fecha 23",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f23-01",
@@ -4517,7 +4523,10 @@
               "local": "Curicó Unido",
               "visita": "Deportes Recoleta",
               "estadio": "Estadio Bicentenario La Granja",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             }
           ]
