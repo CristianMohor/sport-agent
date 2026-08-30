@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-08-29",
+  "actualizado": "2026-08-30",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1475,7 +1475,7 @@
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
               "resultado": [
                 "0",
-                "2"
+                "3"
               ],
               "prob": null
             },
@@ -1486,7 +1486,10 @@
               "local": "Ñublense",
               "visita": "D. Concepción",
               "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -4490,7 +4493,7 @@
               "estadio": "Estadio Santa Laura",
               "resultado": [
                 "0",
-                "0"
+                "1"
               ],
               "prob": null
             },
