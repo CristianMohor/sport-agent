@@ -4534,7 +4534,7 @@
         {
           "numero": 24,
           "nombre": "Fecha 24",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f24-01",
@@ -4543,7 +4543,10 @@
               "local": "Rangers",
               "visita": "Deportes Temuco",
               "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
