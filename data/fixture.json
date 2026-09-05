@@ -4559,7 +4559,10 @@
               "local": "Santiago Wanderers",
               "visita": "Deportes Iquique",
               "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
