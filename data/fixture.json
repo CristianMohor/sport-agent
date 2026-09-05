@@ -1523,7 +1523,7 @@
         {
           "numero": 22,
           "nombre": "Fecha 22",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f22-01",
@@ -1532,7 +1532,10 @@
               "local": "D. Concepción",
               "visita": "Audax Italiano",
               "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -4566,7 +4569,10 @@
               "local": "Deportes Puerto Montt",
               "visita": "Curicó Unido",
               "estadio": "Estadio Regional de Chinquihue",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "0"
+              ],
               "prob": null
             },
             {
