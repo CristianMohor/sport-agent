@@ -4585,7 +4585,10 @@
               "local": "Magallanes",
               "visita": "Unión San Felipe",
               "estadio": "Estadio Municipal Luis Navarro Avilés",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
