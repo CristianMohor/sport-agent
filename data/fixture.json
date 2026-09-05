@@ -4537,7 +4537,7 @@
         {
           "numero": 24,
           "nombre": "Fecha 24",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f24-01",
@@ -4598,7 +4598,10 @@
               "local": "Deportes Santa Cruz",
               "visita": "Unión Española",
               "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             }
           ]
