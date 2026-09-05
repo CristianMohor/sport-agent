@@ -1545,7 +1545,10 @@
               "local": "Everton",
               "visita": "U. Católica",
               "estadio": "Estadio Sausalito",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
