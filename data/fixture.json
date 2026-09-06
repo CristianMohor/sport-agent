@@ -3983,8 +3983,18 @@
           "partidos": [
             {
               "id": "f16-01",
-              "fecha": "2026-07-18",
-              "hora": "12:30",
+              "fecha": "2026-10-03",
+              "hora": "11:30",
+              "local": "Magallanes",
+              "visita": "Curicó Unido",
+              "estadio": "Estadio Municipal Luis Navarro Avilés",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f16-02",
+              "fecha": "2026-10-03",
+              "hora": "14:00",
               "local": "Deportes Copiapó",
               "visita": "Deportes Puerto Montt",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
@@ -3992,29 +4002,9 @@
               "prob": null
             },
             {
-              "id": "f16-02",
-              "fecha": "2026-07-18",
-              "hora": "12:30",
-              "local": "Unión San Felipe",
-              "visita": "Deportes Iquique",
-              "estadio": "Estadio Municipal de San Felipe",
-              "resultado": null,
-              "prob": null
-            },
-            {
               "id": "f16-03",
-              "fecha": "2026-07-18",
-              "hora": "15:00",
-              "local": "Deportes Temuco",
-              "visita": "Cobreloa",
-              "estadio": "Estadio Municipal Germán Becker",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f16-04",
-              "fecha": "2026-07-18",
-              "hora": "15:00",
+              "fecha": "2026-10-03",
+              "hora": "14:00",
               "local": "Deportes Recoleta",
               "visita": "Santiago Wanderers",
               "estadio": "Estadio Municipal de Recoleta",
@@ -4022,12 +4012,22 @@
               "prob": null
             },
             {
+              "id": "f16-04",
+              "fecha": "2026-10-03",
+              "hora": "16:30",
+              "local": "Deportes Temuco",
+              "visita": "Cobreloa",
+              "estadio": "Estadio Municipal Germán Becker",
+              "resultado": null,
+              "prob": null
+            },
+            {
               "id": "f16-05",
-              "fecha": "2026-07-19",
-              "hora": "12:00",
-              "local": "Deportes Antofagasta",
-              "visita": "Rangers",
-              "estadio": "Estadio Regional Calvo y Bascuñán",
+              "fecha": "2026-10-03",
+              "hora": "19:00",
+              "local": "Deportes Santa Cruz",
+              "visita": "San Marcos de Arica",
+              "estadio": "Estadio Municipal Joaquín Muñoz García",
               "resultado": null,
               "prob": null
             }
