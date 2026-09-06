@@ -1558,7 +1558,10 @@
               "local": "D. La Serena",
               "visita": "Ñublense",
               "estadio": "Estadio La Portada",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "1"
+              ],
               "prob": null
             },
             {
