@@ -1523,7 +1523,7 @@
         {
           "numero": 22,
           "nombre": "Fecha 22",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f22-01",
@@ -1584,7 +1584,10 @@
               "local": "Huachipato",
               "visita": "Colo Colo",
               "estadio": "Estadio CAP",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             }
           ]
