@@ -1559,7 +1559,7 @@
               "visita": "Ñublense",
               "estadio": "Estadio La Portada",
               "resultado": [
-                "1",
+                "2",
                 "1"
               ],
               "prob": null
@@ -1571,7 +1571,10 @@
               "local": "O'Higgins",
               "visita": "Unión La Calera",
               "estadio": "Estadio El Teniente",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "1"
+              ],
               "prob": null
             },
             {
