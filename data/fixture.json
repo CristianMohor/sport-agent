@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-09-08",
+  "actualizado": "2026-09-09",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -4621,7 +4621,7 @@
         {
           "numero": 25,
           "nombre": "Fecha 25",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f25-01",
@@ -4630,7 +4630,10 @@
               "local": "Deportes Puerto Montt",
               "visita": "Rangers",
               "estadio": "Estadio Regional de Chinquihue",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "2"
+              ],
               "prob": null
             },
             {
@@ -4650,7 +4653,10 @@
               "local": "Curicó Unido",
               "visita": "Unión Española",
               "estadio": "Estadio Bicentenario La Granja",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -4660,7 +4666,10 @@
               "local": "Deportes Temuco",
               "visita": "Santiago Wanderers",
               "estadio": "Estadio Municipal Germán Becker",
-              "resultado": null,
+              "resultado": [
+                "3",
+                "0"
+              ],
               "prob": null
             },
             {
