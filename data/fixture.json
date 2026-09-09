@@ -4639,16 +4639,6 @@
             {
               "id": "f25-02",
               "fecha": "2026-09-08",
-              "hora": "17:00",
-              "local": "Unión San Felipe",
-              "visita": "San Luis de Quillota",
-              "estadio": "Estadio Municipal de San Felipe",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f25-03",
-              "fecha": "2026-09-08",
               "hora": "19:30",
               "local": "Curicó Unido",
               "visita": "Unión Española",
@@ -4660,7 +4650,7 @@
               "prob": null
             },
             {
-              "id": "f25-04",
+              "id": "f25-03",
               "fecha": "2026-09-08",
               "hora": "19:30",
               "local": "Deportes Temuco",
@@ -4673,12 +4663,22 @@
               "prob": null
             },
             {
-              "id": "f25-05",
+              "id": "f25-04",
               "fecha": "2026-09-09",
               "hora": "19:30",
               "local": "Deportes Copiapó",
               "visita": "Magallanes",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f25-05",
+              "fecha": "2026-09-09",
+              "hora": "19:30",
+              "local": "Deportes Iquique",
+              "visita": "Deportes Santa Cruz",
+              "estadio": "Estadio Tierra de Campeones",
               "resultado": null,
               "prob": null
             }
@@ -4722,20 +4722,20 @@
             {
               "id": "f26-04",
               "fecha": "2026-09-14",
-              "hora": "17:00",
-              "local": "Unión San Felipe",
-              "visita": "Deportes Copiapó",
-              "estadio": "Estadio Municipal de San Felipe",
+              "hora": "19:30",
+              "local": "Rangers",
+              "visita": "Deportes Iquique",
+              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f26-05",
-              "fecha": "2026-09-14",
-              "hora": "19:30",
-              "local": "Rangers",
-              "visita": "Deportes Iquique",
-              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
+              "fecha": "2026-09-15",
+              "hora": "17:00",
+              "local": "San Luis de Quillota",
+              "visita": "Deportes Antofagasta",
+              "estadio": "Estadio Municipal Lucio Fariña Fernández",
               "resultado": null,
               "prob": null
             }
