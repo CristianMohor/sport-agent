@@ -1595,7 +1595,7 @@
         {
           "numero": 23,
           "nombre": "Fecha 23",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f23-01",
@@ -1604,7 +1604,10 @@
               "local": "Ñublense",
               "visita": "Everton",
               "estadio": "Estadio Bicentenario Municipal Nelson Oyarzún",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
