@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-09-12",
+  "actualizado": "2026-09-13",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1631,8 +1631,8 @@
               "visita": "U. Católica",
               "estadio": "Estadio Municipal de La Cisterna",
               "resultado": [
-                "0",
-                "1"
+                "2",
+                "3"
               ],
               "prob": null
             },
