@@ -4702,7 +4702,7 @@
         {
           "numero": 26,
           "nombre": "Fecha 26",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f26-01",
@@ -4711,7 +4711,10 @@
               "local": "Magallanes",
               "visita": "Deportes Puerto Montt",
               "estadio": "Estadio Municipal Luis Navarro Avilés",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
