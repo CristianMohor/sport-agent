@@ -1595,7 +1595,7 @@
         {
           "numero": 23,
           "nombre": "Fecha 23",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f23-01",
@@ -1644,7 +1644,7 @@
               "visita": "D. Concepción",
               "estadio": "Estadio Monumental David Arellano",
               "resultado": [
-                "0",
+                "1",
                 "1"
               ],
               "prob": null
@@ -1656,7 +1656,10 @@
               "local": "Audax Italiano",
               "visita": "O'Higgins",
               "estadio": "Estadio Bicentenario Municipal de La Florida",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             }
           ]
