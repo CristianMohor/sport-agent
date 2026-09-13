@@ -1643,7 +1643,10 @@
               "local": "Colo Colo",
               "visita": "D. Concepción",
               "estadio": "Estadio Monumental David Arellano",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -4725,7 +4728,7 @@
               "visita": "Curicó Unido",
               "estadio": "Estadio Carlos Dittborn",
               "resultado": [
-                "1",
+                "3",
                 "0"
               ],
               "prob": null
