@@ -4743,7 +4743,10 @@
               "local": "Deportes Santa Cruz",
               "visita": "Deportes Recoleta",
               "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
