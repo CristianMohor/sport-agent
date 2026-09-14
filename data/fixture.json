@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-09-13",
+  "actualizado": "2026-09-14",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1657,7 +1657,7 @@
               "visita": "O'Higgins",
               "estadio": "Estadio Bicentenario Municipal de La Florida",
               "resultado": [
-                "0",
+                "1",
                 "0"
               ],
               "prob": null
