@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-09-14",
+  "actualizado": "2026-09-15",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -4756,7 +4756,10 @@
               "local": "Rangers",
               "visita": "Deportes Iquique",
               "estadio": "Estadio Bicentenario Iván Azócar Bernales",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "2"
+              ],
               "prob": null
             },
             {
