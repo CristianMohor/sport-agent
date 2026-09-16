@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-09-15",
+  "actualizado": "2026-09-16",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -4708,7 +4708,7 @@
         {
           "numero": 26,
           "nombre": "Fecha 26",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f26-01",
@@ -4769,7 +4769,10 @@
               "local": "San Luis de Quillota",
               "visita": "Deportes Antofagasta",
               "estadio": "Estadio Municipal Lucio Fariña Fernández",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "1"
+              ],
               "prob": null
             }
           ]
