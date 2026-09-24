@@ -1671,16 +1671,6 @@
           "partidos": [
             {
               "id": "f24-01",
-              "fecha": "2026-10-09",
-              "hora": "19:00",
-              "local": "U. de Chile",
-              "visita": "Ñublense",
-              "estadio": "Estadio Nacional Julio Martínez Prádanos",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f24-02",
               "fecha": "2026-10-10",
               "hora": "14:00",
               "local": "Cobresal",
@@ -1690,7 +1680,7 @@
               "prob": null
             },
             {
-              "id": "f24-03",
+              "id": "f24-02",
               "fecha": "2026-10-10",
               "hora": "16:30",
               "local": "Huachipato",
@@ -1700,7 +1690,7 @@
               "prob": null
             },
             {
-              "id": "f24-04",
+              "id": "f24-03",
               "fecha": "2026-10-10",
               "hora": "19:00",
               "local": "U. Católica",
@@ -1710,12 +1700,22 @@
               "prob": null
             },
             {
-              "id": "f24-05",
+              "id": "f24-04",
               "fecha": "2026-10-11",
               "hora": "14:00",
               "local": "Coquimbo Unido",
               "visita": "Colo Colo",
               "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f24-05",
+              "fecha": "2026-10-11",
+              "hora": "16:30",
+              "local": "D. Concepción",
+              "visita": "Unión La Calera",
+              "estadio": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
               "resultado": null,
               "prob": null
             }
