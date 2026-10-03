@@ -4003,7 +4003,7 @@
         {
           "numero": 16,
           "nombre": "Fecha 16",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f16-01",
@@ -4051,7 +4051,10 @@
               "local": "Deportes Temuco",
               "visita": "Cobreloa",
               "estadio": "Estadio Municipal Germán Becker",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -4061,7 +4064,10 @@
               "local": "Deportes Santa Cruz",
               "visita": "San Marcos de Arica",
               "estadio": "Estadio Municipal Joaquín Muñoz García",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             }
           ]
