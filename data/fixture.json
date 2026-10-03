@@ -4841,38 +4841,18 @@
           "partidos": [
             {
               "id": "f28-01",
-              "fecha": "2026-10-18",
-              "hora": "16:00",
-              "local": "Deportes Santa Cruz",
-              "visita": "Deportes Antofagasta",
-              "estadio": "Estadio Municipal Joaquín Muñoz García",
+              "fecha": "2026-10-16",
+              "hora": "17:00",
+              "local": "Santiago Wanderers",
+              "visita": "Rangers",
+              "estadio": "Estadio Elías Figueroa Brander",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f28-02",
-              "fecha": "2026-10-18",
-              "hora": "16:00",
-              "local": "Cobreloa",
-              "visita": "Deportes Recoleta",
-              "estadio": "Estadio Zorros del Desierto",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f28-03",
-              "fecha": "2026-10-18",
-              "hora": "16:00",
-              "local": "Curicó Unido",
-              "visita": "Deportes Iquique",
-              "estadio": "Estadio Bicentenario La Granja",
-              "resultado": null,
-              "prob": null
-            },
-            {
-              "id": "f28-04",
-              "fecha": "2026-10-18",
-              "hora": "16:00",
+              "fecha": "2026-10-17",
+              "hora": "11:30",
               "local": "Magallanes",
               "visita": "San Luis de Quillota",
               "estadio": "Estadio Municipal Luis Navarro Avilés",
@@ -4880,12 +4860,32 @@
               "prob": null
             },
             {
+              "id": "f28-03",
+              "fecha": "2026-10-17",
+              "hora": "14:00",
+              "local": "Cobreloa",
+              "visita": "Deportes Recoleta",
+              "estadio": "Estadio Zorros del Desierto",
+              "resultado": null,
+              "prob": null
+            },
+            {
+              "id": "f28-04",
+              "fecha": "2026-10-18",
+              "hora": "11:30",
+              "local": "Curicó Unido",
+              "visita": "Deportes Iquique",
+              "estadio": "Estadio Bicentenario La Granja",
+              "resultado": null,
+              "prob": null
+            },
+            {
               "id": "f28-05",
               "fecha": "2026-10-18",
               "hora": "16:00",
-              "local": "Unión San Felipe",
-              "visita": "Deportes Temuco",
-              "estadio": "Estadio Municipal de San Felipe",
+              "local": "Deportes Santa Cruz",
+              "visita": "Deportes Antofagasta",
+              "estadio": "Estadio Municipal Joaquín Muñoz García",
               "resultado": null,
               "prob": null
             }
