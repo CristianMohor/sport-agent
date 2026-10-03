@@ -4025,7 +4025,10 @@
               "local": "Deportes Copiapó",
               "visita": "Deportes Puerto Montt",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
-              "resultado": null,
+              "resultado": [
+                "3",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -4035,7 +4038,10 @@
               "local": "Deportes Recoleta",
               "visita": "Santiago Wanderers",
               "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "1"
+              ],
               "prob": null
             },
             {
