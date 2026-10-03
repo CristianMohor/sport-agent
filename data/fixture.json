@@ -4003,7 +4003,7 @@
         {
           "numero": 16,
           "nombre": "Fecha 16",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f16-01",
@@ -4012,7 +4012,10 @@
               "local": "Magallanes",
               "visita": "Curicó Unido",
               "estadio": "Estadio Municipal Luis Navarro Avilés",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
