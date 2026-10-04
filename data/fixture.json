@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-10-03",
+  "actualizado": "2026-10-04",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -4065,8 +4065,8 @@
               "visita": "San Marcos de Arica",
               "estadio": "Estadio Municipal Joaquín Muñoz García",
               "resultado": [
-                "0",
-                "0"
+                "1",
+                "2"
               ],
               "prob": null
             }
