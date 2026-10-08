@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-10-07",
+  "actualizado": "2026-10-08",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -4913,18 +4913,18 @@
           "partidos": [
             {
               "id": "f29-01",
-              "fecha": "2026-10-25",
-              "hora": "17:00",
-              "local": "Deportes Antofagasta",
-              "visita": "Curicó Unido",
-              "estadio": "Estadio Regional Calvo y Bascuñán",
+              "fecha": "2026-10-23",
+              "hora": "19:00",
+              "local": "Deportes Iquique",
+              "visita": "Magallanes",
+              "estadio": "Estadio Tierra de Campeones",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f29-02",
-              "fecha": "2026-10-25",
-              "hora": "17:00",
+              "fecha": "2026-10-24",
+              "hora": "16:30",
               "local": "Deportes Copiapó",
               "visita": "Deportes Santa Cruz",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
@@ -4933,31 +4933,31 @@
             },
             {
               "id": "f29-03",
-              "fecha": "2026-10-25",
-              "hora": "17:00",
-              "local": "Deportes Iquique",
-              "visita": "Magallanes",
-              "estadio": "Estadio Tierra de Campeones",
+              "fecha": "2026-10-24",
+              "hora": "16:30",
+              "local": "Deportes Puerto Montt",
+              "visita": "Unión San Felipe",
+              "estadio": "Estadio Regional de Chinquihue",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f29-04",
-              "fecha": "2026-10-25",
-              "hora": "17:00",
-              "local": "Deportes Temuco",
-              "visita": "San Marcos de Arica",
-              "estadio": "Estadio Municipal Germán Becker",
+              "fecha": "2026-10-24",
+              "hora": "16:30",
+              "local": "Rangers",
+              "visita": "Cobreloa",
+              "estadio": "Estadio Bicentenario Iván Azócar Bernales",
               "resultado": null,
               "prob": null
             },
             {
               "id": "f29-05",
-              "fecha": "2026-10-25",
-              "hora": "17:00",
-              "local": "Deportes Puerto Montt",
-              "visita": "Unión San Felipe",
-              "estadio": "Estadio Regional de Chinquihue",
+              "fecha": "2026-10-24",
+              "hora": "16:30",
+              "local": "San Luis de Quillota",
+              "visita": "Deportes Recoleta",
+              "estadio": "Estadio Municipal Lucio Fariña Fernández",
               "resultado": null,
               "prob": null
             }
