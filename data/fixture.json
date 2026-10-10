@@ -1667,7 +1667,7 @@
         {
           "numero": 24,
           "nombre": "Fecha 24",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f24-01",
@@ -1676,7 +1676,10 @@
               "local": "Cobresal",
               "visita": "U. Concepción",
               "estadio": "Estadio El Cobre",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -4795,7 +4798,7 @@
         {
           "numero": 27,
           "nombre": "Fecha 27",
-          "estado": "proxima",
+          "estado": "en-curso",
           "partidos": [
             {
               "id": "f27-01",
@@ -4804,7 +4807,10 @@
               "local": "Deportes Recoleta",
               "visita": "Magallanes",
               "estadio": "Estadio Municipal de Recoleta",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "2"
+              ],
               "prob": null
             },
             {
@@ -4814,7 +4820,10 @@
               "local": "Santiago Wanderers",
               "visita": "Curicó Unido",
               "estadio": "Estadio Elías Figueroa Brander",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             },
             {
