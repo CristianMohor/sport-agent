@@ -1677,8 +1677,8 @@
               "visita": "U. Concepción",
               "estadio": "Estadio El Cobre",
               "resultado": [
-                "0",
-                "0"
+                "1",
+                "1"
               ],
               "prob": null
             },
@@ -1689,7 +1689,10 @@
               "local": "Huachipato",
               "visita": "O'Higgins",
               "estadio": "Estadio CAP",
-              "resultado": null,
+              "resultado": [
+                "1",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -4821,8 +4824,8 @@
               "visita": "Curicó Unido",
               "estadio": "Estadio Elías Figueroa Brander",
               "resultado": [
-                "0",
-                "0"
+                "1",
+                "2"
               ],
               "prob": null
             },
@@ -4833,7 +4836,10 @@
               "local": "Deportes Temuco",
               "visita": "Deportes Santa Cruz",
               "estadio": "Estadio Municipal Germán Becker",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "1"
+              ],
               "prob": null
             },
             {
