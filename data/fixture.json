@@ -1,6 +1,6 @@
 {
   "temporada": 2026,
-  "actualizado": "2026-10-10",
+  "actualizado": "2026-10-11",
   "competiciones": [
     {
       "id": "liga-primera",
@@ -1690,7 +1690,7 @@
               "visita": "O'Higgins",
               "estadio": "Estadio CAP",
               "resultado": [
-                "1",
+                "2",
                 "0"
               ],
               "prob": null
