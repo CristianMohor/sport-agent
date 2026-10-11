@@ -1712,7 +1712,10 @@
               "local": "Coquimbo Unido",
               "visita": "Colo Colo",
               "estadio": "Estadio Bicentenario Francisco Sánchez Rumoroso",
-              "resultado": null,
+              "resultado": [
+                "2",
+                "1"
+              ],
               "prob": null
             },
             {
@@ -4801,7 +4804,7 @@
         {
           "numero": 27,
           "nombre": "Fecha 27",
-          "estado": "en-curso",
+          "estado": "finalizada",
           "partidos": [
             {
               "id": "f27-01",
@@ -4849,7 +4852,10 @@
               "local": "Deportes Antofagasta",
               "visita": "San Marcos de Arica",
               "estadio": "Estadio Regional Calvo y Bascuñán",
-              "resultado": null,
+              "resultado": [
+                "3",
+                "0"
+              ],
               "prob": null
             },
             {
@@ -4859,7 +4865,10 @@
               "local": "Deportes Copiapó",
               "visita": "Cobreloa",
               "estadio": "Estadio Luis Valenzuela Hermosilla",
-              "resultado": null,
+              "resultado": [
+                "0",
+                "0"
+              ],
               "prob": null
             }
           ]
